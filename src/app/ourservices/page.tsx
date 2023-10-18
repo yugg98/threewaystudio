@@ -169,7 +169,7 @@ const page = () => {
                             <ul className="mt-2 list-disc mx-4" >
                             {feature.list.map((item) => (
                                 
-                                <li className="text-white text-lg">{item}</li>
+                                <li key={item} className="text-white text-lg">{item}</li>
                                
                             ))}
                              </ul>
@@ -211,9 +211,8 @@ const page = () => {
                             </p>
                             <ul className="mt-2 list-disc mx-4" >
                             {feature.list.map((item) => (
-                                
-                                <li className="text-white text-lg">{item}</li>
-                               
+
+                                <li key={item} className="text-white text-lg">{item}</li>
                             ))}
                              </ul>
                           </div>
@@ -255,7 +254,7 @@ const page = () => {
                             <ul className="mt-2 list-disc mx-4" >
                             {feature.list.map((item) => (
                                 
-                                <li className="text-white text-lg">{item}</li>
+                                <li key={item} className="text-white text-lg">{item}</li>
                                
                             ))}
                              </ul>
