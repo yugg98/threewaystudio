@@ -213,7 +213,7 @@ export default function Abotuus() {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-200">
-                  From Tech Enthusiasts to Tech-Solutions Venture, we've come a
+                  From Tech Enthusiasts to Tech-Solutions Venture, we&apos;ve come a
                   long way in building the Threeway Studio.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-200">
@@ -228,7 +228,7 @@ export default function Abotuus() {
                     future of AI.
                   </p>
                   <p className="mt-10">
-                    5+ years of being in business and we've already helped many
+                    5+ years of being in business and we&apos;ve already helped many
                     businesses across various domains to step into the web3
                     world and to expedite their business growth with our
                     expertise in design, development and marketing of everything
@@ -484,13 +484,13 @@ export default function Abotuus() {
               What makes us different?
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              We're a team of dedicated, enthusiastic, passionate & tech - savvy
+              We&apos;re a team of dedicated, enthusiastic, passionate & tech - savvy
               Decentralised Digeratis, who relish pushing the boundaries of
-              what's possible. Since many years, we're working beyond the
+              what&apos;s possible. Since many years, we&apos;re working beyond the
               horizon to help individuals and businesses make the leap from the
               old, traditional Web2 framework to the groundbreaking new world of
               Web3. With our budding knowledge & wealth of experience in all
-              things blockchain, we're the ones to trust when it comes to making
+              things blockchain, we&apos;re the ones to trust when it comes to making
               the transition as seamless and effortless as possible.
             </p>
           </div>
