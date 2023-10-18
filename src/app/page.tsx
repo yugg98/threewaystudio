@@ -18,76 +18,72 @@ const stats = [
 
 const team = [
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
 
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
   },
-  
+
   // More people...
-]
+];
 
-
-export default function Example() {
+export default function Abotuus() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div>
-      {/* Header */}
-
-      <main className="isolate">
-        {/* Hero section */}
+    <>
+      <main className="isolate ">
         <div className="relative isolate -z-10">
           <div
             className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
@@ -209,7 +205,7 @@ export default function Example() {
         </div>
 
         {/* Content section */}
-        <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
+        <div className="mx-auto  -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Our Story
@@ -365,110 +361,110 @@ export default function Example() {
               </div>
             </li>
             <div className="md:flex col-span-4 mt-4">
-            <li className="relative mb-6 sm:mb-0">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+              <li className="relative mb-6 sm:mb-0">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
+                <div className="mt-3 sm:pr-8">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Dec 2020
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
-                </p>
-              </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
+                    Web3 space
+                  </p>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
-
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
-                </p>
-              </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+              </li>
+              <li className="relative mb-6 sm:mb-0">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
+                <div className="mt-3 sm:pr-8">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Dec 2020
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
-                </p>
-              </div>
-            </li>{" "}
-            <li className="relative mb-6 sm:mb-0">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
+                    Web3 space
+                  </p>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
+              </li>
+              <li className="relative mb-6 sm:mb-0">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                </div>
+                <div className="mt-3 sm:pr-8">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Dec 2020
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
-                </p>
-              </div>
-            </li>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
+                    Web3 space
+                  </p>
+                </div>
+              </li>{" "}
+              <li className="relative mb-6 sm:mb-0">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                </div>
+                <div className="mt-3 sm:pr-8">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Dec 2020
+                  </h3>
+
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
+                    Web3 space
+                  </p>
+                </div>
+              </li>
             </div>
           </ol>
         </div>
@@ -484,9 +480,18 @@ export default function Example() {
 
         <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">What makes us different?</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              What makes us different?
+            </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            We're a team of dedicated, enthusiastic, passionate & tech - savvy Decentralised Digeratis, who relish pushing the boundaries of what's possible. Since many years, we're working beyond the horizon to help individuals and businesses make the leap from the old, traditional Web2 framework to the groundbreaking new world of Web3. With our budding knowledge & wealth of experience in all things blockchain, we're the ones to trust when it comes to making the transition as seamless and effortless as possible.
+              We're a team of dedicated, enthusiastic, passionate & tech - savvy
+              Decentralised Digeratis, who relish pushing the boundaries of
+              what's possible. Since many years, we're working beyond the
+              horizon to help individuals and businesses make the leap from the
+              old, traditional Web2 framework to the groundbreaking new world of
+              Web3. With our budding knowledge & wealth of experience in all
+              things blockchain, we're the ones to trust when it comes to making
+              the transition as seamless and effortless as possible.
             </p>
           </div>
           <ul
@@ -495,16 +500,46 @@ export default function Example() {
           >
             {team.map((person) => (
               <li key={person.name}>
-                <img className="aspect-[14/13] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">{person.name}</h3>
-                <p className="text-base leading-7 text-gray-300">{person.role}</p>
-                <p className="text-sm leading-6 text-gray-500">{person.location}</p>
+                <img
+                  className="aspect-[14/13] w-full rounded-2xl object-cover"
+                  src={person.imageUrl}
+                  alt=""
+                />
+                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">
+                  {person.name}
+                </h3>
+                <p className="text-base leading-7 text-gray-300">
+                  {person.role}
+                </p>
+                <p className="text-sm leading-6 text-gray-500">
+                  {person.location}
+                </p>
               </li>
             ))}
           </ul>
         </div>
 
+        <div className="relative my-24 mt-[68px] flex w-full h-[550px]">
+          <img
+            src="/map.png"
+            alt="map"
+            className="w-full h-full object-cover"
+          />
+
+          <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+            <img src="people-01.png" alt="people" className="w-full h-full" />
+          </div>
+
+          <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+            <img src="/people-02.png" alt="people" className="w-full h-full" />
+          </div>
+
+          <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+            <img src="people-03.png" alt="people" className="w-full h-full" />
+          </div>
+        </div>
+
       </main>
-    </div>
+    </>
   );
 }
