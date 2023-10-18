@@ -1,92 +1,94 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Resources', href: '#' },
-  { name: 'Company', href: '#' },
-]
+  { name: "Product", href: "#" },
+  { name: "Features", href: "#" },
+  { name: "Resources", href: "#" },
+  { name: "Company", href: "#" },
+];
 const stats = [
-  { label: 'Transactions every 24 hours', value: '44 million' },
-  { label: 'Assets under holding', value: '$119 trillion' },
-  { label: 'New users annually', value: '46,000' },
-]
-const values = [
-  {
-    name: 'Be world-class',
-    description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
-  },
-  {
-    name: 'Share everything you know',
-    description:
-      'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
-  },
-  {
-    name: 'Always learning',
-    description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
-  },
-  {
-    name: 'Be supportive',
-    description:
-      'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
-  },
-  {
-    name: 'Take responsibility',
-    description:
-      'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
-  },
-  {
-    name: 'Enjoy downtime',
-    description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
-  },
-]
+  { label: "Transactions every 24 hours", value: "44 million" },
+  { label: "Assets under holding", value: "$119 trillion" },
+  { label: "New users annually", value: "46,000" },
+];
+
 const team = [
   {
-    name: 'Michael Foster',
-    role: 'Co-Founder / CTO',
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
   },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    location: 'Toronto, Canada',
+  },
+  
   // More people...
 ]
-const blogPosts = [
-  {
-    id: 1,
-    title: 'Vel expedita assumenda placeat aut nisi optio voluptates quas',
-    href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    author: {
-      name: 'Michael Foster',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  // More posts...
-]
+
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div >
+    <div>
       {/* Header */}
-    
+
       <main className="isolate">
         {/* Hero section */}
         <div className="relative isolate -z-10">
-          
           <div
             className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
             aria-hidden="true"
@@ -95,7 +97,48 @@ export default function Example() {
               className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
               style={{
                 clipPath:
-                  'polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)',
+                  "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
+              }}
+            />
+            <svg
+              className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+              aria-hidden="true"
+            >
+              <defs>
+                <pattern
+                  id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
+                  width={200}
+                  height={200}
+                  x="50%"
+                  y={-1}
+                  patternUnits="userSpaceOnUse"
+                >
+                  <path d="M.5 200V.5H200" fill="none" />
+                </pattern>
+              </defs>
+              <svg x="50%" y={-1} className="overflow-visible fill-gray-800/20">
+                <path
+                  d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+                  strokeWidth={0}
+                />
+              </svg>
+              <rect
+                width="100%"
+                height="100%"
+                strokeWidth={0}
+                fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)"
+              />
+            </svg>
+          </div>
+          <div
+            className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
+            aria-hidden="true"
+          >
+            <div
+              className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#ff00d4] to-[#00ff55] "
+              style={{
+                clipPath:
+                  "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
               }}
             />
           </div>
@@ -103,14 +146,13 @@ export default function Example() {
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                    We’re changing the way people connect.
+                  <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">
+                    Hello Tech Savvy Maestros,
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-200 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                    mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                    aliqua.
+                    We're Threeway Studio, A creative GaaS & BaaS (Growth &
+                    Blockchain as a Service Company) focused on Creation,
+                    Engineering & Outreach!
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -169,40 +211,266 @@ export default function Example() {
         {/* Content section */}
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our mission</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Our Story
+            </h2>
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-200">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                  eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-                  Eleifend egestas fringilla sapien.
+                  From Tech Enthusiasts to Tech-Solutions Venture, we've come a
+                  long way in building the Threeway Studio.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-200">
                   <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed
-                    amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius
-                    sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                    Mattis mauris semper sed amet vitae sed turpis id.
+                    Threeway Studio was born with the passion for innovative
+                    technology and determination to stay ahead of the curve. It
+                    all began in 2020, when we set out to create a remarkable
+                    impact with blockchain tech in real life that was set out to
+                    change the game for businesses everywhere. With the rapidly
+                    evolving landscape of Web3 Space, we aim to build something
+                    that could stand the test of time and serve the needs of the
+                    future of AI.
                   </p>
                   <p className="mt-10">
-                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-                    auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et
-                    ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                    5+ years of being in business and we've already helped many
+                    businesses across various domains to step into the web3
+                    world and to expedite their business growth with our
+                    expertise in design, development and marketing of everything
+                    web3.
                   </p>
                 </div>
               </div>
               <div className="lg:flex lg:flex-auto lg:justify-center">
                 <dl className="w-64 space-y-8 xl:w-80">
                   {stats.map((stat) => (
-                    <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                      <dt className="text-base leading-7 text-gray-200">{stat.label}</dt>
-                      <dd className="text-5xl font-semibold tracking-tight text-white">{stat.value}</dd>
+                    <div
+                      key={stat.label}
+                      className="flex flex-col-reverse gap-y-4"
+                    >
+                      <dt className="text-base leading-7 text-gray-200">
+                        {stat.label}
+                      </dt>
+                      <dd className="text-5xl font-semibold tracking-tight text-white">
+                        {stat.value}
+                      </dd>
                     </div>
                   ))}
                 </dl>
               </div>
             </div>
           </div>
+          <ol className="md:grid grid-cols-4 grid-rows-2 mt-16">
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <div className="md:flex col-span-4 mt-4">
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>{" "}
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
+
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            </div>
+          </ol>
         </div>
 
         {/* Image section */}
@@ -214,74 +482,29 @@ export default function Example() {
           />
         </div>
 
-        {/* Values section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our values</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-200">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-              accusamus quisquam.
+        <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">What makes us different?</h2>
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+            We're a team of dedicated, enthusiastic, passionate & tech - savvy Decentralised Digeratis, who relish pushing the boundaries of what's possible. Since many years, we're working beyond the horizon to help individuals and businesses make the leap from the old, traditional Web2 framework to the groundbreaking new world of Web3. With our budding knowledge & wealth of experience in all things blockchain, we're the ones to trust when it comes to making the transition as seamless and effortless as possible.
             </p>
           </div>
-          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {values.map((value) => (
-              <div key={value.name}>
-                <dt className="font-semibold text-white">{value.name}</dt>
-                <dd className="mt-1 text-gray-200">{value.description}</dd>
-              </div>
+          <ul
+            role="list"
+            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
+          >
+            {team.map((person) => (
+              <li key={person.name}>
+                <img className="aspect-[14/13] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">{person.name}</h3>
+                <p className="text-base leading-7 text-gray-300">{person.role}</p>
+                <p className="text-sm leading-6 text-gray-500">{person.location}</p>
+              </li>
             ))}
-          </dl>
+          </ul>
         </div>
 
-      
-
-       
-
-        {/* Blog section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">From the blog</h2>
-            <p className="mt-2 text-lg leading-8 text-gray-200">
-              Vel dolorem qui facilis soluta sint aspernatur totam cumque.
-            </p>
-          </div>
-          <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {blogPosts.map((post) => (
-              <article
-                key={post.id}
-                className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
-              >
-                <img src={post.imageUrl} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
-                <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
-                <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-
-                <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-                  <time dateTime={post.datetime} className="mr-8">
-                    {post.date}
-                  </time>
-                  <div className="-ml-4 flex items-center gap-x-4">
-                    <svg viewBox="0 0 2 2" className="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50">
-                      <circle cx={1} cy={1} r={1} />
-                    </svg>
-                    <div className="flex gap-x-2.5">
-                      <img src={post.author.imageUrl} alt="" className="h-6 w-6 flex-none rounded-full bg-white/10" />
-                      {post.author.name}
-                    </div>
-                  </div>
-                </div>
-                <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-                  <a href={post.href}>
-                    <span className="absolute inset-0" />
-                    {post.title}
-                  </a>
-                </h3>
-              </article>
-            ))}
-          </div>
-        </div>
       </main>
-
-    
     </div>
-  )
+  );
 }
