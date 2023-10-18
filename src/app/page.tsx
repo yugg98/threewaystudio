@@ -146,7 +146,7 @@ export default function Abotuus() {
                     Hello Tech Savvy Maestros,
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-200 sm:max-w-md lg:max-w-none">
-                    We're Threeway Studio, A creative GaaS & BaaS (Growth &
+                    We&apos;re Threeway Studio, A creative GaaS & BaaS (Growth &
                     Blockchain as a Service Company) focused on Creation,
                     Engineering & Outreach!
                   </p>
