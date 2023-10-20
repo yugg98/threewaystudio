@@ -44,7 +44,7 @@ const page = () => {
                     managing & nurturing Discord community & Telegram channel to
                     moderating discussions, organising AMAs events, hosting
                     Twitter spaces and facilitating seamless communication
-                    between community members and your project's team, we have
+                    between community members and your project&apos;s team, we have
                     got you covered. With us by your side, you can unlock the
                     potential of your community and watch it flourish in no
                     time.{" "}
@@ -102,11 +102,11 @@ const page = () => {
                     experienced marketing mavericks.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                    At Threeway Studio, we're not just social media experts,
-                    we're Web3 Social Sorcerers. Our experienced Social Media
+                    At Threeway Studio, we&apos;re not just social media experts,
+                    we&apos;re Web3 Social Sorcerers. Our experienced Social Media
                     Maestros are here to help you become a trendsetter, amplify
                     your brand awareness and captivate connections making a
-                    lasting impact on your target audience. Whether it's
+                    lasting impact on your target audience. Whether it&apos;s
                     Twitter, Snapchat, LinkedIn, or Instagram, we leverage the
                     power of Internal tools like NFT Art engine, AR-VR
                     lenses/filters, experienced moderators & schillers & and
@@ -177,7 +177,7 @@ const page = () => {
                     managing & nurturing Discord community & Telegram channel to
                     moderating discussions, organising AMAs events, hosting
                     Twitter spaces and facilitating seamless communication
-                    between community members and your project's team, we have
+                    between community members and your project&apos;s team, we have
                     got you covered. With us by your side, you can unlock the
                     potential of your community and watch it flourish in no
                     time.{" "}
@@ -235,11 +235,11 @@ const page = () => {
                     experienced marketing mavericks.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                    At Threeway Studio, we're not just social media experts,
-                    we're Web3 Social Sorcerers. Our experienced Social Media
+                    At Threeway Studio, we&apos;re not just social media experts,
+                    we&apos;re Web3 Social Sorcerers. Our experienced Social Media
                     Maestros are here to help you become a trendsetter, amplify
                     your brand awareness and captivate connections making a
-                    lasting impact on your target audience. Whether it's
+                    lasting impact on your target audience. Whether its
                     Twitter, Snapchat, LinkedIn, or Instagram, we leverage the
                     power of Internal tools like NFT Art engine, AR-VR
                     lenses/filters, experienced moderators & schillers & and

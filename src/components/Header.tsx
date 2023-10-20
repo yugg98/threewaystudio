@@ -26,23 +26,23 @@ export default function Header() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                    <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
+                    <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
                       Home
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      href="/aboutus"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       About us
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      href="/ourservices"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       Our Services
-                    </a>
+                    </Link>
                     <a
-                      href="#"
+                      href="/ourmerch"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       Our Merch
@@ -53,7 +53,7 @@ export default function Header() {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center">
                 <Link
-                  href="/"
+                  href="/contactus"
                   className="-mx-3 bg-purple-800 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-purple-600"
                 >
                     Contact us

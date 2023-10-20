@@ -54,7 +54,7 @@ const page = () => {
                 </span>
               </span>
             </h1>
-            <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+            <p className="mt-3 text-base text-gray-100 sm:mt-5  ">
               Be a part of 2.86 Bn+ dollar Web3 industry with Threeway Studio’s
               expertise in Creation, Engineering and Outreach. <br /> <br /> We
               are here to Empower the Web 3 Evolution by Facilitating Disruptive
@@ -92,13 +92,7 @@ const page = () => {
                   />
                 </pattern>
               </defs>
-              <rect
-                y={72}
-                width={640}
-                height={640}
-                className="text-gray-50"
-                fill="currentColor"
-              />
+
               <rect
                 x={118}
                 width={404}
@@ -137,8 +131,8 @@ const page = () => {
       </main>
       <section>
         <div className="py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
-          <div className="relative pt-60">
-            <div className="sticky bottom-60 z-[3] -mt-48 mb-36 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+          <div className="md:relative pt-60">
+            <div className="md:sticky bottom-60 z-[3] -mt-48 mb-36 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-white text-3xl md:text-5xl">
@@ -166,13 +160,13 @@ const page = () => {
                             <p className="mt-2 text-base leading-7 text-indigo-200">
                               {feature.description}
                             </p>
-                            <ul className="mt-2 list-disc mx-4" >
-                            {feature.list.map((item) => (
-                                
-                                <li key={item} className="text-white text-lg">{item}</li>
-                               
-                            ))}
-                             </ul>
+                            <ul className="mt-2 list-disc mx-4">
+                              {feature.list.map((item) => (
+                                <li key={item} className="text-white text-lg">
+                                  {item}
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         </div>
                       ))}
@@ -181,8 +175,8 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="sticky bottom-36 top-auto z-[2] -mt-24 mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
-            <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
+            <div className="md:sticky bottom-36 top-auto z-[2] -mt-24 mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+              <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-white text-3xl md:text-5xl">
                     Design/Creation
@@ -209,22 +203,23 @@ const page = () => {
                             <p className="mt-2 text-base leading-7 text-indigo-200">
                               {feature.description}
                             </p>
-                            <ul className="mt-2 list-disc mx-4" >
-                            {feature.list.map((item) => (
-
-                                <li key={item} className="text-white text-lg">{item}</li>
-                            ))}
-                             </ul>
+                            <ul className="mt-2 list-disc mx-4">
+                              {feature.list.map((item) => (
+                                <li key={item} className="text-white text-lg">
+                                  {item}
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         </div>
                       ))}
                     </div>
                   </div>
-                  </div>
                 </div>
+              </div>
             </div>
-            <div className="sticky bottom-12 top-auto mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
-            <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
+            <div className="md:sticky bottom-12 top-auto mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+              <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-white text-3xl md:text-5xl">
                     Design/Creation
@@ -251,20 +246,20 @@ const page = () => {
                             <p className="mt-2 text-base leading-7 text-indigo-200">
                               {feature.description}
                             </p>
-                            <ul className="mt-2 list-disc mx-4" >
-                            {feature.list.map((item) => (
-                                
-                                <li key={item} className="text-white text-lg">{item}</li>
-                               
-                            ))}
-                             </ul>
+                            <ul className="mt-2 list-disc mx-4">
+                              {feature.list.map((item) => (
+                                <li key={item} className="text-white text-lg">
+                                  {item}
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         </div>
                       ))}
                     </div>
                   </div>
-                  </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
