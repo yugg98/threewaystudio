@@ -100,5 +100,6 @@
 }
 
 body{
-  background-color: #0C1528;
+  background: linear-gradient(90deg, #14101B -0.96%, #0E0E10 99.97%);
+  font-family: var(--font-euclid);
 }

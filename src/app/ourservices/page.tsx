@@ -43,7 +43,77 @@ const features = [
 const page = () => {
   return (
     <div>
-      <main className="mx-auto mt-16 max-w-7xl px-4 px-6 sm:mt-24 lg:mt-32">
+      <main className="mx-auto mt-16 max-w-7xl px-4  sm:mt-24 lg:mt-32">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1085"
+          height="745"
+          viewBox="0 0 1085 745"
+          className="max-w-full absolute left-0"
+          fill="none"
+        >
+          <g filter="url(#filter0_f_153_1464)">
+            <circle cx="463" cy="622" r="123" fill="#EC79F5" />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_153_1464"
+              x="-159"
+              y="0"
+              width="1244"
+              height="1244"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="249.5"
+                result="effect1_foregroundBlur_153_1464"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <svg
+          className="max-w-full absolute right-0 top-0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="663"
+          height="765"
+          viewBox="0 0 663 765"
+          fill="none"
+        >
+          <g filter="url(#filter0_f_153_1463)">
+            <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_153_1463"
+              x="0"
+              y="-191"
+              width="956"
+              height="956"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="199.5"
+                result="effect1_foregroundBlur_153_1463"
+              />
+            </filter>
+          </defs>
+        </svg>
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
             <h1>
@@ -65,41 +135,6 @@ const page = () => {
             </p>
           </div>
           <div className="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center">
-            <svg
-              className="absolute left-1/2 top-0 origin-top -translate-x-1/2 -translate-y-8 scale-75 transform sm:scale-100 lg:hidden"
-              width={640}
-              height={784}
-              fill="none"
-              viewBox="0 0 640 784"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern
-                  id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e"
-                  x={118}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect
-                    x={0}
-                    y={0}
-                    width={4}
-                    height={4}
-                    className="text-gray-200"
-                    fill="currentColor"
-                  />
-                </pattern>
-              </defs>
-
-              <rect
-                x={118}
-                width={404}
-                height={784}
-                fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
-              />
-            </svg>
             <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
               <button
                 type="button"
