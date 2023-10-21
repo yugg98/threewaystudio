@@ -18,13 +18,13 @@ export default function Header() {
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="h-12 w-auto"
+                    src="/logo.svg"
                     alt="Your Company"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex justify-between w-full space-x-6">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
                       Home
@@ -39,14 +39,33 @@ export default function Header() {
                       href="/ourservices"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Our Services
+                      Services
                     </Link>
-                    <a
+                    <Link
+                      href="/contactus"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                     Academy
+                    </Link>
+                    <Link
+                      href="/ourprocess"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                     Process
+                    </Link>
+                    <Link
                       href="/ourmerch"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Our Merch
-                    </a>
+                       Merch
+                    </Link>
+                    <Link
+                      href="/contactus"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                     Contact us
+                    </Link>
+                    
                   </div>
                 </div>
               </div>
@@ -56,7 +75,7 @@ export default function Header() {
                   href="/contactus"
                   className="-mx-3 bg-purple-800 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-purple-600"
                 >
-                    Contact us
+                   let's connect
                 </Link>
 
                
