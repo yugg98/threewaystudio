@@ -56,16 +56,13 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <p className='text-center text-white'  > About Metaversus</p>
+      <p className='text-center text-white'  > About Threeway Studio</p>
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it&apos;s really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        <span className="font-extrabold text-white">Threeway Studio</span>  was born with the passion for innovative technology and determination to stay ahead of the curve. It all began in 2020, when we set out to create a remarkable impact with blockchain tech in real life that was set out to change the game for businesses everywhere. With the rapidly evolving landscape of Web3 Space, we aim to build something that could stand the test of time and serve the needs of the future of AI.
         <span className="font-extrabold text-white">
           madness of the metaverse
         </span>{' '}

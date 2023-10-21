@@ -14,6 +14,7 @@ const page = () => {
       <Hero />
       <div className="gradient-03 z-0" />
       <Process />
+      <div className="gradient-04 z-0" />
       <Gallery />
       <Merchhero />
       <Link

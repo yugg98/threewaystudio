@@ -7,11 +7,10 @@ const Process = () => {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-16">
           <div className="mx-auto mb-8 max-w-3xl text-center md:mb-12 lg:mb-16">
             <h2 className="mb-4 mt-6 text-3xl font-extrabold text-white md:text-5xl">
-              Make every step user-centric
+            Web3 Made Simple
             </h2>
             <p className="mx-auto mt-4 max-w-[528px] text-white">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-              aliquam,purus sit amet luctus magna fringilla urna
+            Navigating Uncertainties with Our Structured Approach 
             </p>
           </div>
           <div className="grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 md:grid-cols-3">
@@ -21,10 +20,9 @@ const Process = () => {
                 alt=""
                 className="inline-block h-16"
               />
-              <p className="text-xl text-white font-semibold mt-8">Design</p>
+              <p className="text-xl text-white font-semibold mt-8">Process</p>
               <p className="text-sm text-white mt-4">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              We have a well-designed 8-step process to ensure measurable progress for your idea.
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
@@ -33,10 +31,9 @@ const Process = () => {
                 alt=""
                 className="inline-block h-16"
               />
-              <p className="text-xl text-white font-semibold mt-8">Design</p>
+              <p className="text-xl text-white font-semibold mt-8">System</p>
               <p className="text-sm text-white mt-4">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Our experiences in creating robust blockchain solutions will save you time and avoid mistakes.
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
@@ -45,10 +42,9 @@ const Process = () => {
                 alt=""
                 className="inline-block h-16"
               />
-              <p className="text-xl text-white font-semibold mt-8">Design</p>
+              <p className="text-xl text-white font-semibold mt-8">People</p>
               <p className="text-sm text-white mt-4">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              Working with our smart and efficient digital digeratis will reduce your project risk and uncertainty.
               </p>
             </div>
           </div>

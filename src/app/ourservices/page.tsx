@@ -40,7 +40,66 @@ const features = [
     icon: PencilSquareIcon,
   },
 ];
-
+const features1 = [
+  {
+    name: "NFT ",
+    description:
+      "Dive into the infinite possibilities of digital assets with our expert NFT development services that redefine ownership in the digital world..",
+    list: ["NFT Marketplace", "Music NFT ", "Gaming NFT",'Generative Art'],
+    icon: InboxIcon,
+  },
+  {
+    name: "Defi",
+    list: ["Yield Farming ", "Staking", "Lending and Borrowing"," DAO Development"],
+    description:
+      "Let's revolutionize the way people manage and grow their finances with the aid of our cutting-edge DeFi solutions, making decentralized finance accessible, secure, and lucrative.",
+    icon: UsersIcon,
+  },
+  {
+    name: "Enterprise DAPP",
+    list: ["Supply Chain", "Healthcare", "Entertainment","Carbon Credit","Real Estate","Real Estate"],
+    description:
+      "Drive businesses into the future with our tailored Enterprise DAPP development, combining blockchain technology and enterprise-grade solutions for unmatched efficiency and innovation.",
+    icon: TrashIcon,
+  },
+  {
+    name: "Blockchain Development  ",
+    list: ["BSC Solana", "Cardona", "Ethereum","Polkadot","Substrate","Cosmos","Algorand blockchain"],
+    description:
+      "Channelize the power of blockchain with our expertise in Layer 1 and Layer 2 development, creating scalable and secure ecosystems that shape the decentralized landscape.",
+    icon: PencilSquareIcon,
+  },
+];
+const features2 = [
+  {
+    name: "Community Management",
+    description:
+      "Ignite engagement, foster loyalty, and build thriving communities with our expert community management strategies that fuel meaningful connections.",
+    list: [" Discord Management", "Telegram Management"],
+    icon: InboxIcon,
+  },
+  {
+    name: "Social Media Management",
+    list: [" Instagram", "FaceBook", "Twitter","LinkedIn","Quora"],
+    description:
+      "Be a trendsetter across social platforms with our dynamic social media management solutions that amplify your brand's presence and connect you with your target audience.",
+    icon: UsersIcon,
+  },
+  {
+    name: "AR Marketing",
+    list: ["Instagram Filters", "Snapchat Filters", "AR Merch"],
+    description:
+      "Escape the ordinary and unleash the power of augmented reality with marketing strategies that captivates your audience.",
+    icon: TrashIcon,
+  },
+  {
+    name: "SEO and Content Creation ",
+    list: ["Google Adwords", "Google Analytics"],
+    description:
+      "Boost your online visibility and captivate your audience with our powerful SEO and content creation strategies that drive organic traffic and deliver compelling, shareable experiences.",
+    icon: PencilSquareIcon,
+  },
+];
 const page = () => {
   return (
     <div>
@@ -204,14 +263,13 @@ const page = () => {
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
-                    Design/Creation
+                  Development/Engineering
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                    Designs that captivate.
-                  </p>
+                  Solutions that empower.                  </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-                      {features.map((feature) => (
+                      {features1.map((feature) => (
                         <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
@@ -247,14 +305,14 @@ const page = () => {
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
-                    Design/Creation
+                  Marketing/Outreach
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                    Designs that captivate.
+                  Strategies that dominate.
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-                      {features.map((feature) => (
+                      {features2.map((feature) => (
                         <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
