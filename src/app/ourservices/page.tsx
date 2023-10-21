@@ -9,6 +9,7 @@ import {
   TrashIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
+import Cta from "@/components/Cta";
 const features = [
   {
     name: "NFT Artwork",
@@ -49,7 +50,7 @@ const page = () => {
           width="1085"
           height="745"
           viewBox="0 0 1085 745"
-          className="max-w-full absolute left-0"
+          className="max-w-full absolute left-0 z-[-1]"
           fill="none"
         >
           <g filter="url(#filter0_f_153_1464)">
@@ -80,7 +81,7 @@ const page = () => {
           </defs>
         </svg>
         <svg
-          className="max-w-full absolute right-0 top-0"
+          className="max-w-full absolute right-0 top-0 z-[-1]"
           xmlns="http://www.w3.org/2000/svg"
           width="663"
           height="765"
@@ -165,21 +166,21 @@ const page = () => {
         </div>
       </main>
       <section>
-        <div className="py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
-          <div className="md:relative pt-60">
-            <div className="md:sticky bottom-60 z-[3] -mt-48 mb-36 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+        <div className="py-16 md:py-24 lg:py-32  mx-auto w-full max-w-10xl px-5 md:px-10">
+          <div className=" pt-0">
+            <div className="mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-white text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
                     Design/Creation
                   </h2>
-                  <p className="text-white mt-4 text-lg ">
+                  <p className="text-white text-center mt-4 text-lg ">
                     Designs that captivate.
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features.map((feature) => (
-                        <div key={feature.name}>
+                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -210,19 +211,19 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="md:sticky bottom-36 top-auto z-[2] -mt-24 mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-white text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
                     Design/Creation
                   </h2>
-                  <p className="text-white mt-4 text-lg ">
+                  <p className="text-white text-center mt-4 text-lg ">
                     Designs that captivate.
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features.map((feature) => (
-                        <div key={feature.name}>
+                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -253,19 +254,19 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="md:sticky bottom-12 top-auto mb-12 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-white text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
                     Design/Creation
                   </h2>
-                  <p className="text-white mt-4 text-lg ">
+                  <p className="text-white text-center mt-4 text-lg ">
                     Designs that captivate.
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features.map((feature) => (
-                        <div key={feature.name}>
+                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -299,6 +300,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      <Cta/>
     </div>
   );
 };

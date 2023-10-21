@@ -1,3 +1,4 @@
+import Cta from "@/components/Cta";
 import React from "react";
 
 const page = () => {
@@ -270,6 +271,7 @@ const page = () => {
             </div>
           </div>
         </div>
+        <Cta/>
       </div>
     </div>
   );
