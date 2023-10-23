@@ -18,8 +18,8 @@ const page = () => {
       <Gallery />
       <Merchhero />
       <Link
-        href="/contactus"
-        className=" relative top-[-80px] text-center mx-auto bg-purple-800 block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7 text-white hover:bg-purple-600"
+        href="/merch"
+        className=" relative top-[-80px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
       >
         Visit Swag Store
       </Link>

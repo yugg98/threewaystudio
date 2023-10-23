@@ -104,3 +104,19 @@ body{
   font-family: var(--font-euclid);
   overflow-x: hidden;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #DCFA6C;
+    background-color: #DCFA6C;
+    border-radius: 100%;
+    right:10px;
+    padding: 30px;
+    width: 20px;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+}
+.rfm-marquee-container {
+  padding: 100px 20px;
+}

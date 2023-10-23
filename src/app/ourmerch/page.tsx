@@ -193,7 +193,7 @@ export default function Example() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 sm:pt-12 lg:max-w-7xl lg:px-8">
       <div className="bg-gray-900 ">
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={true} autoplay modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div className="relative isolate overflow-hidden rounded-md h-[600px]">
               <img
@@ -225,6 +225,10 @@ export default function Example() {
                       "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
                   }}
                 />
+              </div>
+              <div className="flex justify-center items-center h-full flex-col">
+              <p className="text-center lg:text-5xl text-3xl text-white font-semibold relative bottom-0">Featured Collection</p>
+              <button className="border px-6 py-2.5 mt-8 text-black bg-[#DCFA6C]  text-lg">Buy Now</button>
               </div>
             </div>
           </SwiperSlide>
@@ -264,7 +268,7 @@ export default function Example() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <h2 className="text-5xl my-12 text-center font-bold text-white">Customers also bought</h2>
+      <h2 className="text-5xl my-24 text-center font-bold text-white">Customers also bought</h2>
 
       <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
         {products.map((product) => (
@@ -296,7 +300,7 @@ export default function Example() {
             <div className="mt-6">
               <a
                 href={product.href}
-                className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
+                className="relative flex items-center bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
               >
                 Add to bag<span className="sr-only">, {product.name}</span>
               </a>
@@ -304,7 +308,7 @@ export default function Example() {
           </div>
         ))}
       </div>
-      <h2 className="text-5xl my-12 text-center font-bold text-white">More Products</h2>
+      <h2 className="text-5xl my-24 text-center font-bold text-white">More Products</h2>
 
       <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
         {moreProducts.map((product) => (
@@ -328,7 +332,7 @@ export default function Example() {
                   aria-hidden="true"
                   className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"
                 />
-                <p className="relative text-lg font-semibold text-white">
+                <p className="relative text-lg font-semibold text-purple-900">
                   {product.price}
                 </p>
               </div>
@@ -336,7 +340,7 @@ export default function Example() {
             <div className="mt-6">
               <a
                 href={product.href}
-                className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
+                className="relative flex items-center bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
               >
                 Add to bag<span className="sr-only">, {product.name}</span>
               </a>

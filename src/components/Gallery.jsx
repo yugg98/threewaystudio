@@ -1,24 +1,28 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import Marquee from "react-fast-marquee";
 
 const Gallery = () => {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto max-w-xl text-center">
-      <h2 className="text-lg font-semibold leading-8 tracking-tight text-white">Our Work</h2>
-      <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-        We have worked with thousands of amazing people
-      </p>
+    <div className="mx-auto  px-6 lg:px-8">
+      <div className="mx-auto max-w-xl text-center">
+        <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+          Our Various Handoffs
+        </p>
+        <p className="text-white text-lg mt-4">
+          Here's the glimpse to some of our previous works
+        </p>
+      </div>
+      <div className="my-12   mx-auto py-10">
+        <Marquee>
+          <img src="/krida.webp" className="max-w-md mx-10 hover:scale-125" />
+          <img src="/krida.webp" className="max-w-md mx-10 hover:scale-125" />
+          <img src="/krida.webp" className="max-w-md mx-10 hover:scale-125" />
+          <img src="/krida.webp" className="max-w-md mx-10 hover:scale-125" />
+        </Marquee>
+      </div>
     </div>
-    <div className='my-12 grid grid-cols-2 grid-rows-2 gap-10 gap-x-12 max-w-5xl mx-auto'>
-        <img src='/krida.webp' className='max-w-md' />
-        <img src='/krida.webp' className='max-w-md' />
-        <img src='/krida.webp' className='max-w-md' />
-        <img src='/krida.webp' className='max-w-md' />
+  );
+};
 
-        </div>
-    </div>
-  )
-}
-
-export default Gallery
+export default Gallery;

@@ -288,7 +288,7 @@ export default function Abotuus() {
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
-              <div className="mt-3 sm:pr-8">
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Dec 2020
                 </h3>
@@ -314,7 +314,7 @@ export default function Abotuus() {
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
-              <div className="mt-3 sm:pr-8">
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Dec 2020
                 </h3>
@@ -340,7 +340,7 @@ export default function Abotuus() {
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
-              <div className="mt-3 sm:pr-8">
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Dec 2020
                 </h3>
@@ -366,7 +366,7 @@ export default function Abotuus() {
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
-              <div className="mt-3 sm:pr-8">
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Dec 2020
                 </h3>
@@ -378,124 +378,118 @@ export default function Abotuus() {
               </div>
             </li>
             <div className="md:flex col-span-4 mt-4">
-              <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </div>
-                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Dec 2020
-                  </h3>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
 
-                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
-                    Web3 space
-                  </p>
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
                 </div>
-              </li>
-              <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </div>
-                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Dec 2020
-                  </h3>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
 
-                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
-                    Web3 space
-                  </p>
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
                 </div>
-              </li>
-              <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </div>
-                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Dec 2020
-                  </h3>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
 
-                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
-                    Web3 space
-                  </p>
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
+            <li className="relative mb-6 sm:mb-0">
+              <div className="flex items-center">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                  <svg
+                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
                 </div>
-              </li>{" "}
-              <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <svg
-                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                    </svg>
-                  </div>
-                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Dec 2020
-                  </h3>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+              </div>
+              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Dec 2020
+                </h3>
 
-                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                    Innovative Sparks Ignite ~ Charting a new path in Web 2 &
-                    Web3 space
-                  </p>
-                </div>
-              </li>
+                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
+                  space
+                </p>
+              </div>
+            </li>
             </div>
           </ol>
         </div>
 
         {/* Image section */}
-        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-            alt=""
-            className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
-          />
-        </div>
+      
 
-        <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        {/* <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-7xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               What makes us different?
@@ -535,9 +529,9 @@ export default function Abotuus() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
-        <div className="relative my-24 mt-[68px] flex w-full h-[550px]">
+        <div className="relative my-24 mt-52 flex w-full h-[550px]">
           <img
             src="/map.png"
             alt="map"

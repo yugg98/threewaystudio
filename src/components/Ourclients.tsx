@@ -9,8 +9,8 @@ const Ourclients = () => {
           Our Clients and Partners
         </h2>
         <p className="mx-auto mt-4 max-w-[528px] text-white">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-          aliquam,purus sit amet luctus magna fringilla urna
+        We’ve collaborated and helped many companies succeed in the 
+       <span className="text-purple-400 font-bold"> Web3.0 </span>space
         </p>
       </div>
       <div>
