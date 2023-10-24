@@ -10,7 +10,7 @@ const Gallery = () => {
           Our Various Handoffs
         </p>
         <p className="text-white text-lg mt-4">
-          Here's the glimpse to some of our previous works
+          Here&apos;s the glimpse to some of our previous works
         </p>
       </div>
       <div className="my-12   mx-auto py-10">

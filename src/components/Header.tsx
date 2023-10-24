@@ -75,7 +75,7 @@ export default function Header() {
                   href="/contactus"
                   className="-mx-3 bg-purple-800 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-purple-600"
                 >
-                   let's connect
+                   let&apos;s connect
                 </Link>
 
                

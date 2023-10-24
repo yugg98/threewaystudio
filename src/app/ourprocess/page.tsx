@@ -334,7 +334,7 @@ const page = () => {
               Launch
               </h3>
               <p className="mb-6 max-w-[480px] text-white md:mb-10 lg:mb-12">
-              We're ready to launch the product to the public after running successful pre-launch campaigns, understanding the market interest, building buyer personas, & drafting marketing strategies. The next step is to get the first customer & help you scale your business.              </p>
+              We&apos;re ready to launch the product to the public after running successful pre-launch campaigns, understanding the market interest, building buyer personas, & drafting marketing strategies. The next step is to get the first customer & help you scale your business.              </p>
               <a
                 href="#"
                 className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"

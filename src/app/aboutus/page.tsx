@@ -397,7 +397,7 @@ export default function Abotuus() {
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                From Seeds to Forest ~ Threeway Studio's Team Flourishes from 1 to 25+ members
+                From Seeds to Forest ~ Threeway Studio&apos;s Team Flourishes from 1 to 25+ members
                 </p>
               </div>
             </li>
