@@ -34,7 +34,7 @@ export default function Example() {
                 aria-hidden="true"
               >
                 <div
-                  className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-br from-[#80caff] to-[#4f46e5] opacity-20"
+                  className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-br from-[#04ff3a] to-[#65fc00] opacity-20"
                   style={{
                     clipPath:
                       'polygon(74.1% 56.1%, 100% 38.6%, 97.5% 73.3%, 85.5% 100%, 80.7% 98.2%, 72.5% 67.7%, 60.2% 37.8%, 52.4% 32.2%, 47.5% 41.9%, 45.2% 65.8%, 27.5% 23.5%, 0.1% 35.4%, 17.9% 0.1%, 27.6% 23.5%, 76.1% 2.6%, 74.1% 56.1%)',
@@ -43,10 +43,7 @@ export default function Example() {
               </div>
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
-            </p>
+           
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
@@ -54,9 +51,9 @@ export default function Example() {
                   <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  545 Mavis Island
+                305, 3rd Floor, Satguru Parinay, PU3, Scheme No. 54, 
                   <br />
-                  Chicago, IL 99191
+                  A.B Road, Indore, 452010
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -66,7 +63,7 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                  +91 9753734795
                   </a>
                 </dd>
               </div>
@@ -77,7 +74,7 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="mailto:hello@example.com">
-                    hello@example.com
+                    connect@threeway.studio
                   </a>
                 </dd>
               </div>

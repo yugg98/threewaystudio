@@ -52,7 +52,7 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
+  background: rgba(1, 93, 4, 0.35);
   filter: blur(175px);
   transform: rotate(-114.2deg);
 }
@@ -117,6 +117,6 @@ body{
     fill: black !important;
     stroke: black !important;
 }
-.rfm-marquee-container {
+.gallery .rfm-marquee-container {
   padding: 100px 20px;
 }

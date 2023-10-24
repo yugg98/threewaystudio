@@ -16,7 +16,7 @@ const Hero = () => (
       className={`2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
+        <motion.h1 variants={textVariant(1.1)} className="font-bold mt-20 lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
           Three Way
         </motion.h1>
         <motion.div
@@ -47,7 +47,7 @@ const Hero = () => (
       </motion.div>
     </motion.div>
   </section>
-  <section className={`${styles.paddings} relative z-10 pt-0`}>
+  <section className={`${styles.paddings} relative z-10 pt-0 mt-20`}>
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}

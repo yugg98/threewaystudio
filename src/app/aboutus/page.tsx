@@ -166,6 +166,8 @@ export default function Abotuus() {
                     We&apos;re Threeway Studio, A creative GaaS & BaaS (Growth &
                     Blockchain as a Service Company) focused on Creation,
                     Engineering & Outreach!
+                    <br/><br/>
+                    We are on Mission to Ignite Change, Empower Patrons, and Shape a New Era of Innovation, Security, and Trust in the Blockchain Arena.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -249,7 +251,7 @@ export default function Abotuus() {
                     many businesses across various domains to step into the web3
                     world and to expedite their business growth with our
                     expertise in design, development and marketing of everything
-                    web3.
+                    Web3.
                   </p>
                 </div>
               </div>
@@ -273,7 +275,7 @@ export default function Abotuus() {
             </div>
           </div>
           <ol className="md:grid grid-cols-4 grid-rows-2 mt-16">
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -299,7 +301,7 @@ export default function Abotuus() {
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -316,16 +318,15 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
+                Game Began
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                A Fusion of Tech and Strategy Forging into Unstoppable Reality!                  space
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -342,16 +343,14 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
+                Empowering Businesses                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                Realising the true potential of Web2 into Web3 and optimising business operations.
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -368,17 +367,16 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
+                February 2020
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                Uniting Forces ~ Threeway Studio Emerges as a Creative Development Studio 
                 </p>
               </div>
             </li>
-            <div className="md:flex col-span-4 mt-4">
-            <li className="relative mb-6 sm:mb-0">
+            <div className="md:grid grid-cols-4 col-span-4 ">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -395,16 +393,15 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
+                Team Growth
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                From Seeds to Forest ~ Threeway Studio's Team Flourishes from 1 to 25+ members
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -421,16 +418,15 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
+                November 2022
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                Unveiling the Artistry Revolution: Beginning the journey of blockchain excellence
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -447,16 +443,15 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
+                Enriching our client
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                January 2023 marks the milestone of expanding our client base
                 </p>
               </div>
             </li>
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                   <svg
@@ -473,12 +468,10 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Dec 2020
-                </h3>
+                August 2023                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                  Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
-                  space
+                Opening doors to Web3 connoisseurs as the academy commences its educational mission
                 </p>
               </div>
             </li>
@@ -489,7 +482,7 @@ export default function Abotuus() {
         {/* Image section */}
       
 
-        {/* <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-7xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               What makes us different?
@@ -506,32 +499,10 @@ export default function Abotuus() {
               effortless as possible.
             </p>
           </div>
-          <ul
-            role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-          >
-            {team.map((person) => (
-              <li key={person.name}>
-                <img
-                  className="aspect-[14/13] w-full rounded-2xl object-cover"
-                  src={person.imageUrl}
-                  alt=""
-                />
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">
-                  {person.name}
-                </h3>
-                <p className="text-base leading-7 text-gray-300">
-                  {person.role}
-                </p>
-                <p className="text-sm leading-6 text-gray-500">
-                  {person.location}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </div> */}
-
-        <div className="relative my-24 mt-52 flex w-full h-[550px]">
+         
+        </div>
+      <p className="text-5xl text-white text-center my-24">Our Clientle</p>
+        <div className="relative my-24  flex w-full h-[550px]">
           <img
             src="/map.png"
             alt="map"
