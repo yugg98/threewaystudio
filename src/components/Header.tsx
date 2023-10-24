@@ -16,13 +16,13 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <div className="flex-shrink-0">
+                <Link href="/" className="flex-shrink-0">
                   <img
                     className="h-12 w-auto"
                     src="/logo.svg"
                     alt="Your Company"
                   />
-                </div>
+                </Link>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex justify-between w-full space-x-6">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
@@ -42,7 +42,7 @@ export default function Header() {
                       Services
                     </Link>
                     <Link
-                      href="/contactus"
+                      href="/academy"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                      Academy

@@ -10,6 +10,7 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/outline";
 import Cta from "@/components/Cta";
+import Link from "next/link";
 const features = [
   {
     name: "NFT Artwork",
@@ -255,11 +256,19 @@ const page = () => {
                         </div>
                       ))}
                     </div>
+                    <Link
+        href="/ourservices/marketing"
+        className="my-10 cursour-pointer  text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+      >
+       Learn More
+      </Link>
                   </div>
+
+                 
                 </div>
               </div>
             </div>
-            <div className="mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16 bg-[url('/development.jpg')] bg-cover py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
@@ -297,17 +306,24 @@ const page = () => {
                         </div>
                       ))}
                     </div>
+                    <Link
+        href="/design"
+        className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+      >
+       Learn More
+      </Link>
+                    
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16 bg-[url('/marketing.jpg')] bg-cover py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-black text-3xl md:text-5xl">
                   Marketing/Outreach
                   </h2>
-                  <p className="text-white text-center mt-4 text-lg ">
+                  <p className="text-black text-center mt-4 text-lg ">
                   Strategies that dominate.
                   </p>
                   <div className="">
@@ -337,9 +353,16 @@ const page = () => {
                               ))}
                             </ul>
                           </div>
+                          
                         </div>
                       ))}
                     </div>
+                    <Link
+        href="/design"
+        className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+      >
+       Learn More
+      </Link>
                   </div>
                 </div>
               </div>

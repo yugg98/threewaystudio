@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Cta() {
   return (
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <div className="mx-auto max-w-5xl py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div className="relative isolate overflow-hidden bg-[#040404] px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -35,9 +35,9 @@ export default function Cta() {
              
             </div>
           </div>
-          <div className=" mt-16  lg:mt-8">
+          <div className="">
             <video
-              className="h-96  relative left-0  rounded-md "
+              className="h-full  absolute right-0  rounded-md "
               src={'/cta.mp4'}
               autoPlay
               muted
