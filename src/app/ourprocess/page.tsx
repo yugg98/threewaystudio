@@ -90,7 +90,7 @@ const page = () => {
               </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Contact us
               </a>
@@ -122,7 +122,7 @@ const page = () => {
               </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Learn More
               </a>
@@ -140,7 +140,7 @@ const page = () => {
               We plan & document every minute project detail from the initial model, explicit blueprint, and first MVP launch to getting the first customer on board.              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Contact us
               </a>
@@ -171,7 +171,7 @@ const page = () => {
               Our design team starts building on the ideas and creates a design mockup of the final product.              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Learn More
               </a>
@@ -188,7 +188,7 @@ const page = () => {
               Parallel to building the prototype, we also begin to draft the perfect compelling messaging about the product and the phases of marketing strategy.              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Contact us
               </a>
@@ -219,7 +219,7 @@ const page = () => {
               Our team gets to rigorous product development & builds the first minimum viable product (MVP).              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Learn More
               </a>
@@ -236,7 +236,7 @@ const page = () => {
               The product is turned over to the testing team which helps us fix any issues that come up and make our product ready for delivery.              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Contact us
               </a>
@@ -337,7 +337,7 @@ const page = () => {
               We&apos;re ready to launch the product to the public after running successful pre-launch campaigns, understanding the market interest, building buyer personas, & drafting marketing strategies. The next step is to get the first customer & help you scale your business.              </p>
               <a
                 href="#"
-                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold text-black transition hover:border-black hover:bg-white"
+                className="inline-block rounded-lg border border-solid border-[#6B21A8] bg-[#6B21A8] px-6 py-4 text-white text-center font-bold  transition hover:border-black hover:bg-white"
               >
                 Learn More
               </a>
