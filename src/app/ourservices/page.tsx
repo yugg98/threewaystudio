@@ -46,26 +46,46 @@ const features1 = [
     name: "NFT ",
     description:
       "Dive into the infinite possibilities of digital assets with our expert NFT development services that redefine ownership in the digital world..",
-    list: ["NFT Marketplace", "Music NFT ", "Gaming NFT",'Generative Art'],
+    list: ["NFT Marketplace", "Music NFT ", "Gaming NFT", "Generative Art"],
     icon: InboxIcon,
   },
   {
     name: "Defi",
-    list: ["Yield Farming ", "Staking", "Lending and Borrowing"," DAO Development"],
+    list: [
+      "Yield Farming ",
+      "Staking",
+      "Lending and Borrowing",
+      " DAO Development",
+    ],
     description:
       "Let's revolutionize the way people manage and grow their finances with the aid of our cutting-edge DeFi solutions, making decentralized finance accessible, secure, and lucrative.",
     icon: UsersIcon,
   },
   {
     name: "Enterprise DAPP",
-    list: ["Supply Chain", "Healthcare", "Entertainment","Carbon Credit","Real Estate","Real Estate"],
+    list: [
+      "Supply Chain",
+      "Healthcare",
+      "Entertainment",
+      "Carbon Credit",
+      "Real Estate",
+      "Real Estate",
+    ],
     description:
       "Drive businesses into the future with our tailored Enterprise DAPP development, combining blockchain technology and enterprise-grade solutions for unmatched efficiency and innovation.",
     icon: TrashIcon,
   },
   {
     name: "Blockchain Development  ",
-    list: ["BSC Solana", "Cardona", "Ethereum","Polkadot","Substrate","Cosmos","Algorand blockchain"],
+    list: [
+      "BSC Solana",
+      "Cardona",
+      "Ethereum",
+      "Polkadot",
+      "Substrate",
+      "Cosmos",
+      "Algorand blockchain",
+    ],
     description:
       "Channelize the power of blockchain with our expertise in Layer 1 and Layer 2 development, creating scalable and secure ecosystems that shape the decentralized landscape.",
     icon: PencilSquareIcon,
@@ -81,7 +101,7 @@ const features2 = [
   },
   {
     name: "Social Media Management",
-    list: [" Instagram", "FaceBook", "Twitter","LinkedIn","Quora"],
+    list: [" Instagram", "FaceBook", "Twitter", "LinkedIn", "Quora"],
     description:
       "Be a trendsetter across social platforms with our dynamic social media management solutions that amplify your brand's presence and connect you with your target audience.",
     icon: UsersIcon,
@@ -208,7 +228,6 @@ const page = () => {
                   autoPlay={true}
                   muted
                 />
-               
               </button>
             </div>
           </div>
@@ -229,7 +248,10 @@ const page = () => {
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features.map((feature) => (
-                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
+                        <div
+                          key={feature.name}
+                          className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
+                        >
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -257,14 +279,12 @@ const page = () => {
                       ))}
                     </div>
                     <Link
-        href="/ourservices/marketing"
-        className="my-10 cursour-pointer  text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
-      >
-       Learn More
-      </Link>
+                      href="/ourservices/marketing"
+                      className="my-10 cursour-pointer  text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+                    >
+                      Learn More
+                    </Link>
                   </div>
-
-                 
                 </div>
               </div>
             </div>
@@ -272,14 +292,18 @@ const page = () => {
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
-                  Development/Engineering
+                    Development/Engineering
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                  Solutions that empower.                  </p>
+                    Solutions that empower.{" "}
+                  </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features1.map((feature) => (
-                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
+                        <div
+                          key={feature.name}
+                          className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
+                        >
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -307,12 +331,11 @@ const page = () => {
                       ))}
                     </div>
                     <Link
-        href="/design"
-        className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
-      >
-       Learn More
-      </Link>
-                    
+                      href="/design"
+                      className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+                    >
+                      Learn More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -321,15 +344,18 @@ const page = () => {
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-black text-3xl md:text-5xl">
-                  Marketing/Outreach
+                    Marketing/Outreach
                   </h2>
                   <p className="text-black text-center mt-4 text-lg ">
-                  Strategies that dominate.
+                    Strategies that dominate.
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                       {features2.map((feature) => (
-                        <div key={feature.name} className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
+                        <div
+                          key={feature.name}
+                          className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
+                        >
                           <div>
                             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
@@ -353,16 +379,15 @@ const page = () => {
                               ))}
                             </ul>
                           </div>
-                          
                         </div>
                       ))}
                     </div>
                     <Link
-        href="/design"
-        className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
-      >
-       Learn More
-      </Link>
+                      href="/design"
+                      className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
+                    >
+                      Learn More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -370,7 +395,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <Cta/>
+      <Cta />
     </div>
   );
 };

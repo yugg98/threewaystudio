@@ -16,44 +16,34 @@ const Ourclients = () => {
       <div>
         <div className="">
           <Marquee className="grid gap-x-8">
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo8.png" className="mx-12 h-24 " />
+            <img src="/logos/logo9.jfif" className="mx-12 h-24 " />
+            <img src="/logos/logo10.jpg" className="mx-12 h-24 " />
+            <img src="/logos/logo11.webp" className="mx-12 h-24 " />
+            <img src="/logos/logo12.jpg" className="mx-12 h-24 " />
+            <img src="/logos/logo13.png" className="mx-12 h-24 " />
+            <img src="/logos/logo14.jpg" className="mx-12 h-24 " />
           </Marquee>
         </div>
         <div className=" my-8">
           <Marquee className="grid gap-x-8" direction="right">
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo1.webp" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo2.jpg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo3.jpg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo4.jpg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo5.jpg" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo6.webp" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo7.jfif" className="mx-12 h-24 w-24" />
           </Marquee>
         </div>
         <div className="">
           <Marquee className="grid gap-x-8">
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
-            <img src="/logo.svg" className="mx-12 h-24 w-24" />
+          <img src="/logos/logo15.webp" className="mx-12 h-24 " />
+            <img src="/logos/logo16.png" className="mx-12 h-24 " />
+            <img src="/logos/logo17.jpg" className="mx-12 h-24 " />
+            <img src="/logos/logo18.png" className="mx-12 h-24 " />
+            <img src="/logos/logo19.svg" className="mx-12 h-24 " />
+            <img src="/logos/logo20.jfif" className="mx-12 h-24 " />
           </Marquee>
         </div>
       </div>
