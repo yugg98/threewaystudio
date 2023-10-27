@@ -41,6 +41,7 @@ export default function Cta() {
               src={'/cta.mp4'}
               autoPlay
               muted
+              loop
             />
           </div>
         </div>

@@ -471,8 +471,12 @@ export default function Abotuus() {
                 August 2023                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                Opening doors to Web3 connoisseurs as the academy commences its educational mission
-                </p>
+                Academy welcomes Web3 enthusiasts, embarks on educational mission.
+
+
+
+
+</p>
               </div>
             </li>
             </div>

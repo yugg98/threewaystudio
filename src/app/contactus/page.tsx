@@ -74,7 +74,7 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="mailto:hello@example.com">
-                    connect@threeway.studio
+                  contact@threewaystudio.world
                   </a>
                 </dd>
               </div>
