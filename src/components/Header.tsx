@@ -47,7 +47,7 @@ export default function Header() {
                     >
                      Academy
                     </Link> */}
-                    <Link
+                    {/* <Link
                       href="/ourprocess"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
@@ -58,7 +58,7 @@ export default function Header() {
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                        Merch
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/contactus"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
@@ -71,12 +71,13 @@ export default function Header() {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center">
-                <Link
-                  href="/contactus"
+                <a
+                target='_blank'
+                  href="https://calendly.com/threeway-studio/blockchain-consultation"
                   className="-mx-3 bg-purple-800 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-purple-600"
                 >
                    let&apos;s connect
-                </Link>
+                </a>
 
                
                 </div>

@@ -16,7 +16,7 @@ const page = () => {
       <Process />
       <div className="gradient-04 z-0" />
       <Gallery />
-      <Merchhero />
+      {/* <Merchhero /> */}
       <Link
         href="/merch"
         className=" relative top-[-80px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
