@@ -253,12 +253,12 @@ const page = () => {
                           className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
                         >
                           <div>
-                            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
+                            {/* <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
                                 className="h-8 w-8 text-white"
                                 aria-hidden="true"
                               />
-                            </span>
+                            </span> */}
                           </div>
                           <div className="mt-6">
                             <h3 className="text-lg font-semibold leading-8 text-white">
@@ -278,12 +278,12 @@ const page = () => {
                         </div>
                       ))}
                     </div>
-                    <Link
+                    {/* <Link
                       href="/ourservices/marketing"
                       className="my-10 cursour-pointer  text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
                     >
                       Learn More
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -305,12 +305,12 @@ const page = () => {
                           className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
                         >
                           <div>
-                            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
+                            {/* <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
                                 className="h-8 w-8 text-white"
                                 aria-hidden="true"
                               />
-                            </span>
+                            </span> */}
                           </div>
                           <div className="mt-6">
                             <h3 className="text-lg font-semibold leading-8 text-white">
@@ -330,12 +330,12 @@ const page = () => {
                         </div>
                       ))}
                     </div>
-                    <Link
+                    {/* <Link
                       href="/design"
                       className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
                     >
                       Learn More
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -357,12 +357,12 @@ const page = () => {
                           className="flex flex-col p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95"
                         >
                           <div>
-                            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
+                            {/* <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white bg-opacity-10">
                               <feature.icon
                                 className="h-8 w-8 text-white"
                                 aria-hidden="true"
                               />
-                            </span>
+                            </span> */}
                           </div>
                           <div className="mt-6">
                             <h3 className="text-lg font-semibold leading-8 text-white">
@@ -382,12 +382,12 @@ const page = () => {
                         </div>
                       ))}
                     </div>
-                    <Link
+                    {/* <Link
                       href="/design"
                       className="my-10   text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
                     >
                       Learn More
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
