@@ -1,82 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Cta from "@/components/Cta";
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Resources", href: "#" },
-  { name: "Company", href: "#" },
-];
+
 const stats = [
   { label: "Underpaid employees", value: "30+" },
   { label: "Placated clients  ", value: "50+" },
 ];
 
-const team = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
 
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-
-  // More people...
-];
 
 export default function Abotuus() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -166,8 +99,11 @@ export default function Abotuus() {
                     We&apos;re Threeway Studio, A creative GaaS & BaaS (Growth &
                     Blockchain as a Service Company) focused on Creation,
                     Engineering & Outreach!
-                    <br/><br/>
-                    We are on Mission to Ignite Change, Empower Patrons, and Shape a New Era of Innovation, Security, and Trust in the Blockchain Arena.
+                    <br />
+                    <br />
+                    We are on Mission to Ignite Change, Empower Patrons, and
+                    Shape a New Era of Innovation, Security, and Trust in the
+                    Blockchain Arena.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -291,9 +227,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-white">
-                  Dec 2020
-                </h3>
+                <h3 className="text-lg font-semibold text-white">Dec 2020</h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
                   Innovative Sparks Ignite ~ Charting a new path in Web 2 & Web3
@@ -318,11 +252,12 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold  text-white">
-                Game Began
+                  Game Began
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                A Fusion of Tech and Strategy Forging into Unstoppable Reality!                  space
+                  A Fusion of Tech and Strategy Forging into Unstoppable
+                  Reality! space
                 </p>
               </div>
             </li>
@@ -343,10 +278,12 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold  text-white">
-                Empowering Businesses                </h3>
+                  Empowering Businesses{" "}
+                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                Realising the true potential of Web2 into Web3 and optimising business operations.
+                  Realising the true potential of Web2 into Web3 and optimising
+                  business operations.
                 </p>
               </div>
             </li>
@@ -367,124 +304,125 @@ export default function Abotuus() {
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
                 <h3 className="text-lg font-semibold  text-white">
-                February 2020
+                  February 2020
                 </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                Uniting Forces ~ Threeway Studio Emerges as a Creative Development Studio 
+                  Uniting Forces ~ Threeway Studio Emerges as a Creative
+                  Development Studio
                 </p>
               </div>
             </li>
             <div className="md:grid grid-cols-4 col-span-4 ">
-            <li className="relative mb-6 sm:mb-0 ">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+              <li className="relative mb-6 sm:mb-0 ">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold  text-white">
-                Team Growth
-                </h3>
+                <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                  <h3 className="text-lg font-semibold  text-white">
+                    Team Growth
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                From Seeds to Forest ~ Threeway Studio&apos;s Team Flourishes from 1 to 25+ members
-                </p>
-              </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0 ">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    From Seeds to Forest ~ Threeway Studio&apos;s Team
+                    Flourishes from 1 to 25+ members
+                  </p>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold  text-white">
-                November 2022
-                </h3>
-
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                Unveiling the Artistry Revolution: Beginning the journey of blockchain excellence
-                </p>
-              </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0 ">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+              </li>
+              <li className="relative mb-6 sm:mb-0 ">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold  text-white">
-                Enriching our client
-                </h3>
+                <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                  <h3 className="text-lg font-semibold  text-white">
+                    November 2022
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                January 2023 marks the milestone of expanding our client base
-                </p>
-              </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0 ">
-              <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                  <svg
-                    className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Unveiling the Artistry Revolution: Beginning the journey of
+                    blockchain excellence
+                  </p>
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-              </div>
-              <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold  text-white">
-                August 2023                </h3>
+              </li>
+              <li className="relative mb-6 sm:mb-0 ">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                </div>
+                <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                  <h3 className="text-lg font-semibold  text-white">
+                    Enriching our client
+                  </h3>
 
-                <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
-                Academy welcomes Web3 enthusiasts, embarks on educational mission.
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    January 2023 marks the milestone of expanding our client
+                    base
+                  </p>
+                </div>
+              </li>
+              <li className="relative mb-6 sm:mb-0 ">
+                <div className="flex items-center">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg
+                      className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                </div>
+                <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
+                  <h3 className="text-lg font-semibold  text-white">
+                    August 2023{" "}
+                  </h3>
 
-
-
-
-</p>
-              </div>
-            </li>
+                  <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
+                    Academy welcomes Web3 enthusiasts, embarks on educational
+                    mission.
+                  </p>
+                </div>
+              </li>
             </div>
           </ol>
         </div>
 
         {/* Image section */}
-      
 
         <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-7xl lg:mx-0">
@@ -503,9 +441,8 @@ export default function Abotuus() {
               effortless as possible.
             </p>
           </div>
-         
         </div>
-      <p className="text-5xl text-white text-center my-24">Our Clientle</p>
+        <p className="text-5xl text-white text-center my-24">Our Clientle</p>
         <div className="relative my-24  flex w-full h-[550px]">
           <img
             src="/map.png"

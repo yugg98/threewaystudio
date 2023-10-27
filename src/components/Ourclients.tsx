@@ -17,6 +17,7 @@ const Ourclients = () => {
         <div className="">
           <Marquee className="grid gap-x-8">
             <img src="/logos/logo8.png" className="mx-12 h-24 " />
+            <img src="/logos/logo.png" className="mx-12 h-24 " />
             <img src="/logos/logo9.jfif" className="mx-12 h-24 " />
             <img src="/logos/logo10.jpg" className="mx-12 h-24 " />
             <img src="/logos/logo11.webp" className="mx-12 h-24 " />
@@ -44,6 +45,7 @@ const Ourclients = () => {
             <img src="/logos/logo18.png" className="mx-12 h-24 " />
             <img src="/logos/logo19.svg" className="mx-12 h-24 " />
             <img src="/logos/logo20.jfif" className="mx-12 h-24 " />
+            <img src="/logos/logo21.jfif" className="mx-12 h-24 " />
           </Marquee>
         </div>
       </div>
