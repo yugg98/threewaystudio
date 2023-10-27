@@ -15,13 +15,13 @@ const Gallery = () => {
       </div>
       <div className="my-12   mx-auto py-10">
         <Marquee>
-          <img src="/clients/img1.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img2.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img3.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img4.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img5.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img6.png" className="max-w-md mx-10 hover:scale-125" />
-          <img src="/clients/img7.png" className="max-w-md mx-10 hover:scale-125" />
+          <img src="/clients/img1.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img2.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img3.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img4.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img5.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img6.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
+          <img src="/clients/img7.png" className="md:max-w-md max-w-full mx-10 hover:scale-125" />
 
         </Marquee>
       </div>

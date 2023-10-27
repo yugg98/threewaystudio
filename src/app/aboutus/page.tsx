@@ -291,7 +291,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white">
                   Dec 2020
                 </h3>
 
@@ -317,7 +317,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 Game Began
                 </h3>
 
@@ -342,7 +342,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 Empowering Businesses                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
@@ -366,7 +366,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 February 2020
                 </h3>
 
@@ -392,7 +392,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 Team Growth
                 </h3>
 
@@ -417,7 +417,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 November 2022
                 </h3>
 
@@ -442,7 +442,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 Enriching our client
                 </h3>
 
@@ -467,7 +467,7 @@ export default function Abotuus() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pr-8 p-6 ing-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-full cursor-pointer hover:scale-95">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold  text-white">
                 August 2023                </h3>
 
                 <p className="text-base mt-2 font-normal text-gray-500 dark:text-gray-400">
