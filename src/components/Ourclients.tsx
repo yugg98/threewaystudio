@@ -9,8 +9,8 @@ const Ourclients = () => {
           Our Clients and Partners
         </h2>
         <p className="mx-auto mt-4 max-w-[528px] text-white">
-        We’ve collaborated and helped many companies succeed in the 
-       <span className="text-purple-400 font-bold"> Web3.0 </span>space
+          We’ve collaborated and helped many companies succeed in the
+          <span className="text-purple-400 font-bold"> Web3.0 </span>space
         </p>
       </div>
       <div>
@@ -39,7 +39,7 @@ const Ourclients = () => {
         </div>
         <div className="">
           <Marquee className="grid gap-x-8">
-          <img src="/logos/logo15.webp" className="mx-12 h-24 " />
+            <img src="/logos/logo15.webp" className="mx-12 h-24 " />
             <img src="/logos/logo16.png" className="mx-12 h-24 " />
             <img src="/logos/logo17.jpg" className="mx-12 h-24 " />
             <img src="/logos/logo18.png" className="mx-12 h-24 " />
