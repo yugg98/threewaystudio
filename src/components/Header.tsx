@@ -116,17 +116,17 @@ export default function Header() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/ourprocess"
+                href="/ourservices"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
-                Our Process
+                Services
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/ourmerch"
+                href="/contactus"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
-                Merch
+                Contact us
               </Disclosure.Button>
             </div>
             <div className="border-t border-gray-700 pb-3 pt-4">
@@ -135,10 +135,10 @@ export default function Header() {
                
                 <Disclosure.Button
                   as="a"
-                  href="/contactus"
+                  href="https://calendly.com/threeway-studio/blockchain-consultation"
                   className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
                 >
-                 Contact us
+                 let&apos;connect
                 </Disclosure.Button>
               </div>
             </div>

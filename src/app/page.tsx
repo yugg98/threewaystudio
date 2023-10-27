@@ -12,17 +12,17 @@ const page = () => {
   return (
     <div>
       <Hero />
-      <div className="gradient-03 z-0" />
+      <div className="gradient-03 z-0 max-w-full md:flex hidden" />
       <Process />
-      <div className="gradient-04 z-0" />
+      <div className="gradient-04 z-0 max-w-full md:flex hidden" />
       <Gallery />
       {/* <Merchhero /> */}
-      <Link
+      {/* <Link
         href="/merch"
         className=" relative top-[-80px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
       >
         Visit Swag Store
-      </Link>
+      </Link> */}
       <Ourclients/>
       <Cta />
     </div>
