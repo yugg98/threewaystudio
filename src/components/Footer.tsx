@@ -64,9 +64,9 @@ const navigation = {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-          {...props}
+          width="30"
+          height="30"
+          viewBox="0 0 48 48"
         >
           <path
             fill="#29b6f6"
@@ -88,7 +88,7 @@ const navigation = {
       ),
     },
     {
-      name: "Telegram",
+      name: "Discord",
       href: "#",
       icon: (props: any) => (
         <svg

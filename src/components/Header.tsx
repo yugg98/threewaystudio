@@ -23,7 +23,7 @@ export default function Header() {
                     alt="Your Company"
                   />
                 </Link>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden sm:ml-6 lg:block">
                   <div className="flex justify-between w-full space-x-6">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
@@ -69,7 +69,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:ml-6 sm:block">
+              <div className="hidden sm:ml-6 lg:block">
                 <div className="flex items-center">
                 <a
                 target='_blank'
@@ -82,7 +82,7 @@ export default function Header() {
                
                 </div>
               </div>
-              <div className="-mr-2 flex sm:hidden">
+              <div className="-mr-2 flex lg:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
@@ -97,7 +97,7 @@ export default function Header() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="lg:hidden rounded-t-md">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <Disclosure.Button
@@ -136,7 +136,7 @@ export default function Header() {
                 <Disclosure.Button
                   as="a"
                   href="https://calendly.com/threeway-studio/blockchain-consultation"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                  className="block rounded-full px-3 py-2 text-center text-lg bg-purple-800 text-base font-bold text-white  hover:bg-purple-500 hover:text-white"
                 >
                  let&apos;connect
                 </Disclosure.Button>

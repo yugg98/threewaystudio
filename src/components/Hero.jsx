@@ -25,7 +25,7 @@ const Hero = () => (
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1
             variants={textVariant(1.1)}
-            className="font-bold mt-20 lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white"
+            className="font-bold mt-20 lg:text-[144px] md:text-2xl sm:text-[60px] text-5xl lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white"
           >
             Three Way
           </motion.h1>
@@ -33,11 +33,11 @@ const Hero = () => (
             variants={textVariant(1.2)}
             className="flex flex-row justify-center items-center "
           >
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
+            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-5xl lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
               Stu
             </h1>
             <div className="md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]" />
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
+            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-5xl lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
               io
             </h1>
           </motion.div>
