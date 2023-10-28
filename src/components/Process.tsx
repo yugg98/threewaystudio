@@ -197,6 +197,9 @@ const Process = () => {
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
+            <svg className="inline-block h-16" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+<polygon fill="#577be6" points="42,35.97 22,24.423 10,31.351 9,34.238 31,46.939 43,40.011"></polygon><polygon fill="#6189ff" points="10,31.351 30,42.898 31,46.939 9,34.238"></polygon><polygon fill="#4460b3" points="42,35.97 30,42.898 31,46.939 43,40.011"></polygon><polygon fill="#fff957" points="39,11.14 39,27.31 33,30.77 33,33.08 25,37.7 17,33.08 17,30.77 11,27.31 11,11.14 25,3.06"></polygon><polygon fill="#b3ae3d" points="33,33.083 25,37.702 25,35.392 33,30.774"></polygon><polygon fill="#f2ed53" points="17,33.083 25,37.702 25,35.392 17,30.774"></polygon><polygon fill="#bfbb41" points="39,11.144 25,19.226 25,35.392 39,27.309"></polygon><polygon fill="#e68f3a" points="39,11.144 25,19.226 11,11.144 25,3.061"></polygon><polygon fill="#b36f2d" points="35,29.619 39,27.309 39,11.144 25,19.226 25,22.691 32,20.959"></polygon><polygon fill="#ff9f40" points="11,11.144 11,14.608 25,22.691 25,19.227"></polygon>
+</svg>
               <p className="text-xl text-white font-semibold mt-8">People</p>
               <p className="text-sm text-white mt-4">
                 Working with our smart and efficient digital digeratis will

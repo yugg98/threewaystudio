@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   ArrowUturnLeftIcon,
@@ -10,6 +11,8 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/outline";
 import Cta from "@/components/Cta";
+import { Disclosure } from "@headlessui/react";
+
 import Link from "next/link";
 const features = [
   {
@@ -267,13 +270,27 @@ const page = () => {
                             <p className="mt-2 text-base leading-7 text-indigo-200">
                               {feature.description}
                             </p>
-                            <ul className="mt-2 list-disc mx-4">
-                              {feature.list.map((item) => (
-                                <li key={item} className="text-white text-lg">
-                                  {item}
-                                </li>
-                              ))}
-                            </ul>
+                            <Disclosure>
+                            {({ open }) => (
+                              <>
+                              <Disclosure.Button className="py-2 w-full mt-4">
+                                <img src="/arrow.svg" className={open?"rotate-180 transform mx-auto":"mx-auto"} />
+                              </Disclosure.Button>
+                              <Disclosure.Panel className="text-gray-500">
+                                <ul className="mt-2 list-disc mx-4">
+                                  {feature.list.map((item) => (
+                                    <li
+                                      key={item}
+                                      className="text-white text-lg"
+                                    >
+                                      {item}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </Disclosure.Panel>
+                              </>
+                            )}
+                            </Disclosure>
                           </div>
                         </div>
                       ))}

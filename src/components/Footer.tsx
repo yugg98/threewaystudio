@@ -64,8 +64,9 @@ const navigation = {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          fill="currentColor" viewBox="0 0 24 24" {...props}
-          width="10"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          {...props}
         >
           <path
             fill="#29b6f6"
@@ -94,8 +95,9 @@ const navigation = {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-        
-          fill="currentColor" viewBox="0 0 24 24" {...props}
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          {...props}
         >
           <path
             fill="#536dfe"
@@ -114,7 +116,7 @@ export default function Example() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="xl:grid xl:grid-cols-2 ">
           <div className="space-y-8">
             <img
               className="h-12 invert"
@@ -137,7 +139,7 @@ export default function Example() {
               ))}
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-16  xl:mt-0">
             <div className="md:grid md:grid-cols-3 md:gap-40">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
@@ -158,7 +160,7 @@ export default function Example() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                Company
+                  Company
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
@@ -175,7 +177,7 @@ export default function Example() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                Legal
+                  Legal
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
@@ -191,7 +193,6 @@ export default function Example() {
                 </ul>
               </div>
             </div>
-           
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
