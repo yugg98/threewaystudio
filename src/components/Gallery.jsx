@@ -26,13 +26,12 @@ const Gallery = () => {
       </div>
       <div className="my-12   mx-auto py-10">
         <Swiper
-         modules={[Navigation, Pagination, Autoplay, A11y]}
+         modules={[ Autoplay]}
          spaceBetween={50}
          slidesPerView={1}
          breakpoints={{
            320: {
              slidesPerView: 1,
-             spaceBetween: 20,
            },
            640: {
              slidesPerView: 1,
@@ -59,7 +58,7 @@ const Gallery = () => {
             <a href="https://sustainogram.com/">
               <img
                 src="/clients/img1.png"
-                className="max-w-md  mx-10"
+                className="md:max-w-md max-w-full"
               />
             </a>
           </SwiperSlide>
@@ -67,7 +66,7 @@ const Gallery = () => {
             <a href="https://rywards.com/">
               <img
                 src="/clients/img2.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full "
               />
             </a>
           </SwiperSlide>
@@ -75,7 +74,7 @@ const Gallery = () => {
             <a href="https://aarohan-three.vercel.app/">
               <img
                 src="/clients/img3.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full "
               />
             </a>
           </SwiperSlide>
@@ -83,7 +82,7 @@ const Gallery = () => {
             <a href="https://www.artfi.world/">
               <img
                 src="/clients/img4.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full "
               />
             </a>
           </SwiperSlide>
@@ -91,7 +90,7 @@ const Gallery = () => {
             <a href="https://cafeyoda.com/">
               <img
                 src="/clients/img5.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full   "
               />
             </a>
           </SwiperSlide>
@@ -99,7 +98,7 @@ const Gallery = () => {
             <a href="https://into-the-verse-frontend-mu.vercel.app/metaverse">
               <img
                 src="/clients/img6.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full   "
               />
             </a>
           </SwiperSlide>
@@ -107,7 +106,7 @@ const Gallery = () => {
             <a href="https://game.krida.fans/">
               <img
                 src="/clients/img7.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full   "
               />
             </a>
           </SwiperSlide>
@@ -115,7 +114,7 @@ const Gallery = () => {
             <a href="https://www.decrackle.io/">
               <img
                 src="/clients/img8.png"
-                className="max-w-md  mx-10 "
+                className="md:max-w-md max-w-full   "
               />
             </a>
           </SwiperSlide>

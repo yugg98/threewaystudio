@@ -53,6 +53,7 @@ const Hero = () => (
             alt="hero_cover"
             autoPlay
             muted
+            loop
             className="w-full md:h-[500px] lg:block hidden  h-[350px] object-cover rounded-tl-[140px] z-10 relative"
           >
             <source src="/hero.mp4" type="video/mp4" />
@@ -61,6 +62,7 @@ const Hero = () => (
             alt="hero_cover"
             autoPlay
             muted
+            loop
             className="w-full md:h-[500px]   lg:hidden block   h-[350px] object-cover rounded-tl-[140px] z-10 relative"
           >
             <source src="/cta.mp4" type="video/mp4" />
