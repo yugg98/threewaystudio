@@ -1,7 +1,18 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 const Gallery = () => {
   return (
     <div className="mx-auto  px-6 lg:px-8 gallery">
@@ -14,29 +25,101 @@ const Gallery = () => {
         </p>
       </div>
       <div className="my-12   mx-auto py-10">
-        <Marquee>
-          <a href="https://sustainogram.com/">
-          <img src="/clients/img1.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://rywards.com/">
-          <img src="/clients/img2.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://aarohan-three.vercel.app/">
-          <img src="/clients/img3.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://www.artfi.world/">
-          <img src="/clients/img4.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://cafeyoda.com/">
-          <img src="/clients/img5.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://into-the-verse-frontend-mu.vercel.app/metaverse">
-          <img src="/clients/img6.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-          <a href="https://game.krida.fans/">
-          <img src="/clients/img7.png" className="max-w-md  mx-10 hover:scale-125" />
-          </a>
-        </Marquee>
+        <Swiper
+         modules={[Navigation, Pagination, Autoplay, A11y]}
+         spaceBetween={50}
+         slidesPerView={1}
+         breakpoints={{
+           320: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           640: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           1024: {
+             slidesPerView: 2,
+             spaceBetween: 40,
+           },
+           1280: {
+             slidesPerView: 3,
+             spaceBetween: 30,
+           },
+         }}
+         navigation
+         loop={true}
+         autoplay={{
+           delay: 1000,
+           disableOnInteraction: false,
+         }}
+         pagination={{ clickable: true }}
+        >
+          <SwiperSlide>
+            <a href="https://sustainogram.com/">
+              <img
+                src="/clients/img1.png"
+                className="max-w-md  mx-10"
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://rywards.com/">
+              <img
+                src="/clients/img2.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://aarohan-three.vercel.app/">
+              <img
+                src="/clients/img3.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://www.artfi.world/">
+              <img
+                src="/clients/img4.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://cafeyoda.com/">
+              <img
+                src="/clients/img5.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://into-the-verse-frontend-mu.vercel.app/metaverse">
+              <img
+                src="/clients/img6.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://game.krida.fans/">
+              <img
+                src="/clients/img7.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://www.decrackle.io/">
+              <img
+                src="/clients/img8.png"
+                className="max-w-md  mx-10 "
+              />
+            </a>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

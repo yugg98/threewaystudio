@@ -236,13 +236,13 @@ const page = () => {
       <section>
         <div className="py-16 md:py-24 lg:py-32  mx-auto w-full max-w-10xl px-5 md:px-10">
           <div className=" pt-0">
-            <div className="bg-[url('/designbg.jpg')] backdrop-opacity-95 bg-blur-500 bg-cover mb-16 bg-gray-900 py-10 rounded-xl px-5 sm:px-12">
+            <div className="backdrop-opacity-95 bg-blur-500 bg-cover mb-16  py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-center text-black text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
                     Design/Creation
                   </h2>
-                  <p className="text-black text-center mt-4 text-lg ">
+                  <p className="text-white text-center mt-4 text-lg ">
                     Designs that captivate.
                   </p>
                   <div className="">
@@ -288,7 +288,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-16 bg-[url('/development.jpg')] bg-cover py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16  bg-cover py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
                   <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
@@ -340,13 +340,13 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-16 bg-[url('/marketing.jpg')] bg-cover py-10 rounded-xl px-5 sm:px-12">
+            <div className="mb-16  bg-cover py-10 rounded-xl px-5 sm:px-12">
               <div className="grid items-center grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-20">
                 <div className="flex-col flex h-full ">
-                  <h2 className="font-bold text-center text-black text-3xl md:text-5xl">
+                  <h2 className="font-bold text-center text-white text-3xl md:text-5xl">
                     Marketing/Outreach
                   </h2>
-                  <p className="text-black text-center mt-4 text-lg ">
+                  <p className="text-white text-center mt-4 text-lg ">
                     Strategies that dominate.
                   </p>
                   <div className="">

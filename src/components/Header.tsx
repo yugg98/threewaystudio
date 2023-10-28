@@ -41,13 +41,13 @@ export default function Header() {
                     >
                       Services
                     </Link>
-                    {/* <Link
+                    <Link
                       href="/academy"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                      Academy
-                    </Link> */}
-                    {/* <Link
+                    </Link> 
+                   <Link
                       href="/ourprocess"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
@@ -58,7 +58,7 @@ export default function Header() {
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                        Merch
-                    </Link> */}
+                    </Link>
                     <Link
                       href="/contactus"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
