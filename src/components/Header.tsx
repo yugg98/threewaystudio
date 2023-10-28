@@ -136,7 +136,7 @@ export default function Header() {
                 <Disclosure.Button
                   as="a"
                   href="https://calendly.com/threeway-studio/blockchain-consultation"
-                  className="block rounded-full px-3 py-2 text-center text-lg bg-purple-800 text-base font-bold text-white  hover:bg-purple-500 hover:text-white"
+                  className="block rounded-full px-3 py-2 text-center text-lg bg-purple-800  font-bold text-white  hover:bg-purple-500 hover:text-white"
                 >
                  let&apos;connect
                 </Disclosure.Button>

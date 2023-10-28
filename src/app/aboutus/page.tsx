@@ -148,7 +148,7 @@ export default function Abotuus() {
                       <img
                         src="img4.jpeg"
                         alt=""
-                        className="aspect-[6/6] w-[30] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[6/6] w-[30]  rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
