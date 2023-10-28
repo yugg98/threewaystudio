@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import Swiper from "swiper/react";
 
 const Ourclients = () => {
   return (
@@ -28,12 +29,11 @@ const Ourclients = () => {
         </div>
         <div className=" my-8">
           <Marquee className="grid gap-x-8" direction="right">
-            <img src="/logos/logo1.webp" className="mx-12 h-24 w-24" />
             <img src="/logos/logo2.jpg" className="mx-12 h-24 w-24" />
             <img src="/logos/logo3.jpg" className="mx-12 h-24 w-24" />
             <img src="/logos/logo4.jpg" className="mx-12 h-24 w-24" />
             <img src="/logos/logo5.jpg" className="mx-12 h-24 w-24" />
-            <img src="/logos/logo6.webp" className="mx-12 h-24 w-24" />
+            <img src="/logos/logo6.webp" className="mx-12 h-24 " />
             <img src="/logos/logo7.jfif" className="mx-12 h-24 w-24" />
           </Marquee>
         </div>
@@ -43,7 +43,7 @@ const Ourclients = () => {
             <img src="/logos/logo16.png" className="mx-12 h-24 " />
             <img src="/logos/logo17.jpg" className="mx-12 h-24 " />
             <img src="/logos/logo18.png" className="mx-12 h-24 " />
-            <img src="/logos/logo19.svg" className="mx-12 h-24 " />
+            {/* <img src="/logos/lognpo19.svg" className="mx-12 h-24 " /> */}
             <img src="/logos/logo20.jfif" className="mx-12 h-24 " />
             <img src="/logos/logo21.jfif" className="mx-12 h-24 " />
           </Marquee>

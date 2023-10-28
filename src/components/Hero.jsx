@@ -12,7 +12,9 @@ import {
 
 const Hero = () => (
   <div>
-    <section className={`${styles.yPaddings} sm:pl-16 pl-6 overflow-x-hidden overflow-y-hidden`}>
+    <section
+      className={`${styles.yPaddings} sm:pl-16 pl-6 overflow-x-hidden overflow-y-hidden`}
+    >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -51,14 +53,24 @@ const Hero = () => (
             alt="hero_cover"
             autoPlay
             muted
-            className="w-full md:h-[500px]  h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+            className="w-full md:h-[500px] lg:block hidden  h-[350px] object-cover rounded-tl-[140px] z-10 relative"
           >
             <source src="/hero.mp4" type="video/mp4" />
+          </video>
+          <video
+            alt="hero_cover"
+            autoPlay
+            muted
+            className="w-full md:h-[500px]   lg:hidden block   h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          >
+            <source src="/cta.mp4" type="video/mp4" />
           </video>
         </motion.div>
       </motion.div>
     </section>
-    <section className={`${styles.paddings} relative z-10 pt-0 mt-20`}>
+    <section
+      className={`${styles.paddings} relative z-10 pt-0 mt-20 max-w-7xl mx-auto`}
+    >
       <div className="gradient-02 z-0" />
       <motion.div
         variants={staggerContainer}
@@ -71,9 +83,9 @@ const Hero = () => (
 
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-white"
+          className="mt-[8px] font-normal sm:text-2xl text-lg text-center text-white"
         >
-          <span className="font-extrabold text-white">Threeway Studio</span> was
+          <span className="font-semibold text-white">Threeway Studio</span> was
           born with the passion for innovative technology and determination to
           stay ahead of the curve. It all began in 2020, when we set out to
           create a remarkable impact with blockchain tech in real life that was
