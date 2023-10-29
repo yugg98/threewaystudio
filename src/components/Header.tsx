@@ -1,5 +1,5 @@
 "use client";
-import { Disclosure, Menu, Popover, Transition } from "@headlessui/react";
+import { Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
   ChevronDownIcon,
@@ -62,6 +62,12 @@ export default function Header() {
                         leaveTo="opacity-0 translate-y-1"
                       >
                         <Popover.Panel className="absolute z-10 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+                        <Link
+                            href="/ourservices"
+                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                          >
+                            View More
+                          </Link>
                           <Link
                             href="/ourservices/development"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
@@ -116,7 +122,7 @@ export default function Header() {
                     href="https://calendly.com/threeway-studio/blockchain-consultation"
                     className="items-center font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
                   >
-                    Let&apos;connect
+                    Let&apos;s connect
                   </Link>
                 </div>
               </div>

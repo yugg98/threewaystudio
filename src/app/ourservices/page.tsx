@@ -247,7 +247,7 @@ const page = () => {
                     Design/Creation
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                    Designs that captivate.
+                    Designs that Captivate
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
@@ -313,7 +313,7 @@ const page = () => {
                     Development/Engineering
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                    Solutions that empower.{" "}
+                    Solutions that Empower
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
@@ -381,7 +381,7 @@ const page = () => {
                     Marketing/Outreach
                   </h2>
                   <p className="text-white text-center mt-4 text-lg ">
-                    Strategies that dominate.
+                    Strategies that Dominate
                   </p>
                   <div className="">
                     <div className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">

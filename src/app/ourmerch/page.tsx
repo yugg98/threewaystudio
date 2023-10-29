@@ -1,199 +1,135 @@
 "use client";
 import Hero from "@/components/merch/Hero";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
-
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import Pop from "@/components/Pop";
+import { useState } from "react";
 const products = [
+  
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Wallet",
+    href: "#",
+    imageSrc: "/merch/book.gif",
+    price: "$140",
+  },
+  {
+    id: 1,
+    name: "Tshirt",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/tshirt.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Notebook",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/notebook.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Keychain",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/keychain.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Hoodie",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/hoodie.gif",
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
+  
+  {
+    id: 1,
+    name: "Bag",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/merch/bag.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Mug",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/mug.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Pen",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/pen.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Bottle",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/bottle.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
     id: 1,
-    name: "Zip Tote Basket",
+    name: "Swag Box",
     color: "White and black",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
+    imageSrc: "/merch/crate.gif",
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
-  // More products...
+ 
+  {
+    id: 1,
+    name: "Badge",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/merch/badge.gif",
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
 ];
 
-const moreProducts = [
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  // More products...
-];
-
-export default function Example() {
+export default function Merch() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 sm:pt-12 lg:max-w-7xl lg:px-8">
       <div className="bg-gray-900 ">
-        <Swiper navigation={true} autoplay modules={[Navigation]} className="mySwiper">
+        <Swiper
+          navigation={true}
+          autoplay
+          modules={[Navigation]}
+          className="mySwiper"
+        >
           <SwiperSlide>
             <div className="relative isolate overflow-hidden rounded-md h-[600px]">
               <img
@@ -226,10 +162,7 @@ export default function Example() {
                   }}
                 />
               </div>
-              <div className="flex justify-center items-center h-full flex-col">
-              <p className="text-center lg:text-5xl text-3xl text-white font-semibold relative bottom-0">Featured Collection</p>
-              <button className="border px-6 py-2.5 mt-8 text-black bg-[#DCFA6C]  text-lg">Buy Now</button>
-              </div>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -268,7 +201,9 @@ export default function Example() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <h2 className="text-5xl my-24 text-center font-bold text-white">Customers also bought</h2>
+      <h2 className="text-5xl my-24 text-center font-bold text-white">
+        Shop Now
+      </h2>
 
       <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
         {products.map((product) => (
@@ -285,69 +220,28 @@ export default function Example() {
                 <h3 className="text-sm font-medium text-white">
                   {product.name}
                 </h3>
-                <p className="mt-1 text-sm text-gray-200">{product.color}</p>
               </div>
               <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
                 <div
                   aria-hidden="true"
                   className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"
                 />
-                <p className="relative text-lg font-semibold text-white">
-                  {product.price}
-                </p>
+               
               </div>
             </div>
             <div className="mt-6">
-              <a
-                href={product.href}
-                className="relative flex items-center bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
+              <button
+                onClick={() => setIsOpen(true)}
+                className="relative flex items-center w-full bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
               >
-                Add to bag<span className="sr-only">, {product.name}</span>
-              </a>
+                View More <span className="sr-only">, {product.name}</span>
+              </button>
             </div>
           </div>
         ))}
       </div>
-      <h2 className="text-5xl my-24 text-center font-bold text-white">More Products</h2>
 
-      <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-        {moreProducts.map((product) => (
-          <div key={product.id}>
-            <div className="relative">
-              <div className="relative h-72 w-full overflow-hidden rounded-lg">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center"
-                />
-              </div>
-              <div className="relative mt-4">
-                <h3 className="text-sm font-medium text-white">
-                  {product.name}
-                </h3>
-                <p className="mt-1 text-sm text-gray-200">{product.color}</p>
-              </div>
-              <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"
-                />
-                <p className="relative text-lg font-semibold text-purple-900">
-                  {product.price}
-                </p>
-              </div>
-            </div>
-            <div className="mt-6">
-              <a
-                href={product.href}
-                className="relative flex items-center bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
-              >
-                Add to bag<span className="sr-only">, {product.name}</span>
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
+      <Pop isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 }
