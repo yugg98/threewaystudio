@@ -45,7 +45,7 @@ const page = () => {
               <img src="/market.svg" className="w-12 h-12"/>
               <p className="text-xl text-white font-semibold mt-8">Market</p>
               <p className=" text-white mt-4">
-                Achieving your product's full potential and bringing the people
+                Achieving your product&apos;s full potential and bringing the people
                 into a time ruled by your ideals are both possible with the
                 right marketing methods with the help of our expertise
               </p>
@@ -57,7 +57,7 @@ const page = () => {
               </p>
               <p className=" text-white mt-4">
                 Threeway provides blockchain consulting services to make the
-                most of technology's potential and help learn more about your
+                most of technology&apos;s potential and help learn more about your
                 initiatives in the Web3 Space
               </p>
             </div>
