@@ -230,6 +230,7 @@ const page = () => {
                   src="/aboutus.mp4"
                   autoPlay={true}
                   muted
+                  controls
                 />
               </button>
             </div>
@@ -274,7 +275,7 @@ const page = () => {
                             {({ open }) => (
                               <>
                               <Disclosure.Button className="py-2 w-full mt-4 ">
-                                <img src="/arrow.svg" className={open?"rotate-180 absolute bottom-0  transform mx-auto":"mx-auto   "} />
+                                <img src="/arrow.svg" className={open?"rotate-180   transform mx-auto":"mx-auto   "} />
                               </Disclosure.Button>
                               <Disclosure.Panel className="text-gray-500">
                                 <ul className="mt-2 list-disc mx-4">

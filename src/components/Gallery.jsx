@@ -29,6 +29,13 @@ const Gallery = () => {
          modules={[ Autoplay,Navigation]}
          spaceBetween={50}
          slidesPerView={1}
+         navigation={{
+          disabledClass: 'disabled_swiper_button'
+
+        }}
+        style={{
+          "--swiper-navigation-size": "20px",
+        }}
          breakpoints={{
            320: {
              slidesPerView: 1,
@@ -48,7 +55,7 @@ const Gallery = () => {
              spaceBetween: 30,
            },
          }}
-         navigation
+         
          loop={true}
          autoplay={{
            delay: 1000,

@@ -112,7 +112,7 @@ export default function Header() {
               <div className="hidden sm:ml-6 lg:block">
                 <div className="flex items-center">
                   <Link
-                    href="/buy-ticket"
+                    href="https://calendly.com/threeway-studio/blockchain-consultation"
                     className="items-center font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
                   >
                     Let&apos;connect
@@ -173,7 +173,7 @@ export default function Header() {
                   href="https://calendly.com/threeway-studio/blockchain-consultation"
                   className="block rounded-full px-3 py-2 text-center text-lg bg-purple-800  font-bold text-white  hover:bg-purple-500 hover:text-white"
                 >
-                  let&apos;connect
+                  let&apos; connect
                 </Disclosure.Button>
               </div>
             </div>

@@ -53,7 +53,7 @@ const page = () => {
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
             <img src="/blockchain.png" className="w-12 h-12"/>
               <p className="text-xl text-white font-semibold mt-8">
-                Web 3/ Blockchain consultancy
+                Web3/ Blockchain consultancy
               </p>
               <p className=" text-white mt-4">
                 Threeway provides blockchain consulting services to make the

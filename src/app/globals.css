@@ -104,7 +104,7 @@ body{
   font-family: var(--font-euclid);
   overflow-x: hidden;
 }
-/* 
+
 .swiper-button-next,
 .swiper-button-prev {
     background-color: #DCFA6C;
@@ -116,4 +116,9 @@ body{
     color: #000 !important;
     fill: black !important;
     stroke: black !important;
-} */
+}
+.disabled_swiper_button {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
