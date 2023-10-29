@@ -74,6 +74,25 @@ const Ourclients = () => {
             <Link href="https://engage.isaca.org/newdelhichapter/home">
               <img src="/logos/logo36.svg" className="mx-12 invert  w-24" />
             </Link>
+            <Link href="https://foundershiphq.com/">
+              <img src="/logos/logo38.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://www.zeeve.io/">
+              <img src="/logos/logo39.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://copperx.io/">
+              <img src="/logos/logo40.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://app.social3.club/">
+              <img src="/logos/logo41.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://solidityscan.com/">
+              <img src="/logos/logo42.png" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://securedapp.io/">
+              <img src="/logos/logo43.svg" className="mx-12  w-24" />
+            </Link>
+           
           </Marquee>
         </div>
         <div className="">
@@ -117,24 +136,6 @@ const Ourclients = () => {
                   stroke-miterlimit="10"
                 />
               </svg>
-            </Link>
-            <Link href="https://foundershiphq.com/">
-              <img src="/logos/logo38.svg" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://www.zeeve.io/">
-              <img src="/logos/logo39.svg" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://copperx.io/">
-              <img src="/logos/logo40.svg" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://app.social3.club/">
-              <img src="/logos/logo41.svg" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://solidityscan.com/">
-              <img src="/logos/logo42.png" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://securedapp.io/">
-              <img src="/logos/logo43.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://www.rivametaverse.io//">
               <img src="/logos/logo44.png" className="mx-12  w-24" />
