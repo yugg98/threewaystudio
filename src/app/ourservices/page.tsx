@@ -24,7 +24,7 @@ const features = [
   },
   {
     name: "Game Design",
-    list: [" NFT Collection Artwork", "2D Artwork", "3D Artwork"],
+    list: ["NFT Marketplace", "Music NFT", "Gaming NFT","Generative Art"],
     description:
       "Level up your gaming journey with our game design expertise, where pixels come alive and thrilling adventures await at every virtual turn.",
     icon: UsersIcon,
@@ -38,7 +38,7 @@ const features = [
   },
   {
     name: "Interactive Design ",
-    list: [" NFT Collection Artwork", "2D Artwork", "3D Artwork"],
+    list: ["Discord Management", "Telegram Management"],
     description:
       "Ignite your user’s senses with our visually stunning interfaces and elevate user experiences to new heights through intuitive design that leaves a lasting impression.",
     icon: PencilSquareIcon,
@@ -337,11 +337,27 @@ const page = () => {
                               {feature.description}
                             </p>
                             <ul className="mt-2 list-disc mx-4">
-                              {feature.list.map((item) => (
-                                <li key={item} className="text-white text-lg">
-                                  {item}
-                                </li>
-                              ))}
+                            <Disclosure>
+                            {({ open }) => (
+                              <>
+                              <Disclosure.Button className="py-2 w-full mt-4">
+                                <img src="/arrow.svg" className={open?"rotate-180 transform mx-auto":"mx-auto"} />
+                              </Disclosure.Button>
+                              <Disclosure.Panel className="text-gray-500">
+                                <ul className="mt-2 list-disc mx-4">
+                                  {feature.list.map((item) => (
+                                    <li
+                                      key={item}
+                                      className="text-white text-lg"
+                                    >
+                                      {item}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </Disclosure.Panel>
+                              </>
+                            )}
+                            </Disclosure>
                             </ul>
                           </div>
                         </div>
@@ -389,11 +405,27 @@ const page = () => {
                               {feature.description}
                             </p>
                             <ul className="mt-2 list-disc mx-4">
-                              {feature.list.map((item) => (
-                                <li key={item} className="text-white text-lg">
-                                  {item}
-                                </li>
-                              ))}
+                            <Disclosure>
+                            {({ open }) => (
+                              <>
+                              <Disclosure.Button className="py-2 w-full mt-4">
+                                <img src="/arrow.svg" className={open?"rotate-180 transform mx-auto":"mx-auto"} />
+                              </Disclosure.Button>
+                              <Disclosure.Panel className="text-gray-500">
+                                <ul className="mt-2 list-disc mx-4">
+                                  {feature.list.map((item) => (
+                                    <li
+                                      key={item}
+                                      className="text-white text-lg"
+                                    >
+                                      {item}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </Disclosure.Panel>
+                              </>
+                            )}
+                            </Disclosure>
                             </ul>
                           </div>
                         </div>
