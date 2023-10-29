@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import Merchhero from "@/components/merch/Hero";
 import Ourclients from "@/components/Ourclients";
 import Process from "@/components/Process";
-import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 import React from "react";
 
@@ -16,13 +15,13 @@ const page = () => {
       <Process />
       <div className="gradient-04 z-0 max-w-full md:flex hidden" />
       <Gallery />
-      {/* <Merchhero /> */}
-      {/* <Link
+      <Merchhero /> 
+       <Link
         href="/merch"
         className=" relative top-[-80px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-lg font-semibold leading-7  "
       >
         Visit Swag Store
-      </Link> */}
+      </Link>
       <Ourclients/>
       <Cta />
     </div>

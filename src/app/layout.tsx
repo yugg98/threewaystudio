@@ -12,6 +12,9 @@ const mona = localFont({
 
 export const metadata: Metadata = {
   title: "Threewaystudio",
+  verification:{
+    google:"kRjBW7ijzBn4JdhCRkJi90ykLkI3GciDbUScOOAz71Q" 
+  }
 };
 
 export default function RootLayout({

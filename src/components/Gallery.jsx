@@ -26,16 +26,18 @@ const Gallery = () => {
       </div>
       <div className="my-12   mx-auto py-10">
         <Swiper
-         modules={[ Autoplay]}
+         modules={[ Autoplay,Navigation]}
          spaceBetween={50}
          slidesPerView={1}
          breakpoints={{
            320: {
              slidesPerView: 1,
+             showSwitchArrows: false
            },
            640: {
              slidesPerView: 1,
              spaceBetween: 20,
+             showSwitchArrows: false
            },
            1024: {
              slidesPerView: 2,
