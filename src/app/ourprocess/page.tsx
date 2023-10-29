@@ -97,9 +97,9 @@ const page = () => {
             </div>
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="img/img.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -108,9 +108,9 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="img/img2.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -158,7 +158,7 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-384 1x, https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-640 2x"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
@@ -195,7 +195,8 @@ const page = () => {
             </div>
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                
+                src="img/img3.png"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
@@ -206,7 +207,8 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+              src="https://ik.imagekit.io/shishirtiwari23/Threeway/Compressed__gOZ54lp3.gif?tr=w-640"
+                
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
@@ -243,88 +245,19 @@ const page = () => {
             </div>
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+               src="img/develop.png"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
             </div>
           </div>
         </div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1085"
-          height="745"
-          viewBox="0 0 1085 745"
-          className="max-w-full absolute left-0 z-[-1]"
-          fill="none"
-        >
-          <g filter="url(#filter0_f_153_1464)">
-            <circle cx="463" cy="622" r="123" fill="#EC79F5" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_153_1464"
-              x="-159"
-              y="0"
-              width="1244"
-              height="1244"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="249.5"
-                result="effect1_foregroundBlur_153_1464"
-              />
-            </filter>
-          </defs>
-        </svg>
-        <svg
-          className="max-w-full absolute right-0  z-[-1]"
-          xmlns="http://www.w3.org/2000/svg"
-          width="663"
-          height="765"
-          viewBox="0 0 663 765"
-          fill="none"
-        >
-          <g filter="url(#filter0_f_153_1463)">
-            <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_153_1463"
-              x="0"
-              y="-191"
-              width="956"
-              height="956"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="199.5"
-                result="effect1_foregroundBlur_153_1463"
-              />
-            </filter>
-          </defs>
-        </svg>
+      
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-8">
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                 src="https://ik.imagekit.io/shishirtiwari23/Threeway/marketImage_EzMLIKVx5.gif?tr=w-640"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
