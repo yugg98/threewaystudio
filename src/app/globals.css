@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -99,23 +98,30 @@
   filter: blur(150px);
 }
 
-body{
-  background: linear-gradient(90deg, #14101B -0.96%, #0E0E10 99.97%);
+body {
+  background: linear-gradient(90deg, #14101b -0.96%, #0e0e10 99.97%);
   font-family: var(--font-euclid);
   overflow-x: hidden;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    background-color: #DCFA6C;
-    background-color: #DCFA6C;
-    border-radius: 100%;
-    right:10px;
-    padding: 30px;
-    width: 10px !important;
-    color: #000 !important;
-    fill: black !important;
-    stroke: black !important;
+  background-color: #dcfa6c;
+  background-color: #dcfa6c;
+  border-radius: 100%;
+  right: 10px;
+  padding: 30px;
+  width: 10px !important;
+  color: #000 !important;
+  fill: black !important;
+  stroke: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    opacity: 0;
+  }
 }
 .disabled_swiper_button {
   opacity: 0;
