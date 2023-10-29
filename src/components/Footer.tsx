@@ -97,6 +97,8 @@ const navigation = {
           y="0px"
           fill="currentColor"
           viewBox="0 0 24 24"
+          width="30"
+          height="30"
           {...props}
         >
           <path
@@ -175,7 +177,7 @@ export default function Example() {
                   ))}
                 </ul>
               </div>
-              <div>
+              <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Legal
                 </h3>
