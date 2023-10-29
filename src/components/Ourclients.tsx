@@ -92,6 +92,9 @@ const Ourclients = () => {
             <Link href="https://keploy.io/">
               <img src="/logos/logo29.svg" className="mx-12  w-24" />
             </Link>
+            <Link href="https://marytachibananft.medium.com/official-partnership-announcement-mary-tachibana-x-threeway-studio-ae2b7492c26b">
+              <img src="/logos/logo37.jpeg" className="mx-12  w-24" />
+            </Link>
           </Marquee>
         </div>
       </div>

@@ -15,12 +15,18 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-gray-900 ">
-      <div className="relative isolate overflow-hidden rounded-md h-[600px]">
+    <div className=" ">
+      <div className="mx-auto max-w-xl text-center">
+        <p className="my-10 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+           Threeway Merch
+        </p>
+        
+      </div>
+      <div className="relative isolate overflow-hidden rounded-md md:h-[600px] h-full max-w-full  ">
         <img
           src="/merch.jpeg"
           alt=""
-          className="absolute inset-0 -z-10 h-[600px] w-full object-cover "
+          className="absolute max-w-full  inset-0 -z-10 h-[600px] w-full object-cover "
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

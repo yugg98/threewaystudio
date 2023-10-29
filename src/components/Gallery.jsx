@@ -120,6 +120,7 @@ const Gallery = () => {
               />
             </a>
           </SwiperSlide>
+          
         </Swiper>
       </div>
     </div>

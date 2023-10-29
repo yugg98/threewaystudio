@@ -3,13 +3,10 @@
 import { useState } from "react";
 import Cta from "@/components/Cta";
 
-
 const stats = [
   { label: "Underpaid employees", value: "30+" },
   { label: "Placated clients  ", value: "50+" },
 ];
-
-
 
 export default function Abotuus() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -96,7 +93,7 @@ export default function Abotuus() {
                     Hello Tech Savvy Maestros,
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-200 sm:max-w-md lg:max-w-none">
-                    We&apos;re Threeway Studio, A creative GaaS & BaaS (Growth &
+                    We&apos;re Threeway Studio, a creative GaaS & BaaS (Growth &
                     Blockchain as a Service Company) focused on Creation,
                     Engineering & Outreach!
                     <br />
@@ -107,52 +104,7 @@ export default function Abotuus() {
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative">
-                      <img
-                        src="img5.jpeg"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                    <div className="relative">
-                      <img
-                        src="/img.jpeg"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <img
-                       src="/img2.jpeg"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                    <div className="relative">
-                      <img
-                        src="img3.jpeg"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <img
-                        src="img4.jpeg"
-                        alt=""
-                        className="aspect-[6/6] w-[30]  rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
+                  <img src="/aboutus.png" />
                 </div>
               </div>
             </div>
