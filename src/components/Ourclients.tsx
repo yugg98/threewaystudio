@@ -41,7 +41,7 @@ const Ourclients = () => {
               <img src="/logos/logo32.png" className="mx-12 w-24 invert" />
             </Link>
             <Link href="https://komet.me/">
-              <img src="/logos/logo33.svg" className="mx-12 w-24 invert" />
+              <img src="/logos/logo33.svg" className="mx-12 w-24 " />
             </Link>
             <Link href="https://bnest.in/">
               <img src="/logos/logo35.png" className="mx-12 w-24 invert" />
@@ -72,7 +72,7 @@ const Ourclients = () => {
               <img src="/logos/logo28.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://engage.isaca.org/newdelhichapter/home">
-              <img src="/logos/logo36.svg" className="mx-12  w-24" />
+              <img src="/logos/logo36.svg" className="mx-12 invert  w-24" />
             </Link>
           </Marquee>
         </div>
@@ -117,6 +117,33 @@ const Ourclients = () => {
                   stroke-miterlimit="10"
                 />
               </svg>
+            </Link>
+            <Link href="https://foundershiphq.com/">
+              <img src="/logos/logo38.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://www.zeeve.io/">
+              <img src="/logos/logo39.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://copperx.io/">
+              <img src="/logos/logo40.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://app.social3.club/">
+              <img src="/logos/logo41.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://solidityscan.com/">
+              <img src="/logos/logo42.png" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://securedapp.io/">
+              <img src="/logos/logo43.svg" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://www.rivametaverse.io//">
+              <img src="/logos/logo44.png" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://www.hashcase.co/">
+              <img src="/logos/logo45.webp" className="mx-12  w-24" />
+            </Link> 
+            <Link href="https://www.befikracommunity.in/">
+              <img src="/logos/logo46.png" className="mx-12  w-24" />
             </Link>
           </Marquee>
         </div>

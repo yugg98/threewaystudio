@@ -99,7 +99,7 @@ const page = () => {
               <img
                 src="img/img.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -150,7 +150,7 @@ const page = () => {
                 
                 src="monshot.gif"
                 alt="Features Image"
-                className=" inline-block h-full w-full max-w-sm  rounded-2xl object-cover"
+                className=" inline-block h-full w-full max-w-xs  rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -254,7 +254,6 @@ const page = () => {
             </div>
           </div>
         </div>
-      
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-8">
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>

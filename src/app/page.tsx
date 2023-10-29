@@ -69,7 +69,7 @@ const page = () => {
       <Merchhero />
       <Link
         href="/merch"
-        className=" md:relative md:m-0 m-10 top-[-80px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-xs font-semibold leading-7  "
+        className=" md:relative  m-10 top-[-120px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-xs font-semibold leading-7  "
       >
         Visit Swag Store
       </Link>
