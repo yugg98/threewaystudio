@@ -22,11 +22,11 @@ export default function Hero() {
         </p>
         
       </div>
-      <div className="relative isolate overflow-hidden rounded-md md:h-[600px] h-full max-w-full  ">
+      <div className="relative isolate overflow-hidden rounded-md md:h-[600px] h-[200px]  bg-cover   ">
         <img
           src="/merch.jpeg"
           alt=""
-          className="absolute max-w-full  inset-0 -z-10 h-[600px] w-full object-cover "
+          className="absolute max-w-full  inset-0 -z-10 md:h-[600px] w-full object-cover "
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
