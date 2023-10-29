@@ -74,7 +74,7 @@ export default function Header() {
                             Development
                           </Link>
                           <Link
-                            href="/ourservices/development"
+                            href="/ourservices/marketing"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Marketing

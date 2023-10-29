@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="relative overflow-hidden bg-gray-900 pb-32 pt-16">
+      <div className="relative overflow-hidden  pb-32 pt-16">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">

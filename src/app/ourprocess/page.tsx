@@ -110,7 +110,7 @@ const page = () => {
               <img
                 src="img/img2.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -147,9 +147,9 @@ const page = () => {
             </div>
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="/img4.jpeg"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm mx-auto rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -196,9 +196,9 @@ const page = () => {
             <div>
               <img
                 
-                src="img/img3.png"
+                src="https://ik.imagekit.io/shishirtiwari23/Threeway/HeroShot_ObvLcLQlI.gif?tr=w-828"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -207,10 +207,9 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-              src="https://ik.imagekit.io/shishirtiwari23/Threeway/Compressed__gOZ54lp3.gif?tr=w-640"
-                
+                src="img/develop.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -245,9 +244,9 @@ const page = () => {
             </div>
             <div>
               <img
-               src="img/develop.png"
+               src="monshot.gif"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
             </div>
           </div>
