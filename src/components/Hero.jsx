@@ -62,7 +62,7 @@ const Hero = () => (
           <video
             alt="hero_cover"
             autoPlay
-            muted
+            
             loop
             controls
             className="w-full md:h-[500px]   lg:hidden block   h-[350px] object-cover rounded-tl-[140px] z-10 relative"

@@ -95,6 +95,29 @@ const Ourclients = () => {
             <Link href="https://marytachibananft.medium.com/official-partnership-announcement-mary-tachibana-x-threeway-studio-ae2b7492c26b">
               <img src="/logos/logo37.jpeg" className="mx-12  w-24" />
             </Link>
+            <Link href="https://metamerch.store/">
+              <svg
+                className="invert"
+                width="50"
+                height="50"
+                viewBox="0 0 775 617"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 462.476C275.121 631.081 487.057 634.23 760.773 462.476"
+                  stroke="black"
+                  stroke-width="53.3333"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M26.9004 282.72L63.0551 86.0864L182.342 328.149L304.326 77.9184L384.543 382.665L462.702 75.9997L594.276 328.149L711.272 85.3144L748.754 281.954"
+                  stroke="black"
+                  stroke-width="53.3333"
+                  stroke-miterlimit="10"
+                />
+              </svg>
+            </Link>
           </Marquee>
         </div>
       </div>

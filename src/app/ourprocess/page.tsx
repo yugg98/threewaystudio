@@ -147,9 +147,10 @@ const page = () => {
             </div>
             <div>
               <img
-                src="/img4.jpeg"
+                
+                src="monshot.gif"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm mx-auto rounded-2xl object-cover"
+                className=" inline-block h-full w-full max-w-sm  rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -158,9 +159,10 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-384 1x, https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-640 2x"
+               src="/img4.jpeg"
+                
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -214,7 +216,7 @@ const page = () => {
             </div>
             <div className="max-w-[720px]">
               <h3 className="mb-4 mt-6 text-2xl text-white font-bold md:text-3xl">
-              Development
+              Engineering
               </h3>
               <p className="mb-6 max-w-[480px] text-white md:mb-10 lg:mb-12">
               Our team gets to rigorous product development & builds the first minimum viable product (MVP).              </p>
@@ -244,7 +246,8 @@ const page = () => {
             </div>
             <div>
               <img
-               src="monshot.gif"
+              
+              src="https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-384 1x, https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-640 2x"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
               />
