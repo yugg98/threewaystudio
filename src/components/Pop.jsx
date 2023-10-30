@@ -65,7 +65,7 @@ export default function MyDialog({ isOpen, setIsOpen, data }) {
                 <img src={data.imageSrc} />
               </SwiperSlide>
               {data.images?.map((e, id) => (
-                <SwiperSlide >
+                <SwiperSlide key={id} >
                   <img src={e} className="h-[400px] mx-auto" />
                 </SwiperSlide>
               ))}
