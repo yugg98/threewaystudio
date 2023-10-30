@@ -10,33 +10,40 @@ const products = [
   
   {
     id: 1,
-    name: "Wallet",
+    name: "Book",
     href: "#",
     imageSrc: "/merch/book.gif",
     price: "$140",
   },
   {
-    id: 1,
+    id: 2,
     name: "Tshirt",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/tshirt.gif",
+    images:[
+      "/m/hoodie1.png"
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
-    id: 1,
+    id: 3,
     name: "Notebook",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/notebook.gif",
+    images:[
+      "/m/notebook1.png",
+      "/m/notebook2.png",
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
-    id: 1,
+    id: 4,
     name: "Keychain",
     color: "White and black",
     href: "#",
@@ -46,28 +53,38 @@ const products = [
     price: "$140",
   },
   {
-    id: 1,
+    id: 5,
     name: "Hoodie",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/hoodie.gif",
+    images:[
+      "/m/hoodie1.png",
+      "/m/hoodie2.png",
+      "/m/hoodie3.png"
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   
   {
-    id: 1,
+    id: 6,
     name: "Bag",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/bag.gif",
+    images:[
+      "/m/bag1.png",
+      "/m/bag2.jpg",
+      "/m/bag3.jpg"
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
-    id: 1,
+    id: 7,
     name: "Mug",
     color: "White and black",
     href: "#",
@@ -77,7 +94,7 @@ const products = [
     price: "$140",
   },
   {
-    id: 1,
+    id: 8,
     name: "Pen",
     color: "White and black",
     href: "#",
@@ -87,17 +104,20 @@ const products = [
     price: "$140",
   },
   {
-    id: 1,
+    id: 9,
     name: "Bottle",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/bottle.gif",
+    images:[
+      "/m/bottle.png",
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
   {
-    id: 1,
+    id: 10,
     name: "Swag Box",
     color: "White and black",
     href: "#",
@@ -108,11 +128,17 @@ const products = [
   },
  
   {
-    id: 1,
+    id: 11,
     name: "Badge",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/badge.gif",
+    images:[
+      "/m/badge.png",
+      "/m/badge1.png",
+      "/m/badge2.png",
+      "/m/badge4.jpg"
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -121,6 +147,7 @@ const products = [
 
 export default function Merch() {
   const [isOpen, setIsOpen] = useState(false);
+  const [data,setData] = useState({})
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 sm:pt-12 lg:max-w-7xl lg:px-8">
       <div className="bg-gray-900 ">
@@ -231,7 +258,10 @@ export default function Merch() {
             </div>
             <div className="mt-6">
               <button
-                onClick={() => setIsOpen(true)}
+                onClick={() => {
+                  setData(product)
+                   setIsOpen(true)
+                }}
                 className="relative flex items-center w-full bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
               >
                 View More <span className="sr-only">, {product.name}</span>
@@ -241,7 +271,7 @@ export default function Merch() {
         ))}
       </div>
 
-      <Pop isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Pop isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
     </div>
   );
 }

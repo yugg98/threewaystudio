@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
-export default function MyDialog({ isOpen, setIsOpen }) {
+export default function MyDialog({ isOpen, setIsOpen, data }) {
   return (
     <Dialog
       open={isOpen}
@@ -20,9 +20,9 @@ export default function MyDialog({ isOpen, setIsOpen }) {
       className="relative z-50"
     >
       <div className="fixed inset-0 flex w-screen items-center justify-center ">
-        <Dialog.Panel className="w-full rounded-xl p-4 max-w-sm  bg-[#0E0E10]">
+        <Dialog.Panel className="w-full rounded-xl p-4 max-w-md   bg-[#0E0E10]">
           <Dialog.Title className="text-white text-3xl text-center">
-            Pen
+            {data.name}
           </Dialog.Title>
           <div className="mt-4">
             <Swiper
@@ -62,21 +62,23 @@ export default function MyDialog({ isOpen, setIsOpen }) {
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <img src="/merch/pen.gif" />
+                <img src={data.imageSrc} />
               </SwiperSlide>
-              <SwiperSlide>
-                <img src="/merch/pen.gif" />
-              </SwiperSlide>
+              {data.images?.map((e, id) => (
+                <SwiperSlide >
+                  <img src={e} className="h-[400px] mx-auto" />
+                </SwiperSlide>
+              ))}
+
               <Link
-                    href="https://calendly.com/threeway-studio/blockchain-consultation"
-                    className="items-center font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
-                  >
-                    Buy Now
-                  </Link>
+                href="https://calendly.com/threeway-studio/blockchain-consultation"
+                className="items-center font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
+              >
+                Buy Now
+              </Link>
             </Swiper>
-            
           </div>
-          
+
           {/* ... */}
         </Dialog.Panel>
       </div>
