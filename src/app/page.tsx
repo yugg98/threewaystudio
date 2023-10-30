@@ -68,7 +68,7 @@ const page = () => {
       <Gallery />
       <Merchhero />
       <Link
-        href="/merch"
+        href="/ourmerch"
         className=" md:relative  m-10 top-[-120px] text-center mx-auto bg-[#DCFA6C] text-black block rounded-lg px-3 py-2 text-base max-w-xs font-semibold leading-7  "
       >
         Visit Swag Store
