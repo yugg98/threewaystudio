@@ -6,14 +6,18 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Pop from "@/components/Pop";
 import { useState } from "react";
+import { ArrowPathIcon, CheckBadgeIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, TruckIcon } from "@heroicons/react/24/outline";
 const products = [
   
   {
     id: 1,
-    name: "Book",
+    name: "Wallet",
     href: "#",
     imageSrc: "/merch/book.gif",
     price: "$140",
+    images:[
+      "/m/wallet.png",
+    ]
   },
   {
     id: 2,
@@ -48,6 +52,9 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/keychain.gif",
+    images:[
+      "/m/keychain.png",
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -75,7 +82,6 @@ const products = [
     href: "#",
     imageSrc: "/merch/bag.gif",
     images:[
-      "/m/bag1.png",
       "/m/bag2.jpg",
       "/m/bag3.jpg"
     ],
@@ -89,6 +95,10 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/mug.gif",
+    images:[
+      "/m/mug1.jpg",
+
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -99,6 +109,11 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/pen.gif",
+    images:[
+      "/m/pen1.png",
+      "/m/pen2.png",
+
+    ],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -144,6 +159,22 @@ const products = [
     price: "$140",
   },
 ];
+
+const features = [
+  {
+    name: 'Free Shipping and Returns',
+    icon: CheckBadgeIcon,
+  },
+  {
+    name: 'Secured Payments',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Customer Service',
+    icon: TruckIcon,
+  },
+  
+]
 
 export default function Merch() {
   const [isOpen, setIsOpen] = useState(false);
@@ -236,7 +267,7 @@ export default function Merch() {
         {products.map((product) => (
           <div key={product.id}>
             <div className="relative">
-              <div className="relative h-72 w-full overflow-hidden rounded-lg">
+              <div className=" h-72 w-full overflow-hidden rounded-lg">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
@@ -248,13 +279,7 @@ export default function Merch() {
                   {product.name}
                 </h3>
               </div>
-              <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"
-                />
-               
-              </div>
+              
             </div>
             <div className="mt-6">
               <button
@@ -272,6 +297,19 @@ export default function Merch() {
       </div>
 
       <Pop isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
+      <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-32 lg:max-w-7xl">
+          <dl className="grid  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+            {features.map((feature) => (
+              <div key={feature.name} className="relative pl-16">
+                <dt className="text-base text-center text-white font-semibold leading-7 t">
+                    <feature.icon className="h-7 mx-auto w-7 text-[#DCFA6C]" aria-hidden="true" />
+                    <p className="mt-4 text-xl">
+                  {feature.name}</p>
+                </dt>
+              </div>
+            ))}
+          </dl>
+        </div>
     </div>
   );
 }

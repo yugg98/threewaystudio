@@ -65,8 +65,11 @@ export default function MyDialog({ isOpen, setIsOpen, data }) {
                 <img src={data.imageSrc} />
               </SwiperSlide>
               {data.images?.map((e, id) => (
+                
                 <SwiperSlide key={id} >
-                  <img src={e} className="h-[400px] mx-auto" />
+                  <div className="flex justify-center items-center h-full w-full">
+                  <img src={e} className=" mx-auto" />
+                  </div>
                 </SwiperSlide>
               ))}
 

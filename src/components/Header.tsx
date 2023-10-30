@@ -66,25 +66,25 @@ export default function Header() {
                             href="/ourservices"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                            View More
+                            Explore More
                           </Link>
                           <Link
                             href="/ourservices/development"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                            Design
+                            Design & Creation
                           </Link>
                           <Link
                             href="/ourservices/development"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                            Development
+                           Engineering
                           </Link>
                           <Link
                             href="/ourservices/marketing"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                            Marketing
+                            Marketing & Outreach 
                           </Link>
                         </Popover.Panel>
                       </Transition>
