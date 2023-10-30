@@ -97,9 +97,9 @@ const page = () => {
             </div>
             <div>
               <img
-                src="img/img.png"
+               src="https://ik.imagekit.io/shishirtiwari23/Threeway/HeroShot_ObvLcLQlI.gif?tr=w-828"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w- rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -108,9 +108,9 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="img/img2.png"
+                 src="img/develop.png"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w- rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -147,10 +147,9 @@ const page = () => {
             </div>
             <div>
               <img
-                
-                src="monshot.gif"
+                src="https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-384 1x, https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-640 2x"
                 alt="Features Image"
-                className=" inline-block h-full w-full max-w-xs  rounded-2xl object-cover"
+                className=" inline-block h-full w-full max-w-  rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -159,10 +158,11 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-               src="/img4.jpeg"
+               
+               src="https://ik.imagekit.io/shishirtiwari23/Threeway/marketImage_EzMLIKVx5.gif?tr=w-640"
                 
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full  rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -197,10 +197,10 @@ const page = () => {
             </div>
             <div>
               <img
+                src="img/img.png"
                 
-                src="https://ik.imagekit.io/shishirtiwari23/Threeway/HeroShot_ObvLcLQlI.gif?tr=w-828"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -209,9 +209,10 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="img/develop.png"
+              src="img/img2.png"
+               
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">
@@ -246,10 +247,10 @@ const page = () => {
             </div>
             <div>
               <img
+             src="monshot.gif"
               
-              src="https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-384 1x, https://ik.imagekit.io/shishirtiwari23/Threeway/gif_K2J3n5b4p.gif?tr=w-640 2x"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-sm rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
           </div>
@@ -258,9 +259,9 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                 src="https://ik.imagekit.io/shishirtiwari23/Threeway/marketImage_EzMLIKVx5.gif?tr=w-640"
+              src="/img4.jpeg"
                 alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
+                className="mx-auto inline-block h-full w-full max-w-xs rounded-2xl object-cover"
               />
             </div>
             <div className="max-w-[720px]">

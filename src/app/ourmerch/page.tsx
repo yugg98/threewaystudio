@@ -131,11 +131,11 @@ export default function Merch() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="relative isolate overflow-hidden rounded-md h-[600px]">
+            <div className="relative isolate overflow-hidden rounded-md md:h-[600px] h-[200px]">
               <img
                 src="/merch.jpeg"
                 alt=""
-                className="absolute inset-0 -z-10 h-[600px] w-full object-cover "
+                className="absolute inset-0 -z-10 md:h-[600px] h-[200px] w-full object-cover "
               />
               <div
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -165,12 +165,12 @@ export default function Merch() {
              
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="relative isolate overflow-hidden rounded-md h-[600px]">
+          {/* <SwiperSlide>
+            <div className="relative isolate overflow-hidden rounded-md md:h-[600px] h-[200px]">
               <img
                 src="https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg"
                 alt=""
-                className="absolute inset-0 -z-10 h-[600px] w-full object-cover "
+                className="absolute inset-0 -z-10 md:h-[600px] h-[200px] w-full object-cover "
               />
               <div
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -198,7 +198,7 @@ export default function Merch() {
                 />
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
       <h2 className="text-5xl my-24 text-center font-bold text-white">

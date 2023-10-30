@@ -122,7 +122,7 @@ export default function Header() {
                     href="https://calendly.com/threeway-studio/blockchain-consultation"
                     className="items-center font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
                   >
-                    Let&apos;s connect
+                    Let&apos;s Connect
                   </Link>
                 </div>
               </div>
@@ -147,21 +147,21 @@ export default function Header() {
               <Disclosure.Button
                 as="a"
                 href="/"
-                className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
               >
                 Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/aboutus"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
               >
                 About us
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/ourservices"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
               >
                 Services
               </Disclosure.Button>
@@ -202,7 +202,7 @@ export default function Header() {
                   href="https://calendly.com/threeway-studio/blockchain-consultation"
                   className="block rounded-full px-3 py-2 text-center text-lg bg-purple-800  font-bold text-white  hover:bg-purple-500 hover:text-white"
                 >
-                  let&apos; connect
+                  Let&apos;s Connect
                 </Disclosure.Button>
               </div>
             </div>
