@@ -75,7 +75,7 @@ export default function MyDialog({ isOpen, setIsOpen, data }) {
 
               <Link
                 href="https://calendly.com/threeway-studio/blockchain-consultation"
-                className="items-center mt-4 font-display justify-center hidden px-4 py-3 text-white rounded md:flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
+                className="items-center mt-4 font-display justify-center  px-4 py-3 text-white rounded flex buttonbg hover:scale-95 active:scale-90 font-semibold transition-all duration-150 !bg-[#6c36ab] hover:text-white shadow-sm shadow-[#c977d6] hover:shadow-md hover:shadow-[#c977d6] ease-in-out"
               >
                 Buy Now
               </Link>

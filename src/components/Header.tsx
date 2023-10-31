@@ -175,29 +175,28 @@ export default function Header() {
                       <Disclosure.Button
                         as="a"
                         href="/ourservices"
-                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                        className="block rounded-md px-3 text-sm py-2  font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                       >
                         Explore More
                       </Disclosure.Button>
                       <Disclosure.Button
                         as="a"
-                        href="/ourservices/marketing"
-                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                        href="/ourservices/design"
+                        className="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                       >
                         Design & Creation
                       </Disclosure.Button>
                       <Disclosure.Button
                         as="a"
                         href="/ourservices/development"
-                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                        className="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                       >
                         Engineering
                       </Disclosure.Button>
                       <Disclosure.Button
                         as="a"
                         href="/ourservices/marketing"
-                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-                      >
+                        className="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"                      >
                         Marketing & Outreach
                       </Disclosure.Button>
                     </Disclosure.Panel>

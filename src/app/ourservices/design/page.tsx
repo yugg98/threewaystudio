@@ -1,9 +1,80 @@
 import Cta from "@/components/Cta";
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-black">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1085"
+        height="745"
+        viewBox="0 0 1085 745"
+        className="max-w-full absolute left-0 z-[1]"
+        fill="none"
+      >
+        <g filter="url(#filter0_f_153_1464)">
+          <circle cx="463" cy="622" r="123" fill="#EC79F5" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_153_1464"
+            x="-159"
+            y="0"
+            width="1244"
+            height="1244"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="249.5"
+              result="effect1_foregroundBlur_153_1464"
+            />
+          </filter>
+        </defs>
+      </svg>
+      <svg
+        className="max-w-full absolute right-0 top-0 z-[1]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="663"
+        height="765"
+        viewBox="0 0 663 765"
+        fill="none"
+      >
+        <g filter="url(#filter0_f_153_1463)">
+          <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_153_1463"
+            x="0"
+            y="-191"
+            width="956"
+            height="956"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="199.5"
+              result="effect1_foregroundBlur_153_1463"
+            />
+          </filter>
+        </defs>
+      </svg>
       <div className="relative overflow-hidden  pb-32 pt-16">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
@@ -31,28 +102,100 @@ const page = () => {
                     marketplaces.{" "}
                   </p>
                   <div className="mt-6">
-                    <a
-                      href="#"
-                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    <Link
+                      href="/contact us"
+                      className="inline-flex z-[100] rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
-                  alt="Inbox user interface"
+              <div className=" lg:relative lg:m-0 lg:h-full lg:px-0">
+                <video
+                  className="w-full max-w-full"
+                  src="/d1.mp4"
+                  autoPlay={true}
+                  muted
+                  loop
                 />
               </div>
             </div>
           </div>
         </div>
         <div className="mt-24">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1085"
+            height="745"
+            viewBox="0 0 1085 745"
+            className="max-w-full absolute left-0 z-[1]"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1464)">
+              <circle cx="463" cy="622" r="123" fill="#EC79F5" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1464"
+                x="-159"
+                y="0"
+                width="1244"
+                height="1244"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="249.5"
+                  result="effect1_foregroundBlur_153_1464"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            className="max-w-full absolute right-0 top-0 z-[1]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="663"
+            height="765"
+            viewBox="0 0 663 765"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1463)">
+              <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1463"
+                x="0"
+                y="-191"
+                width="956"
+                height="956"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="199.5"
+                  result="effect1_foregroundBlur_153_1463"
+                />
+              </filter>
+            </defs>
+          </svg>
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
@@ -89,18 +232,105 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
-                  alt="Customer profile user interface"
-                />
+              <div className="   lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div className="grid p-4 grid-cols-2 grid-rows-2 md:gap-6 gap-4 max-w-full">
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full  lg:max-w-full"
+                    src="/game/img1.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/img2.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/img3.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/img4.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="relative">
-          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1085"
+            height="745"
+            viewBox="0 0 1085 745"
+            className="max-w-full absolute left-0 z-[1]"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1464)">
+              <circle cx="463" cy="622" r="123" fill="#EC79F5" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1464"
+                x="-159"
+                y="0"
+                width="1244"
+                height="1244"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="249.5"
+                  result="effect1_foregroundBlur_153_1464"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            className="max-w-full absolute right-0 top-0 z-[1]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="663"
+            height="765"
+            viewBox="0 0 663 765"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1463)">
+              <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1463"
+                x="0"
+                y="-191"
+                width="956"
+                height="956"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="199.5"
+                  result="effect1_foregroundBlur_153_1463"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <div className="lg:mx-auto z-[100] lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
               <div>
                 <div className="mt-6">
@@ -127,28 +357,100 @@ const page = () => {
                     Blockchain-based Virtual Realms with us.{" "}
                   </p>
                   <div className="mt-6">
-                    <a
-                      href="#"
+                    <Link
+                      href="/contact us"
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
-                  alt="Inbox user interface"
+            <div className="mt-12 sm:mt-16 lg:mt-32 rounded-lg m-4">
+              <div className=" lg:relative lg:m-0 lg:h-full lg:px-0">
+                <video
+                  className="w-full max-w-full"
+                  src="/metaverse.mp4"
+                  autoPlay={true}
+                  muted
+                  loop
                 />
               </div>
             </div>
           </div>
         </div>
         <div className="mt-24">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1085"
+            height="745"
+            viewBox="0 0 1085 745"
+            className="max-w-full absolute left-0 z-[1]"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1464)">
+              <circle cx="463" cy="622" r="123" fill="#EC79F5" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1464"
+                x="-159"
+                y="0"
+                width="1244"
+                height="1244"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="249.5"
+                  result="effect1_foregroundBlur_153_1464"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            className="max-w-full absolute right-0 top-0 z-[1]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="663"
+            height="765"
+            viewBox="0 0 663 765"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_153_1463)">
+              <circle cx="478" cy="287" r="79" fill="#DCFA6C" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_153_1463"
+                x="0"
+                y="-191"
+                width="956"
+                height="956"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="199.5"
+                  result="effect1_foregroundBlur_153_1463"
+                />
+              </filter>
+            </defs>
+          </svg>
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
@@ -173,23 +475,40 @@ const page = () => {
                     creatives.
                   </p>{" "}
                   <div className="mt-6">
-                    <a
-                      href="#"
+                    <Link
+                      href="/contact us"
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
-                  alt="Customer profile user interface"
-                />
+            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-36">
+              <div className="   lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div className="grid p-4 grid-cols-2 grid-rows-2 md:gap-6 gap-4 max-w-full">
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full  lg:max-w-full"
+                    src="/game/m1.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/m2.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/m3.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                  <img
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5  lg:h-full  lg:max-w-full"
+                    src="/game/m4.jpeg"
+                    alt="Customer profile user interface"
+                  />
+                </div>
               </div>
             </div>
           </div>
