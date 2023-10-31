@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Pop from "@/components/Pop";
 import { useState } from "react";
-import { ArrowPathIcon, CheckBadgeIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, TruckIcon } from "@heroicons/react/24/outline";
+import {  CheckBadgeIcon, LockClosedIcon, TruckIcon } from "@heroicons/react/24/outline";
 const products = [
   
   {

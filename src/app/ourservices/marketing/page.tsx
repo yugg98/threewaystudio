@@ -111,26 +111,13 @@ const page = () => {
                 
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                    Community Management
+                  AR Marketing
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                    Nurture Thriving Communities with our Expert Moderators,
-                    From 0 to 10x Strong in 3 months.
+                  Embark on Augmented Reality Adventures & Redefine Visual Experiences with Us.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                    At Threeway Studio, we believe in creating your community on
-                    Day 0 and building your product on Day 1. Our arsenal
-                    includes dynamic Nitro features, ensuring a captivating
-                    experience that keeps your members engaged and excited. With
-                    advanced AI-powered tools & Bots at our disposal, we harness
-                    the power of automation to streamline processes. From
-                    managing & nurturing Discord community & Telegram channel to
-                    moderating discussions, organising AMAs events, hosting
-                    Twitter spaces and facilitating seamless communication
-                    between community members and your project&apos;s team, we have
-                    got you covered. With us by your side, you can unlock the
-                    potential of your community and watch it flourish in no
-                    time.{" "}
+                  Augmented Reality unlocks a whole new dimension of engagement. At Threeway Studio, we specialise in integrating augmented reality technology into your marketing campaign. We’re here to foster seamless visualistic customer experience in real-time, helping them in visualising your product/service in their own environment. It's a powerful marketing strategy that provides a personal touch, enhances product expression, creates a buzz around your brand, and drives deeper engagement.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -161,25 +148,13 @@ const page = () => {
                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                    Social Media Management
+                  SEO and Content Marketing
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                    Be a Trendsetter & Empower your Brand Influence with our
-                    experienced marketing mavericks.
+                    Conquer the Digital Landscape with Powerful Content Marketing.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                    At Threeway Studio, we&apos;re not just social media experts,
-                    we&apos;re Web3 Social Sorcerers. Our experienced Social Media
-                    Maestros are here to help you become a trendsetter, amplify
-                    your brand awareness and captivate connections making a
-                    lasting impact on your target audience. Whether its
-                    Twitter, Snapchat, LinkedIn, or Instagram, we leverage the
-                    power of Internal tools like NFT Art engine, AR-VR
-                    lenses/filters, experienced moderators & schillers & and
-                    more to supercharge your social media presence. With our
-                    comprehensive monitoring, tracking, analysis, and reporting
-                    capabilities, we ensure that your social media performance
-                    is always optimised for success.
+                  Dominate your digital presence with our expert team of Online Presence Curators. We harness the power of Google Analytics, employing data-driven insights to develop strategies that drive organic traffic and boost conversions. Our SEO-friendly content ensures high search engine rankings, attracting targeted audiences to your website. But we don't stop there - we also integrate PR marketing and captivating content campaigns to enhance your brand reputation and online visibility.
                   </p>{" "}
                   <div className="mt-6">
                     <a

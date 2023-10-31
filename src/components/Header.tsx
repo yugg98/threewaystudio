@@ -69,7 +69,7 @@ export default function Header() {
                             Explore More
                           </Link>
                           <Link
-                            href="/ourservices/development"
+                            href="/ourservices/design"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Design & Creation
@@ -164,7 +164,28 @@ export default function Header() {
                 className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
               >
                 Services
-              </Disclosure.Button>
+                </Disclosure.Button>
+              <Disclosure.Button
+                          as="a"
+                            href="/ourservices/marketing"
+                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                          >
+                             Design & Creation
+                            </Disclosure.Button>
+                    <Disclosure.Button
+                     as="a"
+                            href="/ourservices/development"
+                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                          >
+                           Engineering
+                          </Disclosure.Button>
+                          <Disclosure.Button
+                          as="a"
+                            href="/ourservices/marketing"
+                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                          >
+                            Marketing & Outreach 
+                            </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/academy"
