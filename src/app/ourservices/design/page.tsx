@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black sticky z-10">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1085"

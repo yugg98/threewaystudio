@@ -14,7 +14,7 @@ function classNames(...classes: any) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-transparent sticky z-10">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
