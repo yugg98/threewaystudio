@@ -24,7 +24,7 @@ const page = () => {
           </div>
           <div className="grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-3 md:grid-cols-4">
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-            <img src="/design.svg" className="w-12 h-12"/>
+              <img src="/design.svg" className="w-12 h-12" />
               <p className="text-xl text-white font-semibold mt-8">Design</p>
               <p className=" text-white mt-4">
                 Our team of creative experts is committed of addressing the
@@ -33,7 +33,7 @@ const page = () => {
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-            <img src="/dev.svg" className="w-12 h-12"/>
+              <img src="/dev.svg" className="w-12 h-12" />
               <p className="text-xl text-white font-semibold mt-8">Develop</p>
               <p className=" text-white mt-4">
                 We make sure that our professional design attracts your audience
@@ -42,23 +42,23 @@ const page = () => {
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <img src="/market.svg" className="w-12 h-12"/>
+              <img src="/market.svg" className="w-12 h-12" />
               <p className="text-xl text-white font-semibold mt-8">Market</p>
               <p className=" text-white mt-4">
-                Achieving your product&apos;s full potential and bringing the people
-                into a time ruled by your ideals are both possible with the
-                right marketing methods with the help of our expertise
+                Achieving your product&apos;s full potential and bringing the
+                people into a time ruled by your ideals are both possible with
+                the right marketing methods with the help of our expertise
               </p>
             </div>
             <div className=" p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-            <img src="/blockchain.png" className="w-12 h-12"/>
+              <img src="/blockchain.png" className="w-12 h-12" />
               <p className="text-xl text-white font-semibold mt-8">
                 Web3/ Blockchain consultancy
               </p>
               <p className=" text-white mt-4">
                 Threeway provides blockchain consulting services to make the
-                most of technology&apos;s potential and help learn more about your
-                initiatives in the Web3 Space
+                most of technology&apos;s potential and help learn more about
+                your initiatives in the Web3 Space
               </p>
             </div>
           </div>
