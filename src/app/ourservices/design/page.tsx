@@ -9,16 +9,26 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  NFT Artwork
+                    NFT Artwork
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Transforming Art into Digital Masterpieces with NFTs
+                    Transforming Art into Digital Masterpieces with NFTs
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Blockchain is here to expand its realms in every domain including Fine Arts, Gaming, Music, etc. Leveraging that power, The Threeway Studio ensures that your artwork becomes a unique, verifiable, and immutable asset on the decentralised network. Through the use of non-fungible tokens (NFTs), your creations gain authenticity and scarcity, making them truly one-of-a-kind. Our expertise extends to fractionalized NFTs, enabling broader ownership and investment opportunities. Once you create your NFT artwork with us, it is securely stored on the blockchain, allowing you to showcase and sell it in thriving digital art marketplaces.{" "}
+                    Blockchain is here to expand its realms in every domain
+                    including Fine Arts, Gaming, Music, etc. Leveraging that
+                    power, The Threeway Studio ensures that your artwork becomes
+                    a unique, verifiable, and immutable asset on the
+                    decentralised network. Through the use of non-fungible
+                    tokens (NFTs), your creations gain authenticity and
+                    scarcity, making them truly one-of-a-kind. Our expertise
+                    extends to fractionalized NFTs, enabling broader ownership
+                    and investment opportunities. Once you create your NFT
+                    artwork with us, it is securely stored on the blockchain,
+                    allowing you to showcase and sell it in thriving digital art
+                    marketplaces.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -46,16 +56,26 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Game Design
+                    Game Design
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Next-Gen Designs for Immersive Gameplay
+                    Next-Gen Designs for Immersive Gameplay
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Threeway Studio understands the power & demand of digital games that transport players to new realities and provide unforgettable experiences. From storyboard creation to avatar design, and leveraging the cutting-edge technologies of Unity and Unreal Engine, we are dedicated to conceptualising, designing, and developing games with stunning visuals, engaging gameplay mechanics, and immersive storytelling that captivate players worldwide. Whether you&apos;re an aspiring game engineer or a pro gaming studio, our team of gaming virtuosos specialises in crafting next-gen designs that push the boundaries of what&apos;s possible in the gaming world.
+                    Threeway Studio understands the power & demand of digital
+                    games that transport players to new realities and provide
+                    unforgettable experiences. From storyboard creation to
+                    avatar design, and leveraging the cutting-edge technologies
+                    of Unity and Unreal Engine, we are dedicated to
+                    conceptualising, designing, and developing games with
+                    stunning visuals, engaging gameplay mechanics, and immersive
+                    storytelling that captivate players worldwide. Whether
+                    you&apos;re an aspiring game engineer or a pro gaming
+                    studio, our team of gaming virtuosos specialises in crafting
+                    next-gen designs that push the boundaries of what&apos;s
+                    possible in the gaming world.
                   </p>{" "}
                   <div className="mt-6">
                     <a
@@ -83,16 +103,28 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Metaverse Design
+                    Metaverse Design
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Shaping Virtual Realities with Revolutionary Designs
+                    Shaping Virtual Realities with Revolutionary Designs
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Threeway Studio is here to help you capitalise the transformative potential of the Metaverse. We empower your ideas by integrating cutting-edge technologies and decentralisation elements into your Metaverse design, unlocking the true potential of digital assets ownership, user-driven economies, and seamless interactions within the virtual world. Collaborating closely with you, our metaversal artisans will conceptualise and bring to life a virtual world that embodies your vision, while considering aesthetics, user interactions, and immersive elements. We invite all visionary entrepreneurs, creative individuals, & forward-thinking organisations to embark on a journey of limitless possibilities and start designing your own Blockchain-based Virtual Realms with us.{" "}
+                    Threeway Studio is here to help you capitalise the
+                    transformative potential of the Metaverse. We empower your
+                    ideas by integrating cutting-edge technologies and
+                    decentralisation elements into your Metaverse design,
+                    unlocking the true potential of digital assets ownership,
+                    user-driven economies, and seamless interactions within the
+                    virtual world. Collaborating closely with you, our
+                    metaversal artisans will conceptualise and bring to life a
+                    virtual world that embodies your vision, while considering
+                    aesthetics, user interactions, and immersive elements. We
+                    invite all visionary entrepreneurs, creative individuals, &
+                    forward-thinking organisations to embark on a journey of
+                    limitless possibilities and start designing your own
+                    Blockchain-based Virtual Realms with us.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -120,16 +152,25 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
-               
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Interactive Design
+                    Interactive Design
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Crafting Engaging Experiences with Stunning Visuals
+                    Crafting Engaging Experiences with Stunning Visuals
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  At Threeway Studio, we understand the need to go above and beyond to create captivating visual designs and intuitive user interfaces (UI/UX) that leave your audience in an awe. Our team of artistic innovators plies a user- centered approach, iterative design processes, and user testing to refine and optimise the UI/UX elements, ensuring a seamless and engaging experience for your users. To further enhance brand consistency and streamline the design process, we provide a comprehensive Brand Kit that encompasses typography, color palettes, fonts, imagery, and visual creatives.
+                    At Threeway Studio, we understand the need to go above and
+                    beyond to create captivating visual designs and intuitive
+                    user interfaces (UI/UX) that leave your audience in an awe.
+                    Our team of artistic innovators plies a user- centered
+                    approach, iterative design processes, and user testing to
+                    refine and optimise the UI/UX elements, ensuring a seamless
+                    and engaging experience for your users. To further enhance
+                    brand consistency and streamline the design process, we
+                    provide a comprehensive Brand Kit that encompasses
+                    typography, color palettes, fonts, imagery, and visual
+                    creatives.
                   </p>{" "}
                   <div className="mt-6">
                     <a
@@ -153,7 +194,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <Cta/>
+        <Cta />
       </div>
     </div>
   );

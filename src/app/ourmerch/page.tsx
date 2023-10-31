@@ -6,18 +6,20 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Pop from "@/components/Pop";
 import { useState } from "react";
-import {  CheckBadgeIcon, LockClosedIcon, TruckIcon } from "@heroicons/react/24/outline";
+import {
+  CheckBadgeIcon,
+  LockClosedIcon,
+  TruckIcon,
+} from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
 const products = [
-  
   {
     id: 1,
     name: "Wallet",
     href: "#",
     imageSrc: "/merch/book.gif",
     price: "$140",
-    images:[
-      "/m/wallet.png",
-    ]
+    images: ["/m/wallet.png"],
   },
   {
     id: 2,
@@ -25,9 +27,7 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/tshirt.gif",
-    images:[
-      "/m/hoodie1.png"
-    ],
+    images: ["/m/tshirt3.png"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -38,10 +38,7 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/notebook.gif",
-    images:[
-      "/m/notebook1.png",
-      "/m/notebook2.png",
-    ],
+    images: ["/m/notebook1.png", "/m/notebook2.png"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -52,9 +49,7 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/keychain.gif",
-    images:[
-      "/m/keychain.png",
-    ],
+    images: ["/m/keychain.png","/m/keychain.jpg"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -65,26 +60,19 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/hoodie.gif",
-    images:[
-      "/m/hoodie1.png",
-      "/m/hoodie2.png",
-      "/m/hoodie3.png"
-    ],
+    images: ["/m/hoodie1.png", "/m/hoodie2.png", "/m/hoodie3.png"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
-  
+
   {
     id: 6,
     name: "Bag",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/bag.gif",
-    images:[
-      "/m/bag2.jpg",
-      "/m/bag3.jpg"
-    ],
+    images: ["/m/bag2.jpg", "/m/bag3.jpg"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -95,10 +83,7 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/mug.gif",
-    images:[
-      "/m/mug1.jpg",
-
-    ],
+    images: ["/m/mug1.jpg"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -109,24 +94,21 @@ const products = [
     color: "White and black",
     href: "#",
     imageSrc: "/merch/pen.gif",
-    images:[
-      "/m/pen1.png",
-      "/m/pen2.png",
-
-    ],
+    images: ["/m/pen1.png", "/m/pen2.png"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
+];
+
+const Viewmore = [
   {
     id: 9,
     name: "Bottle",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/bottle.gif",
-    images:[
-      "/m/bottle.png",
-    ],
+    images: ["/m/bottle.jpg"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -141,32 +123,68 @@ const products = [
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
   },
- 
   {
     id: 11,
     name: "Badge",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/badge.gif",
-    images:[
-      "/m/badge.png",
-      "/m/badge1.png",
-      "/m/badge2.png",
-      "/m/badge4.jpg"
-    ],
+    images: ["/m/badge.png", "/m/badge1.png", "/m/badge2.png", "/m/badge4.jpg"],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
-  },{
+  },
+  {
+    id: 11,
+    name: "Stickers",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/m/sticker1.png",
+    images: ["/m/wagmi.png","/m/rocket.png","/m/spaceman.png","/m/threeway.png"],
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
+  {
     id: 12,
-    name: "Merch",
+    name: "Mousepad",
     color: "White and black",
     href: "#",
     imageSrc: "/merch/mousepad.gif",
-    images:[
-      "/m/mousepad1.jpg",
-      "/m/mousepad2.jpg",
-    ],
+    images: ["/m/mousepad1.jpg", "/m/mousepad2.jpg"],
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
+  {
+    id: 9,
+    name: "Paperweight",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/merch/paperweight.gif",
+    images: ["/m/paperweight.png"],
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
+  {
+    id: 10,
+    name: "Umbrella",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/m/umbrella.png",
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
+  },
+  
+  {
+    id: 11,
+    name: "Mask",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/m/mask4.jpg",
+    images: ["/m/mask5.jpg",],
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
@@ -175,23 +193,22 @@ const products = [
 
 const features = [
   {
-    name: 'Hassle Free Shipping and Returns',
+    name: "Hassle-Free Shipping and Returns",
     icon: CheckBadgeIcon,
   },
   {
-    name: 'Secured Payments',
+    name: "Secured Payments",
     icon: LockClosedIcon,
   },
   {
-    name: 'Customer Service',
+    name: "Customer Service",
     icon: TruckIcon,
   },
-  
-]
+];
 
 export default function Merch() {
   const [isOpen, setIsOpen] = useState(false);
-  const [data,setData] = useState({})
+  const [data, setData] = useState({});
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 sm:pt-12 lg:max-w-7xl lg:px-8">
       <div className="bg-gray-900 ">
@@ -233,7 +250,6 @@ export default function Merch() {
                   }}
                 />
               </div>
-             
             </div>
           </SwiperSlide>
           {/* <SwiperSlide>
@@ -292,13 +308,12 @@ export default function Merch() {
                   {product.name}
                 </h3>
               </div>
-              
             </div>
             <div className="mt-6">
               <button
                 onClick={() => {
-                  setData(product)
-                   setIsOpen(true)
+                  setData(product);
+                  setIsOpen(true);
                 }}
                 className="relative flex items-center w-full bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
               >
@@ -308,21 +323,73 @@ export default function Merch() {
           </div>
         ))}
       </div>
-
+      <Disclosure>
+        {({ open }) => (
+          <>
+            <Disclosure.Button className="py-2 w-full mt-4 ">
+              {!open?
+              <>
+              <img
+                src="/arrow.svg"
+                className={
+                  open ? "rotate-180 mt-4 transform mx-auto" : "mx-auto   "
+                }
+              />
+              <p className="text-white mt-4">View More</p> </>:null}
+            </Disclosure.Button>
+            <Disclosure.Panel className="text-gray-500">
+              <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+                {Viewmore.map((product) => (
+                  <div key={product.id}>
+                    <div className="relative">
+                      <div className=" h-72 w-full overflow-hidden rounded-lg">
+                        <img
+                          src={product.imageSrc}
+                          alt={product.imageAlt}
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="relative mt-4">
+                        <h3 className="text-sm font-medium text-white">
+                          {product.name}
+                        </h3>
+                      </div>
+                    </div>
+                    <div className="mt-6">
+                      <button
+                        onClick={() => {
+                          setData(product);
+                          setIsOpen(true);
+                        }}
+                        className="relative flex items-center w-full bg-purple-900 justify-center rounded-md border border-transparent  px-8 py-2 text-sm font-medium text-white hover:bg-purple-800"
+                      >
+                        View More{" "}
+                        <span className="sr-only">, {product.name}</span>
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Disclosure.Panel>
+          </>
+        )}
+      </Disclosure>
       <Pop isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
       <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-32 lg:max-w-7xl">
-          <dl className="grid  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative md:pl-16">
-                <dt className="text-base text-center text-white font-semibold leading-7 t">
-                    <feature.icon className="h-7 mx-auto w-7 text-[#DCFA6C]" aria-hidden="true" />
-                    <p className="mt-4 text-xl">
-                  {feature.name}</p>
-                </dt>
-              </div>
-            ))}
-          </dl>
-        </div>
+        <dl className="grid  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+          {features.map((feature) => (
+            <div key={feature.name} className="relative md:pl-16">
+              <dt className="text-base text-center text-white font-semibold leading-7 t">
+                <feature.icon
+                  className="h-7 mx-auto w-7 text-[#DCFA6C]"
+                  aria-hidden="true"
+                />
+                <p className="mt-4 text-xl">{feature.name}</p>
+              </dt>
+            </div>
+          ))}
+        </dl>
+      </div>
     </div>
   );
 }

@@ -9,16 +9,25 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  NFT
+                    NFT
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Redefining Ownership in the Digital Age
+                    Redefining Ownership in the Digital Age
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  With the power of non-fungible tokens (NFTs), we are transforming the concept of ownership in the digital realm. By leveraging the Ethereum blockchain and adhering to industry standards such as ERC721 and ERC1155, we ensure that your digital assets are not only verifiable but also enduring. Once your NFT is created, you can showcase it to the world and explore various avenues for monetization. Whether you choose to sell it in digital art marketplaces, auction it to the highest bidder, or retain ownership and enjoy the benefits of rarity & utility, the possibilities are endless. {" "}
+                    With the power of non-fungible tokens (NFTs), we are
+                    transforming the concept of ownership in the digital realm.
+                    By leveraging the Ethereum blockchain and adhering to
+                    industry standards such as ERC721 and ERC1155, we ensure
+                    that your digital assets are not only verifiable but also
+                    enduring. Once your NFT is created, you can showcase it to
+                    the world and explore various avenues for monetization.
+                    Whether you choose to sell it in digital art marketplaces,
+                    auction it to the highest bidder, or retain ownership and
+                    enjoy the benefits of rarity & utility, the possibilities
+                    are endless.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -46,16 +55,28 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Defi
+                    Defi
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Building the Future of Decentralised Finance
+                    Building the Future of Decentralised Finance
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  With Defi, we are reshaping the landscape and creating a future where financial systems are open, transparent, and accessible to all. Our experienced Digital Digeratis excel in building robust lending and borrowing protocols, empowering individuals and businesses to access capital and earn interest. Additionally, our proficiency in developing decentralized autonomous organizations (DAOs) ensures transparent governance and community-driven decision-making. We enable end-to-end development solutions, from conceptualisation and architecture design to smart contract development and front-end implementation. Through the power of smart contracts, your Defi project will enable trustless interactions, automated transactions, and the seamless exchange of digital assets.
+                    With Defi, we are reshaping the landscape and creating a
+                    future where financial systems are open, transparent, and
+                    accessible to all. Our experienced Digital Digeratis excel
+                    in building robust lending and borrowing protocols,
+                    empowering individuals and businesses to access capital and
+                    earn interest. Additionally, our proficiency in developing
+                    decentralized autonomous organizations (DAOs) ensures
+                    transparent governance and community-driven decision-making.
+                    We enable end-to-end development solutions, from
+                    conceptualisation and architecture design to smart contract
+                    development and front-end implementation. Through the power
+                    of smart contracts, your Defi project will enable trustless
+                    interactions, automated transactions, and the seamless
+                    exchange of digital assets.
                   </p>{" "}
                   <div className="mt-6">
                     <a
@@ -83,16 +104,27 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
               <div>
-                
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Enterprise DAPP
+                    Enterprise DAPP
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Elevating DApps for Success
+                    Elevating DApps for Success
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  In the fast-evolving landscape of Web3, Decentralized Applications (DApps) have emerged as powerful tools for businesses to unlock new opportunities, streamline operations, and enhance user experiences. Whether it&apos;s revolutionizing supply chain management, transforming real estate transactions, or creating immersive gaming experiences, our DApps are tailored to elevate traditional workflows and deliver tangible value to your enterprise. Building an Enterprise DApp involves a meticulous process, and we are here to guide you every step of the way. From ideation and concept design to smart contract development and UI/UX implementation, we ensure a seamless and efficient development journey.{" "}
+                    In the fast-evolving landscape of Web3, Decentralized
+                    Applications (DApps) have emerged as powerful tools for
+                    businesses to unlock new opportunities, streamline
+                    operations, and enhance user experiences. Whether it&apos;s
+                    revolutionizing supply chain management, transforming real
+                    estate transactions, or creating immersive gaming
+                    experiences, our DApps are tailored to elevate traditional
+                    workflows and deliver tangible value to your enterprise.
+                    Building an Enterprise DApp involves a meticulous process,
+                    and we are here to guide you every step of the way. From
+                    ideation and concept design to smart contract development
+                    and UI/UX implementation, we ensure a seamless and efficient
+                    development journey.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -120,16 +152,27 @@ const page = () => {
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32">
               <div>
-               
                 <div className="mt-6">
                   <h1 className="text-xl mb-2 tracking-tight text-white">
-                  Blockchain Development
+                    Blockchain Development
                   </h1>
                   <h2 className="text-3xl font-bold tracking-tight text-white">
-                  Engineering the Future of Web3
+                    Engineering the Future of Web3
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  From initial ideation and concept design to smart contract development and decentralized application (DApp) deployment, Threeway Studio&apos;s expert blockchain architects handles the entire development lifecycle with utmost precision and finesse. At the heart of our blockchain development services lies a deep understanding of cryptographic algorithms & cutting-edge technologies such as Polkadot, Algorand, Cosmos, and Cardano. We leverage these powerful networks to engineer robust and scalable blockchain solutions, ensuring the seamless integration of your applications into the Web 3 ecosystem. Whether you need a private blockchain for internal operations or a public blockchain for widespread adoption, we have the expertise to deliver.
+                    From initial ideation and concept design to smart contract
+                    development and decentralized application (DApp) deployment,
+                    Threeway Studio&apos;s expert blockchain architects handles
+                    the entire development lifecycle with utmost precision and
+                    finesse. At the heart of our blockchain development services
+                    lies a deep understanding of cryptographic algorithms &
+                    cutting-edge technologies such as Polkadot, Algorand,
+                    Cosmos, and Cardano. We leverage these powerful networks to
+                    engineer robust and scalable blockchain solutions, ensuring
+                    the seamless integration of your applications into the Web 3
+                    ecosystem. Whether you need a private blockchain for
+                    internal operations or a public blockchain for widespread
+                    adoption, we have the expertise to deliver.
                   </p>{" "}
                   <div className="mt-6">
                     <a
@@ -153,7 +196,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <Cta/>
+        <Cta />
       </div>
     </div>
   );
