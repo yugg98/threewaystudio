@@ -300,7 +300,7 @@ export default function Merch() {
       <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-32 lg:max-w-7xl">
           <dl className="grid  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
+              <div key={feature.name} className="relative md:pl-16">
                 <dt className="text-base text-center text-white font-semibold leading-7 t">
                     <feature.icon className="h-7 mx-auto w-7 text-[#DCFA6C]" aria-hidden="true" />
                     <p className="mt-4 text-xl">
