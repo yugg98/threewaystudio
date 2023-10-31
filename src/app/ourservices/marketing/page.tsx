@@ -44,10 +44,10 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+              <div className=" pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  className="w-full rounded-xl shadow-xl ring-1 max-w-md ring-black ring-opacity-5 lg:absolute lg:left-0  mx-auto lg:max-w-md"
+                  src="/m/rocket.png"
                   alt="Inbox user interface"
                 />
               </div>
@@ -79,7 +79,7 @@ const page = () => {
                     comprehensive monitoring, tracking, analysis, and reporting
                     capabilities, we ensure that your social media performance
                     is always optimised for success.
-                  </p>{" "}
+                  </p>
                   <div className="mt-6">
                     <a
                       href="#"
