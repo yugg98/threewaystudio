@@ -157,6 +157,19 @@ const products = [
     imageAlt:
       "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
     price: "$140",
+  },{
+    id: 12,
+    name: "Merch",
+    color: "White and black",
+    href: "#",
+    imageSrc: "/merch/mousepad.gif",
+    images:[
+      "/m/mousepad1.jpg",
+      "/m/mousepad2.jpg",
+    ],
+    imageAlt:
+      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
+    price: "$140",
   },
 ];
 
