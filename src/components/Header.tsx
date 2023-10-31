@@ -62,7 +62,7 @@ export default function Header() {
                         leaveTo="opacity-0 translate-y-1"
                       >
                         <Popover.Panel className="absolute z-10 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
-                        <Link
+                          <Link
                             href="/ourservices"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
@@ -78,13 +78,13 @@ export default function Header() {
                             href="/ourservices/development"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                           Engineering
+                            Engineering
                           </Link>
                           <Link
                             href="/ourservices/marketing"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
-                            Marketing & Outreach 
+                            Marketing & Outreach
                           </Link>
                         </Popover.Panel>
                       </Transition>
@@ -158,34 +158,53 @@ export default function Header() {
               >
                 About us
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/ourservices"
-                className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-              >
-                Services
-                </Disclosure.Button>
-              <Disclosure.Button
-                          as="a"
-                            href="/ourservices/marketing"
-                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-                          >
-                             Design & Creation
-                            </Disclosure.Button>
-                    <Disclosure.Button
-                     as="a"
-                            href="/ourservices/development"
-                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-                          >
-                           Engineering
-                          </Disclosure.Button>
-                          <Disclosure.Button
-                          as="a"
-                            href="/ourservices/marketing"
-                            className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-                          >
-                            Marketing & Outreach 
-                            </Disclosure.Button>
+              <Disclosure as="div" className="">
+                {({ open }) => (
+                  <>
+                   <Disclosure.Button className="flex text-sm w-full items-center justify-between rounded-lg p-2 px-3 py-2 font-semibold leading-7 text-white hover:bg-white/10 hover:underline hover:underline-offset-4">
+                   Our Services
+                        <ChevronDownIcon
+                          className={classNames(
+                            open ? "rotate-180" : "",
+                            "h-5 w-5 flex-none"
+                          )}
+                          aria-hidden="true"
+                        />
+                      </Disclosure.Button>
+                    <Disclosure.Panel className="mt-2 space-y-2">
+                      <Disclosure.Button
+                        as="a"
+                        href="/ourservices"
+                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                      >
+                        Explore More
+                      </Disclosure.Button>
+                      <Disclosure.Button
+                        as="a"
+                        href="/ourservices/marketing"
+                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                      >
+                        Design & Creation
+                      </Disclosure.Button>
+                      <Disclosure.Button
+                        as="a"
+                        href="/ourservices/development"
+                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                      >
+                        Engineering
+                      </Disclosure.Button>
+                      <Disclosure.Button
+                        as="a"
+                        href="/ourservices/marketing"
+                        className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                      >
+                        Marketing & Outreach
+                      </Disclosure.Button>
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+
               <Disclosure.Button
                 as="a"
                 href="/academy"
