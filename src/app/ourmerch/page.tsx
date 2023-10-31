@@ -162,7 +162,7 @@ const products = [
 
 const features = [
   {
-    name: 'Free Shipping and Returns',
+    name: 'Hassle Free Shipping and Returns',
     icon: CheckBadgeIcon,
   },
   {

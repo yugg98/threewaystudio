@@ -406,23 +406,24 @@ export default function Abotuus() {
             <img src="people-01.png" alt="people" className="w-full h-full" />
           </div>
           <div className="absolute top-30 right-60 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-            <img src="people-01.png" alt="people" className="w-full h-full" />
+            <img src="/avatar/a1.jpg" alt="people" className="w-full rounded-full h-full" />
           </div>
           <div className="absolute top-10 md:left-20 left-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
             <img src="/people-02.png" alt="people" className="w-full h-full" />
           </div>
           <div className="absolute top-40 right-[460px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-            <img src="/people-02.png" alt="people" className="w-full h-full" />
+          <img src="/avatar/a2.jpg" alt="people" className="w-full rounded-full h-full" />
           </div>
           <div className="absolute  md:bottom-20 bottom-40 md:right-20 right-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-            <img src="people-01.png" alt="people" className="w-full h-full" />
+          <img src="/avatar/a3.png" alt="people" className="w-full rounded-full h-full" />
           </div>
           <div className="absolute md:top-1/2 top-[30%] md:left-[45%] left-[10%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
             <img src="people-03.png" alt="people" className="w-full h-full" />
           </div>
           <div className="absolute md:top-80 top-40 left-60 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-            <img src="people-03.png" alt="people" className="w-full h-full" />
+          <img src="/avatar/a4.png" alt="people" className="w-full rounded-full h-full" />
           </div>
+        
         </div>
         <Cta />
       </main>
