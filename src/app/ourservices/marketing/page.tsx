@@ -117,7 +117,7 @@ const page = () => {
                   Embark on Augmented Reality Adventures & Redefine Visual Experiences with Us.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Augmented Reality unlocks a whole new dimension of engagement. At Threeway Studio, we specialise in integrating augmented reality technology into your marketing campaign. We’re here to foster seamless visualistic customer experience in real-time, helping them in visualising your product/service in their own environment. It's a powerful marketing strategy that provides a personal touch, enhances product expression, creates a buzz around your brand, and drives deeper engagement.{" "}
+                  Augmented Reality unlocks a whole new dimension of engagement. At Threeway Studio, we specialise in integrating augmented reality technology into your marketing campaign. We’re here to foster seamless visualistic customer experience in real-time, helping them in visualising your product/service in their own environment. It&apos;s a powerful marketing strategy that provides a personal touch, enhances product expression, creates a buzz around your brand, and drives deeper engagement.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -154,7 +154,7 @@ const page = () => {
                     Conquer the Digital Landscape with Powerful Content Marketing.
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Dominate your digital presence with our expert team of Online Presence Curators. We harness the power of Google Analytics, employing data-driven insights to develop strategies that drive organic traffic and boost conversions. Our SEO-friendly content ensures high search engine rankings, attracting targeted audiences to your website. But we don't stop there - we also integrate PR marketing and captivating content campaigns to enhance your brand reputation and online visibility.
+                  Dominate your digital presence with our expert team of Online Presence Curators. We harness the power of Google Analytics, employing data-driven insights to develop strategies that drive organic traffic and boost conversions. Our SEO-friendly content ensures high search engine rankings, attracting targeted audiences to your website. But we don&apos;t stop there - we also integrate PR marketing and captivating content campaigns to enhance your brand reputation and online visibility.
                   </p>{" "}
                   <div className="mt-6">
                     <a

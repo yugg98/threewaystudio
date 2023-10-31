@@ -92,7 +92,7 @@ const page = () => {
                   Elevating DApps for Success
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  In the fast-evolving landscape of Web3, Decentralized Applications (DApps) have emerged as powerful tools for businesses to unlock new opportunities, streamline operations, and enhance user experiences. Whether it's revolutionizing supply chain management, transforming real estate transactions, or creating immersive gaming experiences, our DApps are tailored to elevate traditional workflows and deliver tangible value to your enterprise. Building an Enterprise DApp involves a meticulous process, and we are here to guide you every step of the way. From ideation and concept design to smart contract development and UI/UX implementation, we ensure a seamless and efficient development journey.{" "}
+                  In the fast-evolving landscape of Web3, Decentralized Applications (DApps) have emerged as powerful tools for businesses to unlock new opportunities, streamline operations, and enhance user experiences. Whether it&apos;s revolutionizing supply chain management, transforming real estate transactions, or creating immersive gaming experiences, our DApps are tailored to elevate traditional workflows and deliver tangible value to your enterprise. Building an Enterprise DApp involves a meticulous process, and we are here to guide you every step of the way. From ideation and concept design to smart contract development and UI/UX implementation, we ensure a seamless and efficient development journey.{" "}
                   </p>
                   <div className="mt-6">
                     <a
@@ -129,7 +129,7 @@ const page = () => {
                   Engineering the Future of Web3
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  From initial ideation and concept design to smart contract development and decentralized application (DApp) deployment, Threeway Studio's expert blockchain architects handles the entire development lifecycle with utmost precision and finesse. At the heart of our blockchain development services lies a deep understanding of cryptographic algorithms & cutting-edge technologies such as Polkadot, Algorand, Cosmos, and Cardano. We leverage these powerful networks to engineer robust and scalable blockchain solutions, ensuring the seamless integration of your applications into the Web 3 ecosystem. Whether you need a private blockchain for internal operations or a public blockchain for widespread adoption, we have the expertise to deliver.
+                  From initial ideation and concept design to smart contract development and decentralized application (DApp) deployment, Threeway Studio&apos;s expert blockchain architects handles the entire development lifecycle with utmost precision and finesse. At the heart of our blockchain development services lies a deep understanding of cryptographic algorithms & cutting-edge technologies such as Polkadot, Algorand, Cosmos, and Cardano. We leverage these powerful networks to engineer robust and scalable blockchain solutions, ensuring the seamless integration of your applications into the Web 3 ecosystem. Whether you need a private blockchain for internal operations or a public blockchain for widespread adoption, we have the expertise to deliver.
                   </p>{" "}
                   <div className="mt-6">
                     <a

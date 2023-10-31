@@ -55,7 +55,7 @@ const page = () => {
                   Next-Gen Designs for Immersive Gameplay
                   </h2>
                   <p className="mt-4  text-gray-200">
-                  Threeway Studio understands the power & demand of digital games that transport players to new realities and provide unforgettable experiences. From storyboard creation to avatar design, and leveraging the cutting-edge technologies of Unity and Unreal Engine, we are dedicated to conceptualising, designing, and developing games with stunning visuals, engaging gameplay mechanics, and immersive storytelling that captivate players worldwide. Whether you're an aspiring game engineer or a pro gaming studio, our team of gaming virtuosos specialises in crafting next-gen designs that push the boundaries of what's possible in the gaming world.
+                  Threeway Studio understands the power & demand of digital games that transport players to new realities and provide unforgettable experiences. From storyboard creation to avatar design, and leveraging the cutting-edge technologies of Unity and Unreal Engine, we are dedicated to conceptualising, designing, and developing games with stunning visuals, engaging gameplay mechanics, and immersive storytelling that captivate players worldwide. Whether you&apos;re an aspiring game engineer or a pro gaming studio, our team of gaming virtuosos specialises in crafting next-gen designs that push the boundaries of what&apos;s possible in the gaming world.
                   </p>{" "}
                   <div className="mt-6">
                     <a
