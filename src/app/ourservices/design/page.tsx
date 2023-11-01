@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Popimg from '@/components/Poimg'
 
 
-const page = () => {
+const Page = () => {
   const [open,setOpen] = useState(false)
   const [data,setData] = useState({})
 
@@ -533,4 +533,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
