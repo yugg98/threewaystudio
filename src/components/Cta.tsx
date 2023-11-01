@@ -42,6 +42,7 @@ export default function Cta() {
               autoPlay
               muted
               loop
+              controls
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ const page = () => {
   const [data,setData] = useState({})
 
   return (
-    <div className="bg-black sticky z-10">
+    <div className="bg-black">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1085"
