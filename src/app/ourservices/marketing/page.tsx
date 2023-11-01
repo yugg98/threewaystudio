@@ -44,9 +44,9 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 flex justify-center items-center sm:mt-16 lg:mt-0">
-              <div className=" pl-6  lg:relative  ">
+              <div className="   lg:relative  ">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 max-w-sm ring-black ring-opacity-5   mx-auto "
+                  className="w-full rounded-xl shadow-xl ring-1 md:max-w-sm max-w-xs ring-black ring-opacity-5   mx-auto "
                   src="/m/rocket.png"
                 />
               </div>
@@ -91,7 +91,7 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-24 lg:mt-0">
-              <div className=" pl-6  lg:relative lg:m-0 lg:h-full lg:px-0">
+              <div className=" p-4 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1  ring-black ring-opacity-5 lg:absolute lg:left-0  mx-auto "
                   src="/smm.jpeg"
