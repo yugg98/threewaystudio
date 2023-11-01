@@ -189,7 +189,7 @@ const page = () => {
               <div className=" p-6 lg:relative lg:m-0 lg:h-full lg:px-0 flex justify-center items-center">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5   "
-                  src="/a12.png"
+                  src="/a13.png"
                   alt="Customer profile user interface"
                 />
               </div>
