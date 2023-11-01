@@ -43,12 +43,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className=" pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-12 flex justify-center items-center sm:mt-16 lg:mt-0">
+              <div className=" pl-6  lg:relative  ">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 max-w-md ring-black ring-opacity-5 lg:absolute lg:left-0  mx-auto lg:max-w-md"
+                  className="w-full rounded-xl shadow-xl ring-1 max-w-sm ring-black ring-opacity-5   mx-auto "
                   src="/m/rocket.png"
-                  alt="Inbox user interface"
                 />
               </div>
             </div>
