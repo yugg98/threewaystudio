@@ -14,7 +14,7 @@ function classNames(...classes: any) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-transparent sticky z-10">
+    <Disclosure as="nav" className="bg-transparent sticky z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -42,7 +42,7 @@ export default function Header() {
                     >
                       About us
                     </Link>
-                    <Popover className="relative z-[100]">
+                    <Popover className="relative ">
                       <Link href="/services">
                         <Popover.Button className="flex items-center p-2 text-sm font-semibold leading-6 text-white rounded hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 gap-x-1 focus:outline-none">
                           Services
@@ -61,7 +61,7 @@ export default function Header() {
                         leaveFrom="opacity-100 translate-y-0"
                         leaveTo="opacity-0 translate-y-1"
                       >
-                        <Popover.Panel className="absolute z-10 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+                        <Popover.Panel className="absolute  w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
                           <Link
                             href="/ourservices"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"

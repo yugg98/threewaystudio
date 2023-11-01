@@ -20,7 +20,7 @@ const Hero = () => (
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
+        className={`2xl:max-w-[1280px] z-[1] w-full mx-auto flex flex-col`}
       >
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1
@@ -72,7 +72,7 @@ const Hero = () => (
       </motion.div>
     </section>
     <section
-      className={`${styles.paddings} relative z-10 pt-0 mt-20 max-w-7xl mx-auto`}
+      className={`${styles.paddings} relative pt-0 mt-20 max-w-7xl mx-auto`}
     >
       <div className="gradient-02 z-0" />
       <motion.div
