@@ -18,7 +18,6 @@ const Ourclients = () => {
       <div>
         <div className="">
           <Marquee>
-            <img src="/logos/logo8.png" className="mx-12 w-24 " />
 
             <img src="/logos/logo.png" className="mx-12 w-24 " />
 
@@ -26,7 +25,7 @@ const Ourclients = () => {
 
             <img src="/logos/logo10.jpg" className="mx-12 w-24 " />
 
-            <img src="/logos/logo11.webp" className="mx-12 w-24 " />
+           
             <img src="/logos/logo12.jpg" className="mx-12 w-24 " />
 
             <img src="/logos/logo13.png" className="mx-12 w-24 " />

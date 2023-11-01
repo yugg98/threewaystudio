@@ -41,10 +41,10 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+              <div className="pl-6 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  src="/laptop.png"
                   alt="Inbox user interface"
                 />
               </div>
@@ -89,11 +89,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0 ">
+              <div className="   lg:relative lg:m-0 lg:h-full lg:px-0 flex justify-center items-center">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5   "
+                  src="/stack.png"
                   alt="Customer profile user interface"
                 />
               </div>
@@ -138,10 +138,10 @@ const page = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+              <div className="  lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  className="w-full mx-auto rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src="/phone.png"
                   alt="Inbox user interface"
                 />
               </div>
@@ -185,11 +185,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0 ">
+              <div className=" p-6 lg:relative lg:m-0 lg:h-full lg:px-0 flex justify-center items-center">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5   "
+                  src="/a12.png"
                   alt="Customer profile user interface"
                 />
               </div>

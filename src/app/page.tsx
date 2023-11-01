@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Merchhero from "@/components/merch/Hero";
 import Ourclients from "@/components/Ourclients";
 import Process from "@/components/Process";
+import Ro from "@/components/Ro";
 import Link from "next/link";
 import React from "react";
 
@@ -74,6 +75,7 @@ const page = () => {
         Visit Swag Store
       </Link>
       <Ourclients />
+      <Ro/>
       <Cta />
     </div>
   );
