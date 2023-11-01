@@ -1,8 +1,14 @@
+"use client"
 import Cta from "@/components/Cta";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import Popimg from '@/components/Poimg'
+
 
 const page = () => {
+  const [open,setOpen] = useState(false)
+  const [data,setData] = useState({})
+
   return (
     <div className="bg-black sticky z-10">
       <svg
@@ -103,8 +109,8 @@ const page = () => {
                   </p>
                   <div className="mt-6">
                     <Link
-                      href="/contact us"
-                      className="inline-flex z-[100] rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                       href="/contactus"
+                      className="inline-flex sticky z-50 rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
                     </Link>
@@ -221,12 +227,15 @@ const page = () => {
                     possible in the gaming world.
                   </p>{" "}
                   <div className="mt-6">
-                    <a
-                      href="#"
-                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    <button
+                      onClick={()=>{
+                        setData({images:["/game/img1.jpeg","/game/img2.jpeg","/game/img3.jpeg","/game/img4.jpeg"]})
+                        setOpen(true)
+                      }}
+                      className="inline-flex sticky z-50 rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
-                      Get started
-                    </a>
+                      View More
+                    </button>
                   </div>
                 </div>
               </div>
@@ -358,8 +367,8 @@ const page = () => {
                   </p>
                   <div className="mt-6">
                     <Link
-                      href="/contact us"
-                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                      href="/contactus"
+                      className="inline-flex sticky z-50 rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
                     </Link>
@@ -475,12 +484,15 @@ const page = () => {
                     creatives.
                   </p>{" "}
                   <div className="mt-6">
-                    <Link
-                      href="/contact us"
-                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                  <button
+                      onClick={()=>{
+                        setData({images:["/game/m1.jpeg","/game/m2.jpeg","/game/m3.jpeg","/game/m4.jpeg"]})
+                        setOpen(true)
+                      }}
+                      className="inline-flex sticky z-50 rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
-                      Get started
-                    </Link>
+                      View More
+                    </button>
                   </div>
                 </div>
               </div>
@@ -513,6 +525,8 @@ const page = () => {
             </div>
           </div>
         </div>
+        <Popimg isOpen={open} setIsOpen={setOpen} data={data}/>
+
         <Cta />
       </div>
     </div>
