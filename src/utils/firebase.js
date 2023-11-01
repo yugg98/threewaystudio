@@ -7,13 +7,13 @@ import { doc, setDoc } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBrz0OkHTZKLEsc0t1XmEbZuXCPp69HanI",
-  authDomain: "web3carnival-59f83.firebaseapp.com",
-  projectId: "web3carnival-59f83",
-  storageBucket: "web3carnival-59f83.appspot.com",
-  messagingSenderId: "410145969620",
-  appId: "1:410145969620:web:ec5f33bd47086f50253241",
-  measurementId: "G-ZXJ1Z1Z2L5"
+  apiKey: "AIzaSyABzjIhhCaWEKeUl37NPzQlML1WA9c46uE",
+  authDomain: "threewaystudio-1563f.firebaseapp.com",
+  projectId: "threewaystudio-1563f",
+  storageBucket: "threewaystudio-1563f.appspot.com",
+  messagingSenderId: "596547304862",
+  appId: "1:596547304862:web:9e6d1622119e693599aa8f",
+  measurementId: "G-TYE869MYSY"
 };
 
 // Initialize Firebase
