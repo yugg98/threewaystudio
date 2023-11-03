@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee'
 const Ro = () => {
   return (
     <div>
-        <div className="mx-auto  px-6 lg:px-8 my-24">
+        <div className="mx-auto  px-6 lg:px-8 my-24 mb-0">
         <div className="mx-auto max-w-xl text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
             Our Media Presence
@@ -48,7 +48,7 @@ const Ro = () => {
               <img src="https://pentaxcoin.com/wp-content/uploads/2021/10/logofinal@2x.png" className="mx-12 w-24 invert " />
             </Link>
             <Link href="https://www.binance.com/en-NG/feed/post/315853">
-              <img src="https://bin.bnbstatic.com/static/feed/feed-logo-en-dark-3.svg" className="mx-12 w-24 invert " />
+              <img src="/logos/logo48.svg" className="mx-12 w-24 invert " />
             </Link>
             
           </Marquee>
