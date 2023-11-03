@@ -34,7 +34,8 @@ const page = () => {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
+                                            href="/contactus"
+
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
@@ -81,7 +82,8 @@ const page = () => {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
+                                            href="/contactus"
+
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
@@ -126,7 +128,8 @@ const page = () => {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
+                                            href="/contactus"
+
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
@@ -173,7 +176,8 @@ const page = () => {
                   </p>{" "}
                   <div className="mt-6">
                     <a
-                      href="#"
+                                             href="/contactus"
+
                       className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
                       Get started
