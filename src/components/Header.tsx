@@ -89,12 +89,12 @@ export default function Header() {
                         </Popover.Panel>
                       </Transition>
                     </Popover>
-                    <Link
+                    {/* <Link
                       href="/academy"
                       className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                     >
                       Academy
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/ourprocess"
                       className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
@@ -204,13 +204,13 @@ export default function Header() {
                 )}
               </Disclosure>
 
-              <Disclosure.Button
+              {/* <Disclosure.Button
                 as="a"
                 href="/academy"
                 className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
               >
                 Academy
-              </Disclosure.Button>
+              </Disclosure.Button> */}
               <Disclosure.Button
                 href="/ourprocess"
                 as="a"
