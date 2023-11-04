@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <div className=" ">
       <div className="mx-auto max-w-xl text-center">
-        <p className="my-10 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+        <p className="my-20 text-3xl font-bold tracking-tight text-white sm:text-5xl">
            Threeway Merch
         </p>
         

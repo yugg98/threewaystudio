@@ -192,7 +192,7 @@ const page = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="img/img2.png"
+                src="https://threeway-frontend-nu.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FspaceShip.f5646d8e.png&w=1080&q=75"
                 alt="Features Image"
                 className="mx-auto -block h-full w-full max-w-[230px]  rounded-2xl object-cover"
               />

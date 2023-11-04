@@ -62,6 +62,8 @@ export default function Header() {
                         leaveTo="opacity-0 translate-y-1"
                       >
                         <Popover.Panel className="absolute  w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+                        {({ close }) => (
+                          <>
                           <Link
                             href="/ourservices"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
@@ -86,6 +88,8 @@ export default function Header() {
                           >
                             Marketing & Outreach
                           </Link>
+                          </>
+                        )}
                         </Popover.Panel>
                       </Transition>
                     </Popover>

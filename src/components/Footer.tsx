@@ -1,8 +1,8 @@
 const navigation = {
   solutions: [
     { name: "Marketing", href: "/ourservices/marketing" },
-    { name: "Design", href: "/ourservices/marketing" },
-    { name: "Engineering", href: "/ourservices/marketing" },
+    { name: "Design", href: "/ourservices/design" },
+    { name: "Engineering", href: "/ourservices/development" },
   ],
   support: [
     { name: "Pricing", href: "#" },
@@ -13,8 +13,8 @@ const navigation = {
   company: [
     { name: "About", href: "/aboutus" },
     { name: "Jobs", href: "#" },
-    { name: "Partners", href: "#" },
-    { name: "Press", href: "#" },
+    { name: "Partners", href: "/#partner" },
+    { name: "Press", href: "/#media" },
   ],
   legal: [
     { name: "Contact us", href: "/contactus" },
