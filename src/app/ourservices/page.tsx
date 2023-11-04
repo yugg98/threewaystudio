@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import {
-  ArrowUturnLeftIcon,
-  ChatBubbleLeftEllipsisIcon,
-  DocumentChartBarIcon,
-  HeartIcon,
+
   InboxIcon,
   PencilSquareIcon,
   TrashIcon,
@@ -13,7 +10,6 @@ import {
 import Cta from "@/components/Cta";
 import { Disclosure } from "@headlessui/react";
 
-import Link from "next/link";
 const features = [
   {
     name: "NFT Artwork",

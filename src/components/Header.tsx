@@ -43,7 +43,6 @@ export default function Header() {
                       About us
                     </Link>
                     <Popover className="relative ">
-                      <Link href="/services">
                         <Popover.Button className="flex items-center p-2 text-sm font-semibold leading-6 text-white rounded hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 gap-x-1 focus:outline-none">
                           Services
                           <ChevronDownIcon
@@ -51,7 +50,6 @@ export default function Header() {
                             aria-hidden="true"
                           />
                         </Popover.Button>
-                      </Link>
                       <Transition
                         as={Fragment}
                         enter="transition ease-out duration-200"
@@ -64,30 +62,30 @@ export default function Header() {
                         <Popover.Panel className="absolute  w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
                         {({ close }) => (
                           <>
-                          <Link
+                          <a
                             href="/ourservices"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Explore More
-                          </Link>
-                          <Link
+                          </a>
+                          <a
                             href="/ourservices/design"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Design & Creation
-                          </Link>
-                          <Link
+                          </a>
+                          <a
                             href="/ourservices/development"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Engineering
-                          </Link>
-                          <Link
+                          </a>
+                          <a
                             href="/ourservices/marketing"
                             className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                           >
                             Marketing & Outreach
-                          </Link>
+                          </a>
                           </>
                         )}
                         </Popover.Panel>
