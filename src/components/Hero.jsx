@@ -94,9 +94,9 @@ const Hero = () => (
           create a remarkable impact with blockchain tech in real life that was
           set out to change the game for businesses everywhere. With the rapidly
           evolving landscape of Web3 Space, we aim to build something that could
-          stand the test of time and serve the needs of the future of AI.
+          stand the test of time and serve the needs of the future of AI. 
           <span className="font-extrabold text-white">
-            madness of the metaverse
+             madness of the metaverse
           </span>{" "}
           of today, using only{" "}
           <span className="font-extrabold text-white">VR</span> devices you can

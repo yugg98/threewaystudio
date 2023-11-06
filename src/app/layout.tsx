@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   title: "Threewaystudio",
   verification:{
     google:"kRjBW7ijzBn4JdhCRkJi90ykLkI3GciDbUScOOAz71Q" 
-  }
+  },
+  description:"Threeway Studio is world’s leading comprehensive Blockchain Solution Company. Our expertise in BaaS & GaaS (Blockchain & Growth as a Service) empowers us to deliver cutting-edge solutions & to help our clientele achieve new heights. From the past few years, our team of Decentralised Digeratis has been working to facilitate individuals & businesses to make an effortless transition from the traditional Web2 framework/structure to the pioneering Web3 paradigm."
 };
 
 export default function RootLayout({
