@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mona.variable}>
+      <body className={mona.variable+"relative overflow-x-hidden"}>
         <Header />
         {children}
         <Footer />
