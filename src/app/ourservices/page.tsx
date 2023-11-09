@@ -20,21 +20,21 @@ const features = [
   },
   {
     name: "Game Design",
-    list: ["NFT Marketplace", "Music NFT", "Gaming NFT", "Generative Art"],
+    list: ["Unity & Unreal ", "Avatar design", "Storyboard"],
     description:
       "Level up your gaming journey with our game design expertise, where pixels come alive and thrilling adventures await at every virtual turn.",
     icon: UsersIcon,
   },
   {
     name: "Metaverse",
-    list: [" NFT Collection Artwork", "2D Artwork", "3D Artwork"],
+    list: ["Experience Zones", "Blockchain-based Virtual Realms", "Decentralized Metaverses"],
     description:
       "Step into a boundless universe of immersive experiences with our Metaverse Design & Development service, where virtual realms become vibrant extensions of your dreams.",
     icon: TrashIcon,
   },
   {
     name: "Interactive Design ",
-    list: ["Discord Management", "Telegram Management"],
+    list: ["UI/UX Design", "BrandKit","Typography","Visual Creatives"],
     description:
       "Ignite your user’s senses with our visually stunning interfaces and elevate user experiences to new heights through intuitive design that leaves a lasting impression.",
     icon: PencilSquareIcon,
