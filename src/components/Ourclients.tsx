@@ -1,120 +1,142 @@
+'use client'
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Marquee from "react-fast-marquee";
-import Swiper from "swiper/react";
 
 const Ourclients = () => {
   return (
-    <div id="partner">
+    <div id="partner" >
       <div className="mx-auto mb-8 px-6 lg:px-8 max-w-3xl text-center md:mb-12 lg:mb-16">
         <h2 className="mb-4 mt-6 text-3xl font-extrabold text-white md:text-5xl">
           Our Clients and Partners
         </h2>
         <p className="mx-auto mt-4 max-w-[528px] text-white">
           We’ve collaborated and helped many companies succeed in the
-          <span className="text-purple-400 font-bold"> Web3.0 </span>space
+           <span className="text-purple-400 font-bold"> Web3.0 </span>space
         </p>
       </div>
       <div>
-        <div className="">
-          <Marquee>
-
-            <img src="/logos/logo.png" className="mx-12 w-24 " />
-
-            <img src="/logos/logo9.jfif" className="mx-12 w-24 " />
-
-            <img src="/logos/logo10.jpg" className="mx-12 w-24 " />
-
-           
-            <img src="/logos/logo12.jpg" className="mx-12 w-24 " />
-
-            <img src="/logos/logo13.png" className="mx-12 w-24 " />
-
+        <div className="pt-10">
+          <Marquee pauseOnHover>
+            <Link href="https://www.aarohanagro.com/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo.png" className="mx-12 w-24 " />
+            </Link>
+            <Link href="https://crater.club/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo9.jfif" className="mx-12 w-24 " />
+            </Link>
+            <Link href="https://www.cryptocapable.community/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo10.jpg" className="mx-12 w-24 " />
+            </Link>
+            <Link href="https://twitter.com/mydesicrypto?s=11&t=yfkLzBNkr_sK4Uy0Vhnf6A">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo12.jpg" className="mx-12 w-24 " />
+            </Link>
+            <Link href="https://krida.fans/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo13.png" className="mx-12 w-24 " />
+            </Link>
             <Link href="https://www.lmnl.app/">
-              <img src="/logos/logo30.png" className="mx-12 w-24 " />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo30.png" className="mx-12 w-24 " />
             </Link>
             <Link href="https://metakeep.xyz/">
-              <img src="/logos/logo31.png" className="mx-12 w-24 invert" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo31.png" className="mx-12 w-24 invert" />
             </Link>
             <Link href="https://www.gearfi.in/">
-              <img src="/logos/logo32.png" className="mx-12 w-24 invert" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo32.png" className="mx-12 w-24 invert" />
             </Link>
             <Link href="https://komet.me/">
-              <img src="/logos/logo33.svg" className="mx-12 w-24 " />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo33.svg" className="mx-12 w-24 " />
             </Link>
             <Link href="https://bnest.in/">
-              <img src="/logos/logo35.png" className="mx-12 w-24 invert" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo35.png" className="mx-12 w-24 invert" />
             </Link>
           </Marquee>
         </div>
         <div className=" my-8">
-          <Marquee className="grid gap-x-8" direction="right">
-            <img src="/logos/logo2.jpg" className="mx-12   w-24" />
-            <img src="/logos/logo3.jpg" className="mx-12   w-24" />
-            <img src="/logos/logo4.jpg" className="mx-12   w-24" />
-            <img src="/logos/logo5.jpg" className="mx-12   w-24" />
-            <img src="/logos/logo6.webp" className="mx-12  w-24" />
-            <img src="/logos/logo7.jfif" className="mx-12  w-24" />
+          <Marquee className="grid gap-x-8" direction="right" pauseOnHover>
+            <Link href="http://artfi.world/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo2.jpg" className="mx-12   w-24" />
+            </Link>
+            <Link href="https://twitter.com/being_bunnynft?s=11&t=OAdTUG46erbkk5y-w6yT0w">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo3.jpg" className="mx-12   w-24" />
+            </Link>
+            <Link href="http://www.blockwee.com/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo4.jpg" className="mx-12   w-24" />
+            </Link>
+            <Link href="https://www.buidlup.io/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo5.jpg" className="mx-12   w-24" />
+            </Link>
+            <Link href="https://cafeyoda.com/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo6.webp" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://www.codeate.in/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo7.jfif" className="mx-12  w-24" />
+            </Link>
             <Link href="https://www.metakraft.live/">
-              <img src="/logos/logo24.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo24.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://zeltalabs.com/">
-              <img src="/logos/logo25.webp" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo25.webp" className="mx-12  w-24" />
             </Link>
             <Link href="https://www.5ire.org/">
-              <img src="/logos/logo26.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo26.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://trikon.io/">
-              <img src="/logos/logo27.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo27.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://www.usdao.io/">
-              <img src="/logos/logo28.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo28.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://engage.isaca.org/newdelhichapter/home">
-              <img src="/logos/logo36.svg" className="mx-12 invert  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo36.svg" className="mx-12 invert  w-24" />
             </Link>
             <Link href="https://foundershiphq.com/">
-              <img src="/logos/logo38.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo38.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://www.zeeve.io/">
-              <img src="/logos/logo39.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo39.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://copperx.io/">
-              <img src="/logos/logo40.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo40.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://app.social3.club/">
-              <img src="/logos/logo41.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo41.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://solidityscan.com/">
-              <img src="/logos/logo42.png" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo42.png" className="mx-12  w-24" />
             </Link>
             <Link href="https://securedapp.io/">
-              <img src="/logos/logo43.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo43.svg" className="mx-12  w-24" />
             </Link>
            
           </Marquee>
         </div>
         <div className="">
-          <Marquee className="grid gap-x-8">
+          <Marquee className="grid gap-x-8" pauseOnHover>
           <Link href="https://into-the-verse-frontend-mu.vercel.app/">
-              <img src="/logos/logo47.jpeg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo47.jpeg" className="mx-12  w-24" />
             </Link>
-            <img src="/logos/logo15.webp" className="mx-12 w-24 " />
-            <img src="/logos/logo16.png" className="mx-12 w-24 " />
-            <img src="/logos/logo17.jpg" className="mx-12 w-24 " />
-            <img src="/logos/logo18.png" className="mx-12 w-24 " />
-            <img src="/logos/logo21.jpeg" className="mx-12 w-24 " />
+            <Link href="https://www.peoplesmediacollege.com/">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo15.webp" className="mx-12 w-24 " />
+            </Link>
+            <Link href="https://audits.quillhash.com/smart-contract-audit">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo16.png" className="mx-12 w-24 " />
+            </Link>
+            <Link href="#">
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo17.jpg" className="mx-12 w-24 " />
+            </Link>
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo18.png" className="mx-12 w-24 " />
+            <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo21.jpeg" className="mx-12 w-24 " />
             <Link href="https://www.strv.network/">
-              <img src="/logos/logo22.png" className="mx-12 w-24 " />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo22.png" className="mx-12 w-24 " />
             </Link>
             <Link href="https://www.decrackle.io/">
-              <img src="/logos/logo23.svg" className="mx-12 w-24 " />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo23.svg" className="mx-12 w-24 " />
             </Link>
             <Link href="https://keploy.io/">
-              <img src="/logos/logo29.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo29.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://marytachibananft.medium.com/official-partnership-announcement-mary-tachibana-x-threeway-studio-ae2b7492c26b">
-              <img src="/logos/logo37.jpeg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo37.jpeg" className="mx-12  w-24" />
             </Link>
             <Link href="https://metamerch.store/">
               <svg
@@ -140,30 +162,28 @@ const Ourclients = () => {
               </svg>
             </Link>
             <Link href="https://www.rivametaverse.io//">
-              <img src="/logos/logo44.png" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo44.png" className="mx-12  w-24" />
             </Link>
             <Link href="https://www.hashcase.co/">
-              <img src="/logos/logo45.webp" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo45.webp" className="mx-12  w-24" />
             </Link> 
             <Link href="https://www.befikracommunity.in/">
-              <img src="/logos/logo46.png" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo46.png" className="mx-12  w-24" />
             </Link>
             <Link href="https://sustainogram.com/">
-              <img src="https://sustainogram.com/images/Group-26.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="https://sustainogram.com/images/Group-26.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://metadecrypt.co/">
-              <img src=" https://metadecrypt.co/static/media/logo.6d035ab34e86db595124a815561b9d11.svg" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src=" https://metadecrypt.co/static/media/logo.6d035ab34e86db595124a815561b9d11.svg" className="mx-12  w-24" />
             </Link>
             <Link href="https://mundum.com/">
-              <img src="https://mundum.com/images/1C715DFE-043E-48DF-B21A-00FA5EE09945-p-500.png" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="https://mundum.com/images/1C715DFE-043E-48DF-B21A-00FA5EE09945-p-500.png" className="mx-12  w-24" />
             </Link>
             <Link href="https://rywards.com">
-              <img src="https://rywards.com/Logo.png" className="mx-12  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="https://rywards.com/Logo.png" className="mx-12  w-24" />
             </Link>
-           
-          
             <Link href="https://www.startshorts.com/">
-              <img src=" https://www.startshorts.com/_next/static/media/startshorts.c99167e3.svg" className="mx-12 invert  w-24" />
+              <Image width={200} alt="Logos"  loading="lazy"  height={200} src=" https://www.startshorts.com/_next/static/media/startshorts.c99167e3.svg" className="mx-12 invert  w-24" />
             </Link>
            
           </Marquee>
@@ -172,5 +192,4 @@ const Ourclients = () => {
     </div>
   );
 };
-
 export default Ourclients;

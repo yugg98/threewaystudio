@@ -91,7 +91,7 @@ const Hero = () => (
           <span className="font-semibold text-white">Threeway Studio</span> was
          born with the passion for innovative technology and determination to stay ahead of the curve. It all began in 2020, when we set out to create a remarkable impact with blockchain tech in real life that was set out to change the game for businesses everywhere. With the rapidly evolving landscape of Web3 Space, we aim to build something that could stand the test of time and serve the needs of the future of AI. 
 
-5+ years of being in business and we've already helped many businesses across various domains to step into the web3 world and to expedite their business growth with our expertise in design, development and marketing of everything web3.
+5+ years of being in business and we&apos;ve already helped many businesses across various domains to step into the web3 world and to expedite their business growth with our expertise in design, development and marketing of everything web3.
           
         </motion.p>
       </motion.div>
