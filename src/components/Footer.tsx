@@ -12,7 +12,7 @@ const navigation = {
   ],
   company: [
     { name: "About", href: "/aboutus" },
-    { name: "Jobs", href: "#" },
+    { name: "Jobs", href: "https://wellfound.com/company/threeway-studio-2" },
     { name: "Partners", href: "/#partner" },
     { name: "Press", href: "/#media" },
   ],

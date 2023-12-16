@@ -112,6 +112,12 @@ const Ourclients = () => {
         </div>
         <div className="">
           <Marquee className="grid gap-x-8" pauseOnHover>
+          <Link href="https://mundum.com/">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src="https://mundum.com/images/1C715DFE-043E-48DF-B21A-00FA5EE09945-p-500.png" className="mx-12  w-24" />
+            </Link>
+            <Link href="https://rywards.com">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src="https://rywards.com/Logo.png" className="mx-12  w-24" />
+            </Link>
           <Link href="https://into-the-verse-frontend-mu.vercel.app/">
               <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo47.jpeg" className="mx-12  w-24" />
             </Link>
@@ -176,12 +182,7 @@ const Ourclients = () => {
             <Link href="https://metadecrypt.co/">
               <Image width={200} alt="Logos"  loading="lazy"  height={200} src=" https://metadecrypt.co/static/media/logo.6d035ab34e86db595124a815561b9d11.svg" className="mx-12  w-24" />
             </Link>
-            <Link href="https://mundum.com/">
-              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="https://mundum.com/images/1C715DFE-043E-48DF-B21A-00FA5EE09945-p-500.png" className="mx-12  w-24" />
-            </Link>
-            <Link href="https://rywards.com">
-              <Image width={200} alt="Logos"  loading="lazy"  height={200} src="https://rywards.com/Logo.png" className="mx-12  w-24" />
-            </Link>
+           
             <Link href="https://www.startshorts.com/">
               <Image width={200} alt="Logos"  loading="lazy"  height={200} src=" https://www.startshorts.com/_next/static/media/startshorts.c99167e3.svg" className="mx-12 invert  w-24" />
             </Link>
