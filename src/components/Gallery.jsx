@@ -88,6 +88,14 @@ const Gallery = () => {
             </a>
           </SwiperSlide>
           <SwiperSlide>
+            <a href="https://visioverse.world/">
+              <img
+                src="/vis.png"
+                className="md:max-w-md max-w-full "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
             <a href="https://www.artfi.world/">
               <img
                 src="/clients/img4.png"

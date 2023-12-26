@@ -49,6 +49,18 @@ const Ourclients = () => {
             <Link href="https://bnest.in/">
               <Image width={200} alt="Logos"  loading="lazy"  height={200} src="/logos/logo35.png" className="mx-12 w-24 invert" />
             </Link>
+            <Link href="https://www.chillinq.com/">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src=" https://www.chillinq.com/chillinq.svg" className="mx-12 w-24 invert" />
+            </Link>
+            <Link href="https://www.mirchmedia.com">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src=" https://www.mirchmedia.com/images/logo.png" className="mx-12 w-24 invert" />
+            </Link>
+            <Link href="https://www.linkedin.com/company/atpatafood/">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src=" https://media.licdn.com/dms/image/C560BAQEkiO91oNM5-w/company-logo_200_200/0/1679292038491?e=1711584000&v=beta&t=KFUr7RfBJ23EbbF-2HDxgLKMClV7DcFUlMZ6N2FFToc" className="mx-12 w-24 invert" />
+            </Link>
+            <Link href="https://www.giakaa.com/">
+              <img width={200} alt="Logos"  loading="lazy"  height={200} src="https://www.giakaa.com/_next/image?url=%2Fgiakaalogo.png&w=640&q=75" className="mx-12 w-24 invert" />
+            </Link>
           </Marquee>
         </div>
         <div className=" my-8">
