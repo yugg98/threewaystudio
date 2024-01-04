@@ -245,12 +245,12 @@ const Ourclients = () => {
             </Link>
            
             <Link href="https://www.jumbochain.org">
-              <Image
+              <img
                 width={200}
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src=" https://media.licdn.com/dms/image/D4D0BAQGXOLQTyOkKfg/company-logo_200_200/0/1687329203728?e=1712188800&v=beta&t=buR6z0heFnIRaHPlI8o0fSOKl2jC1smZdQgaSWEjqA8"
+                src="https://media.licdn.com/dms/image/D4D0BAQGXOLQTyOkKfg/company-logo_200_200/0/1687329203728?e=1712188800&v=beta&t=buR6z0heFnIRaHPlI8o0fSOKl2jC1smZdQgaSWEjqA8"
                 className="mx-12  w-24"
               />
             </Link>
@@ -544,7 +544,7 @@ const Ourclients = () => {
                 loading="lazy"
                 height={200}
                 src=" https://metadecrypt.co/static/media/logo.6d035ab34e86db595124a815561b9d11.svg"
-                className="mx-12  w-24"
+                className="mx-12 invert w-24"
               />
             </Link>
 
