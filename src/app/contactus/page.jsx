@@ -38,6 +38,7 @@ export default function Page() {
       setError("");
       setSuccess(true);
       try {
+        console.log('hello')
         let docname = data.phonenumber == null ? data.email : data.phonenumber + "a";
         await setDoc(doc(db, "threeway", docname), data);
         console.log("Data added successfully to Firestore!");

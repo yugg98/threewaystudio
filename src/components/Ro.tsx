@@ -78,6 +78,10 @@ const Ro = () => {
                 ></path>
               </svg>
             </Link>
+            
+            <Link href="https://www.youtube.com/watch?si=oY8X2MfYiGgSfEKk&v=xPmJBkDarr4&feature=youtu.be">
+              <img src="https://media.licdn.com/dms/image/D4D0BAQG90_1iu5cZRg/company-logo_200_200/0/1692710797437/cryptowaley_logo?e=1712188800&v=beta&t=H-Njw9UyUqnz7GeABjmX-Khsj7_ZumPWmscKLpoenKA" className="mx-12 w-24 " />
+            </Link>
             <Link href="https://coinscapture.com/press-release/Unblocking-Blockchain-Potential-By-Threeway-Studio">
               <img src="/logos/logo8.png" className="mx-12 w-24 " />
             </Link>

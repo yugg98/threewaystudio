@@ -321,7 +321,7 @@ const Ourclients = () => {
                 loading="lazy"
                 height={200}
                 src="/logos/logo40.svg"
-                className="mx-12  w-24"
+                className="mx-12 invert w-24"
               />
             </Link>
             <Link href="https://app.social3.club/">
