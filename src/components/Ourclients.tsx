@@ -537,16 +537,16 @@ const Ourclients = () => {
                 className="mx-12  w-24"
               />
             </Link>
-            {/* <Link href="https://metadecrypt.co/">
+            <Link href="https://vaeral.com/">
               <Image
                 width={200}
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src=" https://metadecrypt.co/static/media/logo.6d035ab34e86db595124a815561b9d11.svg"
+                src=" https://vaeral.com/wp-content/uploads/2023/07/image_2023-07-10_203328829.png"
                 className="mx-12 invert w-24"
               />
-            </Link> */}
+            </Link>
 
             <Link href="https://www.startshorts.com/">
               <Image
