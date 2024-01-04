@@ -538,7 +538,7 @@ const Ourclients = () => {
               />
             </Link>
             <Link href="https://vaeral.com/">
-              <Image
+              <img
                 width={200}
                 alt="Logos"
                 loading="lazy"
