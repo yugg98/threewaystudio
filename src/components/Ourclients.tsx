@@ -544,7 +544,7 @@ const Ourclients = () => {
                 loading="lazy"
                 height={200}
                 src=" https://vaeral.com/wp-content/uploads/2023/07/image_2023-07-10_203328829.png"
-                className="mx-12 invert w-24"
+                className="mx-12  w-24"
               />
             </Link>
 
