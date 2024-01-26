@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 const mona = localFont({
   src: "../fonts/euclid.ttf",
@@ -30,10 +31,11 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Chatbot/>
         <a
           href="https://api.whatsapp.com/send/?phone=919753734795"
           target="_blank"
-          className="fixed z-[9999] bottom-6 right-6 md:bottom-10 md:right-8 bg-green-600 w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-green-700 hover:drop-shadow-2xl hover:scale-95 transition-all ease-in-out duration-150"
+          className="fixed z-[8888] bottom-6 left-6 md:bottom-10 md:right-8 bg-green-600 w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-green-700 hover:drop-shadow-2xl hover:scale-95 transition-all ease-in-out duration-150"
         >
           <svg aria-hidden="true" className="w-8 h-8" viewBox="0 0 24 24">
             <path
