@@ -209,7 +209,7 @@ const Chatbot = () => {
     // Preprocess the input (e.g., lowercasing, removing punctuation)
     const processedInput = userQuestion.toLowerCase().replace(/[^\w\s]/gi, "");
 
-    let bestAnswer = "Sorry, I don't understand that question.";
+    let bestAnswer = "Sorry, I couldn’t understand your question,For more queries, feel free to reach out to us at 📨  contact@threewaystudio.world";
     let highestScore = 0;
 
     // First, try to match the entire question directly
@@ -276,15 +276,24 @@ const Chatbot = () => {
 
   return (
     <div className="fixed z-[9999] bottom-6 max-w-full right-6 md:bottom-10 md:right-8 bg-[#151A1E] w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white  hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
-      <ChatBubbleBottomCenterIcon
+      <img
+      src="/logo.svg"
         onClick={() => setClicked(!clicked)}
         className="w-8 h-8"
       />
       {clicked ? (
         <div className="fixed z-[9999] overflow-hidden h-[70vh] md:w-[400px] w-[300px]    bottom-6 right-[-24px] md:bottom-10 md:right-8 bg-[#151A1E] rounded-lg drop-shadow-lg   text-white   hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
           <div className="bg-[#6C36AB] h-20 w-full flex px-4 items-center gap-x-2">
-            <UserCircleIcon className="w-12 h-12" />
-            <p className="text-xl font-semibold">Threewaystudio bot</p>
+          <img
+      src="/logo.svg"
+        onClick={() => setClicked(!clicked)}
+        className="w-12 h-12"
+      />
+      <div>
+            <p className="text-xl font-semibold">Threeway Studio</p>
+            <p className="text-md ">100+ Global Clientele Achieved!</p>
+
+            </div>
           </div>
           <div
             className="messages-container relative mt-4 flex flex-col space-y-2 px-4 overflow-y-scroll"
