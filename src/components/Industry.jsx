@@ -13,7 +13,7 @@ const Industries = () => {
 					<div>
 						<div className="grid grid-cols-2 lg:grid-cols-3 overflow-hidden">
 							{/* <div> */}
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -25,7 +25,7 @@ const Industries = () => {
 									Education
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -37,7 +37,7 @@ const Industries = () => {
 									Banking & Finance
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -49,7 +49,7 @@ const Industries = () => {
 									Healthcare & Insurance
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -63,7 +63,7 @@ const Industries = () => {
 							</div>
 							{/* </div> */}
 							{/* <div> */}
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -75,7 +75,7 @@ const Industries = () => {
 									Logistics
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -87,7 +87,7 @@ const Industries = () => {
 									Defence
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -99,7 +99,7 @@ const Industries = () => {
 									Art & Entertainment
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -113,7 +113,7 @@ const Industries = () => {
 							</div>
 							{/* </div> */}
 							{/* <div> */}
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -125,7 +125,7 @@ const Industries = () => {
 									RealEstate
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -137,7 +137,7 @@ const Industries = () => {
 									E-Commerce
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -149,7 +149,7 @@ const Industries = () => {
 									Automobile
 								</p>
 							</div>
-							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120] bg-black group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
+							<div className="rounded  hover:text-white flex hover:bg-[#4AAC6120]  group transition-all duration-150 ease-linear cursor-pointer justify-center items-center flex-col p-8">
 								<Image
 									width={200}
 									height={200}
@@ -167,7 +167,7 @@ const Industries = () => {
 
 					<div className="flex flex-col justify-center px-10 my-12">
 						<div>
-							<h2 className="text-4xl font-lg font-dmserif tracking-tight text-white sm:text-5xl">
+							<h2 className="text-4xl font-lg font-dmserif tracking-tight text-white font-semibold sm:text-5xl">
 							Providing Blockchain-Oriented Solutions Tailored to Industry Needs
 
 							</h2>
