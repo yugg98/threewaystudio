@@ -5,6 +5,8 @@ import Merchhero from "@/components/merch/Hero";
 import Ourclients from "@/components/Ourclients";
 import Process from "@/components/Process";
 import Ro from "@/components/Ro";
+import Industry from "@/components/Industry";
+
 import Link from "next/link";
 import React from "react";
 
@@ -67,6 +69,7 @@ const page = () => {
       </section>
       <div className="gradient-04 z-0 max-w-full md:flex hidden" />
       <Gallery />
+      <Industry/>
       <Merchhero />
       <Link
         href="/ourmerch"
