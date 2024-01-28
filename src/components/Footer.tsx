@@ -15,10 +15,15 @@ const navigation = {
     { name: "Jobs", href: "https://wellfound.com/company/threeway-studio-2" },
     { name: "Partners", href: "/#partner" },
     { name: "Press", href: "/#media" },
+    { name: "Brandkit", href: "https://drive.google.com/drive/folders/1w7mt8X_zcox_P4VZCnqPalZlvySlUNIg?usp=sharing" },
+
   ],
   legal: [
     { name: "Contact us", href: "/contactus" },
     { name: "Privacy Policy", href: "#" },
+    { name: "Cookie Policy", href: "#" },
+    { name: "Terms of service", href: "#" },
+
   ],
   social: [
     {
