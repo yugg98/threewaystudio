@@ -209,18 +209,9 @@ const Chatbot = () => {
     // Preprocess the input (e.g., lowercasing, removing punctuation)
     const processedInput = userQuestion.toLowerCase().replace(/[^\w\s]/gi, "");
 
-    let bestAnswer = "Sorry, I couldn’t understand your question,For more queries, feel free to reach out to us at 📨  contact@threewaystudio.world";
+    let bestAnswer = "Sorry, I don't understand that question.";
     let highestScore = 0;
 
-    // First, try to match the entire question directly
-    const directMatch = qapairs.find(
-      (qaPair) => qaPair.question.toLowerCase() === processedInput
-    );
-    if (directMatch) {
-      return directMatch.answer;
-    }
-
-    // If no direct match, proceed with keyword matching
     // Tokenize the user input (split into words)
     const inputWords = new Set(
       processedInput.split(" ").filter((word) => !stopwords.has(word))
@@ -229,6 +220,11 @@ const Chatbot = () => {
     qapairs.forEach((qaPair) => {
       let score = 0;
 
+      // Check for direct match
+      if (qaPair.question.toLowerCase() === processedInput) {
+        return qaPair.answer;
+      }
+
       // Calculate the match score (number of matching keywords)
       qaPair.keywords.forEach((keyword) => {
         if (inputWords.has(keyword)) {
@@ -236,15 +232,15 @@ const Chatbot = () => {
         }
       });
 
-      // Update best answer if this score is the highest so far and at least 2 keywords match
-      if (score > highestScore && score >= 2) {
+      // Update best answer if this score is the highest so far
+      if (score > highestScore) {
         highestScore = score;
         bestAnswer = qaPair.answer;
       }
     });
 
     return bestAnswer;
-  };
+};
 
   const addMessage = (text, sender) => {
     // Create a new message object

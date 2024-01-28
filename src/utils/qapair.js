@@ -938,6 +938,56 @@ export const qapairs = [
     answer: "Yes, we offer print design services for various materials, including brochures, business cards, and banners."
   },
   {
+    "question": "How are you?",
+    "keywords": ["how", "you","are"],
+    "answer": "I'm just a bot, but thanks for asking! How can I assist you on Visioverse today?"
+  },
+  {
+    "question": "How's it going?",
+    "keywords": ["how's", "going"],
+    "answer": "As a bot, I'm always good! How can I help you on Visioverse?"
+  },
+  {
+    "question": "What's up?",
+    "keywords": ["what's", "up"],
+    "answer": "Just here to help you with Visioverse. Need anything?"
+  },
+  {
+    "question": "How's your day?",
+    "keywords": ["how's", "day"],
+    "answer": "I don't have days, but I'm here to make yours better! What do you need on Visioverse?"
+  },
+  {
+    "question": "Are you okay?",
+    "keywords": ["are", "okay"],
+    "answer": "I'm a bot, so I'm always okay! How can I assist you with Visioverse?"
+  },
+  {
+    "question": "How's everything?",
+    "keywords": ["how's", "everything"],
+    "answer": "Everything's running smoothly on my end. How can I help you on Visioverse?"
+  },
+  {
+    "question": "How are things?",
+    "keywords": ["how", "things"],
+    "answer": "Things are great as a bot! Need help with something on Visioverse?"
+  },
+  {
+    "question": "You good?",
+    "keywords": ["you", "good"],
+    "answer": "I'm good, thanks! How can I assist you on Visioverse today?"
+  },
+  {
+    "question": "Everything okay?",
+    "keywords": ["everything", "okay"],
+    "answer": "All systems go on my end! How can I help you with Visioverse?"
+  },
+  {
+    "question": "How have you been?",
+    "keywords": ["how", "been"],
+    "answer": "As a bot, I'm consistently operational! What do you need help with on Visioverse?"
+  },
+  {
     question: "Can you assist with exhibition design?",
     keywords: ["exhibition", "design", "assist"],
     answer: "Certainly! We can assist with exhibition design to help you create an impactful and engaging presence at trade shows and events."
