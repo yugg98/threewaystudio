@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-    <div className="prose dark:text-white max-w-5xl mx-auto my-20 dark:prose-headings:text-white ">
+    <div className="prose text-white max-w-5xl mx-auto my-20 prose-headings:text-white ">
   <h1>Terms of Use</h1>
   <p>Last Updated: Jan 30, 2024</p>
   <p>This document outlines the Terms of Use for the website located at https://www.threewaystudio.world/, owned and operated by Threeway Studios. By using this website, you agree to these terms and conditions, including our Privacy Policy.</p>

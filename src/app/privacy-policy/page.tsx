@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="prose dark:text-white max-w-5xl mx-auto my-20 dark:prose-headings:text-white ">
+    <div className="prose text-white max-w-5xl mx-auto my-20 prose-headings:text-white ">
       <h1>Privacy Policy</h1>
       <p className="text-white">
       Last Updated: Jan 30, 2024

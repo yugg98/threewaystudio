@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-    <div className="prose dark:text-white max-w-5xl mx-auto my-20 dark:prose-headings:text-white ">
+    <div className="prose text-white max-w-5xl mx-auto my-20 prose-headings:text-white ">
   <h1>Cookie Policy</h1>
   <p>Last Updated: Jan 30, 2024</p>
   <p>By using the website located at https://www.threewaystudio.world/, you accept our use of cookies as outlined in this Cookie Policy.</p>
