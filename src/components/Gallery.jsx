@@ -63,30 +63,8 @@ const Gallery = () => {
          }}
          pagination={{ clickable: true }}
         >
-          <SwiperSlide>
-            <a href="https://sustainogram.com/">
-              <img
-                src="/clients/img1.png"
-                className="md:max-w-md max-w-full"
-              />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://rywards.com/">
-              <img
-                src="/clients/img2.png"
-                className="md:max-w-md max-w-full "
-              />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://aarohan-three.vercel.app/">
-              <img
-                src="/clients/img3.png"
-                className="md:max-w-md max-w-full "
-              />
-            </a>
-          </SwiperSlide>
+         
+         
           <SwiperSlide>
             <a href="https://visioverse.world/">
               <img
@@ -127,14 +105,7 @@ const Gallery = () => {
               />
             </a>
           </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://www.decrackle.io/">
-              <img
-                src="/clients/img8.png"
-                className="md:max-w-md max-w-full   "
-              />
-            </a>
-          </SwiperSlide>
+        
           
         </Swiper>
       </div>
