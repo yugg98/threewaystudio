@@ -3,6 +3,7 @@ import {
   ChatBubbleBottomCenterIcon,
   PaperAirplaneIcon,
   UserCircleIcon,
+  XMarkIcon,
 } from "@heroicons/react/24/outline";
 import React, { useEffect, useRef, useState } from "react";
 import { qapairs } from "@/utils/qapair";
@@ -94,11 +95,12 @@ const Chatbot = () => {
 
   return (
     <div className="fixed z-[9999] bottom-6 max-w-full right-6 md:bottom-10 md:right-8 bg-[#151A1E] w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white  hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
-      <img
+     {clicked?<XMarkIcon  onClick={() => setClicked(!clicked)} className="w-8 h-8"/>:
+      <img 
       src="/logo.svg"
         onClick={() => setClicked(!clicked)}
         className="w-8 h-8"
-      />
+      />}
       {clicked ? (
         <div className="fixed z-[9999] overflow-hidden h-[70vh] md:w-[400px] w-[300px]    bottom-6 right-[-24px] md:bottom-10 md:right-8 bg-[#151A1E] rounded-lg drop-shadow-lg   text-white   hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
           <div className="bg-[#6C36AB] h-20 w-full flex px-4 items-center gap-x-2">
