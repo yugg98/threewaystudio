@@ -41,7 +41,7 @@ const page = () => {
       <h2>Use of Information</h2>
       <p>
         The collected data is used to enhance service delivery, personalize user
-        experience, facilitate transactions, and communicate updates. It's also
+        experience, facilitate transactions, and communicate updates. It&apos;s also
         used for legal compliance and fraud prevention.
       </p>
 
@@ -74,7 +74,7 @@ const page = () => {
         team.
       </p>
 
-      <h2>Children's Privacy</h2>
+      <h2>Children&apos;s Privacy</h2>
       <p>
         The services are intended for individuals aged 18 and above. Any
         information from children should be reported for appropriate action.
