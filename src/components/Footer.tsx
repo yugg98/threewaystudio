@@ -20,9 +20,9 @@ const navigation = {
   ],
   legal: [
     { name: "Contact us", href: "/contactus" },
-    { name: "Privacy Policy", href: "#" },
-    { name: "Cookie Policy", href: "#" },
-    { name: "Terms of service", href: "#" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Cookie Policy", href: "/cookie" },
+    { name: "Terms of service", href: "/terms" },
 
   ],
   social: [
