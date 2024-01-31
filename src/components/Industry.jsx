@@ -168,13 +168,17 @@ const Industries = () => {
 					<div className="flex flex-col justify-center px-10 my-12">
 						<div>
 							<h2 className="text-4xl font-lg font-dmserif tracking-tight text-white font-semibold sm:text-5xl">
-							Providing Blockchain-Oriented Solutions Tailored to Industry Needs
+							Crafting Customized Blockchain Solutions for Specific Industry Challenges
 
 							</h2>
 
 							<p className="md:text-md mt-4 hover:text-white text-gray-400">
-							Our experienced team engages closely with clients to fully comprehend their unique challenges and objectives. This collaborative effort allows us to not only understand but also transform industries through tailor-made, scalable, and efficient blockchain solutions, addressing the distinct needs of each sector.
-							</p>
+							Our skilled team works intimately with clients, gaining a deep understanding of their specific challenges and goals. This collaborative approach enables us to revolutionize industries with custom, scalable, and effective blockchain solutions, crafted to meet the unique requirements of each sector.
+
+
+
+
+</p>
 						</div>
 						<div>
 							<div className="mt-4">
