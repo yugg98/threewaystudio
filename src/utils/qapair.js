@@ -968,6 +968,56 @@ export const qapairs = [
     "answer": "Everything's running smoothly on my end. How can I help you on Visioverse?"
   },
   {
+    "question": "What is an NFT?",
+    "keywords": ["NFT", "what"],
+    "answer": "An NFT, or Non-Fungible Token, is a unique digital asset verified using blockchain technology, representing ownership of a specific item or piece of content."
+  },
+  {
+    "question": "How do NFTs work?",
+    "keywords": ["NFTs", "work"],
+    "answer": "NFTs work by using blockchain technology to provide a verified and immutable proof of ownership for digital assets."
+  },
+  {
+    "question": "What is Web3?",
+    "keywords": ["Web3", "what"],
+    "answer": "Web3 refers to the third generation of the internet, where websites and apps are built on decentralized networks, often using blockchain technology."
+  },
+  {
+    "question": "How is Web3 different from the current internet?",
+    "keywords": ["Web3", "different", "current internet"],
+    "answer": "Web3 is different as it emphasizes decentralization, user sovereignty, and token-based economics, unlike the centralized structures of the current internet."
+  },
+  {
+    "question": "What is the Metaverse?",
+    "keywords": ["Metaverse", "what"],
+    "answer": "The Metaverse is a collective virtual shared space, created by the convergence of virtually enhanced physical reality, augmented reality, and the internet."
+  },
+  {
+    "question": "How do you access the Metaverse?",
+    "keywords": ["access", "Metaverse"],
+    "answer": "The Metaverse can be accessed through various platforms using devices like computers, VR headsets, or smartphones."
+  },
+  {
+    "question": "Can I create art in the Metaverse?",
+    "keywords": ["create", "art", "Metaverse"],
+    "answer": "Yes, you can create and showcase digital art in the Metaverse, often using platforms that support NFTs."
+  },
+  {
+    "question": "What are the benefits of Web3?",
+    "keywords": ["benefits", "Web3"],
+    "answer": "Benefits of Web3 include enhanced user privacy, reduced dependency on central authorities, and opportunities for new economic models."
+  },
+  {
+    "question": "How do I buy an NFT?",
+    "keywords": ["buy", "NFT"],
+    "answer": "You can buy an NFT through various online marketplaces using cryptocurrencies, after setting up a digital wallet."
+  },
+  {
+    "question": "What is blockchain in the context of NFTs?",
+    "keywords": ["blockchain", "context", "NFTs"],
+    "answer": "In the context of NFTs, blockchain is the underlying technology that records ownership and ensures the uniqueness of each NFT."
+  },
+  {
     "question": "How are things?",
     "keywords": ["how", "things"],
     "answer": "Things are great as a bot! Need help with something on Visioverse?"
