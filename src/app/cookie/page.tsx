@@ -33,7 +33,7 @@ const page = () => {
   <p>We may update this Cookie Policy periodically. The “Last Updated” date will reflect the latest changes. We recommend reviewing this policy regularly. Continued use of our website after changes indicates acceptance of the updated terms.</p>
 
   <h2>Contact Us</h2>
-  <p>If you have questions or concerns about our Cookie Policy, please contact us at [contact information].</p>
+  <p>If you have questions or concerns about our Cookie Policy, please contact us at contact@threewaystudio.world.</p>
 </div>
 
     </div>

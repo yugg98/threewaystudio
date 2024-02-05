@@ -62,7 +62,7 @@ const page = () => {
   <p>Threeway Studios is not liable for delays or failures in performance resulting from acts beyond its control.</p>
 
   <h2>Contact Information</h2>
-  <p>For queries or concerns, please contact us at [contact information].</p>
+  <p>For queries or concerns, please contact us at contact@threewaystudio.world.</p>
 </div>
 
     </div>

@@ -89,7 +89,7 @@ const page = () => {
       <h2>Contact Us</h2>
       <p>
         For queries, concerns, or complaints regarding personal information,
-        please contact us at [contact information].
+        please contact us at contact@threewaystudio.world.
       </p>
     </div>
   );
