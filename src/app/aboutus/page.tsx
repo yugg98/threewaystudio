@@ -6,6 +6,8 @@ import Cta from "@/components/Cta";
 const stats = [
   { label: "Underpaid employees", value: "30+" },
   { label: "Placated clients  ", value: "50+" },
+  { label: "Ratings  ", value: "4.9/5" },
+
 ];
 
 export default function Abotuus() {

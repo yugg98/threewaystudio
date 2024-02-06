@@ -29,7 +29,7 @@ const Ourclients = () => {
                 className="mx-12 w-24 "
               />
             </Link>
-            <Link href="https://crater.club/">
+            <Link href="https://www.linkedin.com/company/craterclub/">
               <Image
                 width={200}
                 alt="Logos"
@@ -155,7 +155,7 @@ const Ourclients = () => {
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src="https://www.giakaa.com/_next/image?url=%2Fgiakaalogo.png&w=640&q=75"
+                src="/hi.jpeg"
                 className="mx-12 w-24 "
               />
             </Link>
