@@ -88,7 +88,8 @@ const Hero = () => (
           variants={fadeIn("up", "tween", 0.2, 1)}
           className="mt-[8px] font-normal sm:text-2xl text-lg text-center text-white"
         >
-          <span className="font-semibold text-white">Threeway Studio</span> was
+          <span className="font-semibold text-white">Threeway Studio</span>
+          is a DPIIT recognised Startup by Government of India
           born with the passion for innovative technology and determination to
           stay ahead of the curve. It all began in 2020, when we set out to
           create a remarkable impact with blockchain tech in real life that was
