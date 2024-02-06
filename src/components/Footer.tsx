@@ -15,7 +15,7 @@ const navigation = {
     { name: "Jobs", href: "https://wellfound.com/company/threeway-studio-2" },
     { name: "Partners", href: "/#partner" },
     { name: "Press", href: "/#media" },
-    { name: "Brandkit", href: "https://drive.google.com/drive/folders/1w7mt8X_zcox_P4VZCnqPalZlvySlUNIg?usp=sharing" },
+    { name: "Brand Kit", href: "https://drive.google.com/drive/folders/1w7mt8X_zcox_P4VZCnqPalZlvySlUNIg?usp=sharing" },
 
   ],
   legal: [
