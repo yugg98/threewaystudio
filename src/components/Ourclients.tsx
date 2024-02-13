@@ -435,7 +435,6 @@ const Ourclients = () => {
                 className="mx-12 w-24 "
               />
             </Link>
-           
             <Link href="https://keploy.io/">
               <Image
                 width={200}
@@ -517,6 +516,17 @@ const Ourclients = () => {
                 loading="lazy"
                 height={200}
                 src=" https://vaeral.com/wp-content/uploads/2023/07/image_2023-07-10_203328829.png"
+                className="mx-12  w-24"
+              />
+            </Link>
+
+            <Link href="https://mansaconsulting.xyz/">
+              <img
+                width={200}
+                alt="Logos"
+                loading="lazy"
+                height={200}
+                src="https://mansaconsulting.xyz/wp-content/uploads/2023/08/cropped-mansa_vis_card-removebg-preview.png"
                 className="mx-12  w-24"
               />
             </Link>
