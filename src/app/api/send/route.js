@@ -2,7 +2,7 @@ import { EmailTemplate } from '../../../components/EmailTemplate';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend("re_cp5UwVMH_7xUGqg8EiQMffQV2rr78Wf5P");
+const resend = new Resend("re_S7hnbQD5_BnCTkpwhHnEcx1eD6tLy8xDj");
 
 export async function POST(req) {
   const {firstname,lastname,email,phonenumber,message} = await req.json()

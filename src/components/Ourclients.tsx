@@ -368,16 +368,7 @@ const Ourclients = () => {
                 className="mx-12  w-24"
               />
             </Link>
-            <Link href="https://rywards.com">
-              <img
-                width={200}
-                alt="Logos"
-                loading="lazy"
-                height={200}
-                src="https://rywards.com/Logo.png"
-                className="mx-12  w-24"
-              />
-            </Link>
+          
             <Link href="https://into-the-verse-frontend-mu.vercel.app/">
               <Image
                 width={200}
@@ -444,16 +435,7 @@ const Ourclients = () => {
                 className="mx-12 w-24 "
               />
             </Link>
-            <Link href="https://www.decrackle.io/">
-              <Image
-                width={200}
-                alt="Logos"
-                loading="lazy"
-                height={200}
-                src="/logos/logo23.svg"
-                className="mx-12 w-24 "
-              />
-            </Link>
+           
             <Link href="https://keploy.io/">
               <Image
                 width={200}
@@ -527,16 +509,7 @@ const Ourclients = () => {
                 className="mx-12  w-24"
               />
             </Link>
-            <Link href="https://sustainogram.com/">
-              <Image
-                width={200}
-                alt="Logos"
-                loading="lazy"
-                height={200}
-                src="https://sustainogram.com/images/Group-26.svg"
-                className="mx-12  w-24"
-              />
-            </Link>
+           
             <Link href="https://vaeral.com/">
               <img
                 width={200}
