@@ -1,21 +1,18 @@
-// import { NextResponse } from 'next/server';
-// import { Resend } from 'resend';
+"use client"
+import { EmailTemplate } from '../../../components/EmailTemplate.jsx';
+import { NextResponse } from 'next/server';
+import { Resend } from 'resend';
 
-// const resend = new Resend("re_S7hnbQD5_BnCTkpwhHnEcx1eD6tLy8xDj");
+const resend = new Resend("re_CPYWdFka_LtKRQ5uKFDUKos7ByRGe7qMt");
 
 export async function POST(req) {
-  // const {firstname,lastname,email,phonenumber,message} = await req.json()
-  // try {
-  //   const data = await resend.emails.send({
-  //     from: 'onboarding@resend.dev',
-  //     to: 'threewaystudiofirm@gmail.com',
-  //       subject: 'New Request',
-  //       react: "hello",
-  //   });
-  //   console.log(data)
-  //   return NextResponse.json({ data });
-  // } catch (error) {
-  //   console.log(error)
-  //   return NextResponse.json({ error });
-  // }
+  const {name,email,phonenumber,message} = await req.json()
+  try {
+   
+    console.log(data)
+    return NextResponse.json({ data });
+  } catch (error) {
+    console.log(error)
+    return NextResponse.json({ error });
+  }
 }

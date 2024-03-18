@@ -9,6 +9,11 @@ import {
 import { doc, setDoc } from "firebase/firestore";
 import { useState } from "react";
 import { db } from "@/utils/firebase";
+import axios from "axios";
+import { EmailTemplate } from '../../components/EmailTemplate.jsx';
+import { Resend } from 'resend';
+
+const resend = new Resend("re_CPYWdFka_LtKRQ5uKFDUKos7ByRGe7qMt");
 export default function Page() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -30,7 +35,7 @@ export default function Page() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+/;
 
     if (!regex.test(data.email)) {
       setError("Enter email");
@@ -38,17 +43,13 @@ export default function Page() {
       setError("");
       setSuccess(true);
       try {
-        let docname = data.phonenumber == null ? data.email : data.phonenumber + "a";
-        await setDoc(doc(db, "threeway", docname), data);
-        console.log("Data added successfully to Firestore!");
-        // Clear the form fields after submission
-        setData({
-          fname: "",
-          lname: "",
-          phonenumber: "",
-          email: "",
-          message: "",
-        });
+        const datas = await resend.emails.send({
+          from: 'Yug <support@chrysuscapital.in>',
+          to: ["yugg9826@gmail.com"],
+          subject: 'New Request',
+          react: EmailTemplate({ name:data.fname,email:data.email,phonenumber:data.phonenumber,message:data.message }),
+      });
+      console.log(datas)
       } catch (error) {
         console.error("Error adding data to Firestore: ", error);
       }
