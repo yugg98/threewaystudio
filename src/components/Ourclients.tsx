@@ -537,7 +537,7 @@ const Ourclients = () => {
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src=" https://www.startshorts.com/_next/static/media/startshorts.c99167e3.svg"
+                src="https://www.startshorts.com/_next/static/media/logo.dae52ec8.png"
                 className="mx-12 invert  w-24"
               />
             </Link>
