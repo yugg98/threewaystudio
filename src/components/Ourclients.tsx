@@ -145,7 +145,7 @@ const Ourclients = () => {
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src=" https://media.licdn.com/dms/image/C560BAQEkiO91oNM5-w/company-logo_200_200/0/1679292038491?e=1711584000&v=beta&t=KFUr7RfBJ23EbbF-2HDxgLKMClV7DcFUlMZ6N2FFToc"
+                src=" https://media.licdn.com/dms/image/C560BAQEkiO91oNM5-w/company-logo_200_200/0/1679292038491?e=1725494400&v=beta&t=MYdkUAs7TQee6Icmp-jlUuzxLSGGSt4LoSImtlkzvQ8"
                 className="mx-12 w-24 "
               />
             </Link>
@@ -250,7 +250,7 @@ const Ourclients = () => {
                 alt="Logos"
                 loading="lazy"
                 height={200}
-                src="https://media.licdn.com/dms/image/D4D0BAQGXOLQTyOkKfg/company-logo_200_200/0/1687329203728?e=1712188800&v=beta&t=buR6z0heFnIRaHPlI8o0fSOKl2jC1smZdQgaSWEjqA8"
+                src="https://www.jumbochain.org/images/logo.svg"
                 className="mx-12  w-24"
               />
             </Link>

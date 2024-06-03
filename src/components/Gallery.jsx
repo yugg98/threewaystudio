@@ -114,7 +114,22 @@ const Gallery = () => {
             </a>
           </SwiperSlide>
         
-          
+          <SwiperSlide>
+            <a href="https://www.web3carnival.world/">
+              <img
+                src="/web3.png"
+                className="md:max-w-md max-w-full   "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://aarohan-three.vercel.app/">
+              <img
+                src="/reva.png"
+                className="md:max-w-md max-w-full   "
+              />
+            </a>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>

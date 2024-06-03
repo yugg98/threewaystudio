@@ -80,7 +80,7 @@ const Ro = () => {
             </Link>
             
             <Link href="https://www.youtube.com/watch?si=oY8X2MfYiGgSfEKk&v=xPmJBkDarr4&feature=youtu.be">
-              <img src="https://media.licdn.com/dms/image/D4D0BAQG90_1iu5cZRg/company-logo_200_200/0/1692710797437/cryptowaley_logo?e=1712188800&v=beta&t=H-Njw9UyUqnz7GeABjmX-Khsj7_ZumPWmscKLpoenKA" className="mx-12 w-24 " />
+              <img src="https://yt3.ggpht.com/-C6dVQh1su8cb1CIde5twXfZeFtdZYlhiYIfL3e_4gT_h5BBb20CUFMVUC6wy9o-3PrkATomyQ=s88-c-k-c0x00ffffff-no-rj" className="mx-12 w-24 " />
             </Link>
             <Link href="https://coinscapture.com/press-release/Unblocking-Blockchain-Potential-By-Threeway-Studio">
               <img src="/logos/logo8.png" className="mx-12 w-24 " />
@@ -127,6 +127,13 @@ const Ro = () => {
             </Link>
             <Link href="https://www.binance.com/en-NG/feed/post/315853">
               <img src="/logos/logo48.svg" className="mx-12 w-24 invert " />
+            </Link>
+           
+            <Link href=" https://cointelegraph.com/press-releases/web3s-watershed-moment-the-groundbreaking-success-of-w3wc-dubai">
+              <img src="https://cointelegraph.com/icons/logo/desktop-en.svg" className="mx-12 w-24  " />
+            </Link>
+            <Link href=" https://www.thecoinrepublic.com/2024/05/01/w3wc-dubai-a-landmark-success-in-the-web3-odyssey/">
+              <img src="https://www.thecoinrepublic.com/wp-content/uploads/2022/02/thecoinrepublic-logo_4dfefd11e401f10473b04f3db4d145f2.png" className="mx-12 w-24  " />
             </Link>
           </Marquee>
         </div>
