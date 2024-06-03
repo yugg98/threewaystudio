@@ -126,7 +126,7 @@ const Ro = () => {
               />
             </Link>
             <Link href="https://www.binance.com/en-NG/feed/post/315853">
-              <img src="/logos/logo48.svg" className="mx-12 w-24 invert " />
+              <img src="/logos/logo48.svg" className="mx-12 w-24  " />
             </Link>
            
             <Link href=" https://cointelegraph.com/press-releases/web3s-watershed-moment-the-groundbreaking-success-of-w3wc-dubai">
