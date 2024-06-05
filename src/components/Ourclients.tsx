@@ -19,6 +19,16 @@ const Ourclients = () => {
       <div>
         <div className="pt-10">
           <Marquee pauseOnHover>
+          <Link href="https://www.startshorts.com/">
+              <img
+                width={200}
+                alt="Logos" 
+                loading="lazy"
+                height={200}
+                src="https://www.startshorts.com/_next/static/media/logo.dae52ec8.png"
+                className="mx-12 invert  w-24"
+              />
+            </Link>
             <Link href="https://www.aarohanagro.com/">
               <Image
                 width={200}
@@ -531,16 +541,7 @@ const Ourclients = () => {
               />
             </Link>
 
-            <Link href="https://www.startshorts.com/">
-              <Image
-                width={200}
-                alt="Logos"
-                loading="lazy"
-                height={200}
-                src="https://www.startshorts.com/_next/static/media/logo.dae52ec8.png"
-                className="mx-12 invert  w-24"
-              />
-            </Link>
+           
           </Marquee>
         </div>
       </div>
