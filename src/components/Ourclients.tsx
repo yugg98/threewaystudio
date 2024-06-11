@@ -551,16 +551,7 @@ const Ourclients = () => {
               />
             </Link>
            
-            <Link href="https://reworks.in/">
-              <img
-                width={200}
-                alt="Logos"
-                loading="lazy"
-                height={200}
-                src="/reworks.png"
-                className="mx-12  w-24"
-              />
-            </Link>
+           
             <Link href="https://pageantparadise.com/">
               <img
                 width={200}
