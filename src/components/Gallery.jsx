@@ -106,6 +106,14 @@ const Gallery = () => {
             </a>
           </SwiperSlide>
           <SwiperSlide>
+            <a href="https://abcconclave.com/">
+              <img
+                src="/abc.png"
+                className="md:max-w-md max-w-full   "
+              />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
             <a href="https://game.krida.fans/">
               <img
                 src="/clients/img7.png"
